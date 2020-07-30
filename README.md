@@ -1,5 +1,6 @@
 # Rust Programming Challenges
 ![](https://github.com/jsextonn/rust-challenges/workflows/build/badge.svg)  
+
 Programming challenges written in the Rust programming language
 
 ## Completed Challenges
