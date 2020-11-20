@@ -24,7 +24,7 @@ mod tests {
 
     #[test_case([1, 2, 3, 3, 4, 5, 5, 6, 6], [3, 3, 5, 5, 6, 6, 1, 2, 4])]
     #[test_case([2, 3, 5, 3, 7, 9, 5, 3, 7], [3, 3, 3, 5, 5, 7, 7, 2, 9])]
-    fn test_recursion(input: [i32; 9], expected: [i32; 9]) {
+    fn should_return_vec_sorted_by_element_frequency(input: [i32; 9], expected: [i32; 9]) {
         let actual = frequency_sort(&input);
         assert_eq!(actual, expected)
     }
