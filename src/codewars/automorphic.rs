@@ -1,4 +1,3 @@
-#[allow(dead_code)]
 fn automorphic(n: u64) -> String {
     return match is_automorphic(n) {
         true => String::from("Automorphic"),
@@ -6,7 +5,6 @@ fn automorphic(n: u64) -> String {
     };
 }
 
-#[allow(dead_code)]
 fn is_automorphic(n: u64) -> bool {
     return n.pow(2).to_string().ends_with(&n.to_string());
 }

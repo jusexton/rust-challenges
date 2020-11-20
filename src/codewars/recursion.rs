@@ -1,5 +1,4 @@
 /// https://www.codewars.com/kata/5b752a42b11814b09c00005d
-#[allow(dead_code)]
 fn recursion(a: usize, b: usize) -> (usize, usize) {
     return match (a, b) {
         c if c.0 == 0 || c.1 == 0 => c,

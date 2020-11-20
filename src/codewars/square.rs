@@ -1,5 +1,4 @@
 // https://www.codewars.com/kata/59a96d71dbe3b06c0200009c
-#[allow(dead_code)]
 fn generate_square(n: i32) -> String {
     if n < 0 {
         panic!("n cannot be a negative value.")

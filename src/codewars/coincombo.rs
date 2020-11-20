@@ -1,4 +1,3 @@
-#[allow(dead_code)]
 fn coin_combo(cents: u64) -> Vec<u64> {
     let mut remaining = cents;
 
