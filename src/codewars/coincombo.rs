@@ -31,6 +31,7 @@ mod tests {
 
     use crate::codewars::coincombo::coin_combo;
 
+    #[test_case(0, [0, 0, 0, 0])]
     #[test_case(1, [1, 0, 0, 0])]
     #[test_case(5, [0, 1, 0, 0])]
     #[test_case(10, [0, 0, 1, 0])]
