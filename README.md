@@ -6,6 +6,9 @@ Programming challenges written in the Rust programming language
 ## Completed Challenges
 
 ### Code Wars
+#### Kata 6
+- Add Without Operator (https://www.codewars.com/kata/5a9c35e9ba1bb5c54a0001ac)
+
 #### Kata 7
 - Recursion 101 (https://www.codewars.com/kata/5b752a42b11814b09c00005d)
 - Build Square (https://www.codewars.com/kata/59a96d71dbe3b06c0200009c)
