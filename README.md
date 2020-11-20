@@ -11,6 +11,7 @@ Programming challenges written in the Rust programming language
 - Build Square (https://www.codewars.com/kata/59a96d71dbe3b06c0200009c)
 - Sort Numbers (https://www.codewars.com/kata/5174a4c0f2769dd8b1000003)
 - Automorphic (https://www.codewars.com/kata/5a58d889880385c2f40000aa)
+- Coin Combinations (https://www.codewars.com/kata/564d0490e96393fc5c000029)
 
 ### LeetCode
 #### Easy
