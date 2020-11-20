@@ -1,8 +1,7 @@
 fn pascal_case(str: &str) -> String {
     return str.split_whitespace()
         .map(|word| first_letter_to_uppercase(word))
-        .collect::<Vec<String>>()
-        .join("");
+        .collect()
 }
 
 fn first_letter_to_uppercase(s: &str) -> String {
