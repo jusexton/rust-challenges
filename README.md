@@ -10,6 +10,7 @@ Programming challenges written in the Rust programming language
 - Recursion 101 (https://www.codewars.com/kata/5b752a42b11814b09c00005d)
 - Build Square (https://www.codewars.com/kata/59a96d71dbe3b06c0200009c)
 - Sort Numbers (https://www.codewars.com/kata/5174a4c0f2769dd8b1000003)
+- Automorphic (https://www.codewars.com/kata/5a58d889880385c2f40000aa)
 
 ### LeetCode
 #### Easy
