@@ -9,6 +9,7 @@ Programming challenges written in the Rust programming language
 #### Kata 6
 - Add Without Operator (https://www.codewars.com/kata/5a9c35e9ba1bb5c54a0001ac)
 - Frequency Sort (https://www.codewars.com/kata/5a8d2bf60025e9163c0000bc)
+- Dead Fish Parse (https://www.codewars.com/kata/51e0007c1f9378fa810002a9)
 
 #### Kata 7
 - Recursion 101 (https://www.codewars.com/kata/5b752a42b11814b09c00005d)

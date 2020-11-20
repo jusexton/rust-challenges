@@ -7,3 +7,4 @@ mod automorphic;
 mod coincombo;
 mod add;
 mod frequency_sort;
+mod deadfish;
