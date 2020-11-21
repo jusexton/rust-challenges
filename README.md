@@ -6,6 +6,9 @@ Programming challenges written in the Rust programming language
 ## Completed Challenges
 
 ### Code Wars
+#### Kata 5
+- Sum of Pairs (https://www.codewars.com/kata/54d81488b981293527000c8f)
+
 #### Kata 6
 - Add Without Operator (https://www.codewars.com/kata/5a9c35e9ba1bb5c54a0001ac)
 - Frequency Sort (https://www.codewars.com/kata/5a8d2bf60025e9163c0000bc)

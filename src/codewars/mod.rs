@@ -9,3 +9,4 @@ mod add;
 mod frequency_sort;
 mod deadfish;
 mod casing;
+mod sumpairs;
