@@ -15,6 +15,7 @@ Programming challenges written in the Rust programming language
 - Frequency Sort (https://www.codewars.com/kata/5a8d2bf60025e9163c0000bc)
 - Dead Fish Parse (https://www.codewars.com/kata/51e0007c1f9378fa810002a9)
 - Pascal Case (https://www.codewars.com/kata/587731fda577b3d1b0001196)
+- New Cashier Does Not Know Space or Shift (https://www.codewars.com/kata/5d23d89906f92a00267bb83d)
 
 #### Kata 7
 - Recursion 101 (https://www.codewars.com/kata/5b752a42b11814b09c00005d)
