@@ -12,3 +12,4 @@ mod casing;
 mod sumpairs;
 mod same;
 mod order;
+mod multiplication;
