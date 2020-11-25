@@ -18,6 +18,7 @@ Programming challenges written in the Rust programming language
 - Pascal Case (https://www.codewars.com/kata/587731fda577b3d1b0001196)
 - New Cashier Does Not Know Space or Shift (https://www.codewars.com/kata/5d23d89906f92a00267bb83d)
 - Multiplication Table (https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08)
+- Nearest Prime (https://www.codewars.com/kata/5a946d9fba1bb5135100007c)
 
 #### Kata 7
 - Recursion 101 (https://www.codewars.com/kata/5b752a42b11814b09c00005d)

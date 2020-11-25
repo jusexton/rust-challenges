@@ -14,3 +14,4 @@ mod same;
 mod order;
 mod multiplication;
 mod josephus;
+mod nearest_prime;
