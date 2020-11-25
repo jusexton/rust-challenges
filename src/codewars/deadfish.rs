@@ -21,8 +21,8 @@ mod tests {
 
     use crate::codewars::deadfish::parse;
 
-    #[test_case("iiisdoso", & [8, 64])]
-    #[test_case("iiisdosodddddiso", & [8, 64, 3600])]
+    #[test_case("iiisdoso", &[8, 64])]
+    #[test_case("iiisdosodddddiso", &[8, 64, 3600])]
     fn should_correctly_parse_the_dead_fish_string(input: &str, expected: &[i32]) {
         let actual = parse(input);
         assert_eq!(actual, expected)

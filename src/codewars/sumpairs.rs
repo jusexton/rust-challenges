@@ -22,7 +22,11 @@ mod tests {
 
     #[test_case(& [1, 4, 8, 7, 3, 15], 8, (1, 7))]
     #[test_case(& [1, - 2, 3, 0, - 6, 1], - 6, (0, - 6))]
-    fn should_return_first_two_pairs_that_sum_to_given_number(ints: &[i8], number: i8, expected: (i8, i8)) {
+    fn should_return_first_two_pairs_that_sum_to_given_number(
+        ints: &[i8],
+        number: i8,
+        expected: (i8, i8),
+    ) {
         let actual = sum_pairs(ints, number);
         assert!(actual.is_some());
         assert_eq!(expected, actual.unwrap());

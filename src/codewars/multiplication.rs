@@ -18,9 +18,15 @@ mod tests {
     #[test_case(1, &[&[1]])]
     #[test_case(2, &[&[1, 2], &[2, 4]])]
     #[test_case(3, &[&[1, 2, 3], &[2, 4, 6], &[3, 6, 9]])]
-    fn should_return_multiplication_table_of_specified_length(length: usize, expected: &[&[usize]]) {
+    fn should_return_multiplication_table_of_specified_length(
+        length: usize,
+        expected: &[&[usize]],
+    ) {
         let actual = multiplication_table(length);
-        let expected = expected.iter().map(|row| row.to_vec()).collect::<Vec<Vec<usize>>>();
+        let expected = expected
+            .iter()
+            .map(|row| row.to_vec())
+            .collect::<Vec<Vec<usize>>>();
         assert_eq!(expected, actual);
     }
 }

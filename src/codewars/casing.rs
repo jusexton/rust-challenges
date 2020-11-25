@@ -1,7 +1,8 @@
 fn pascal_case(str: &str) -> String {
-    return str.split_whitespace()
+    return str
+        .split_whitespace()
         .map(|word| first_letter_to_uppercase(word))
-        .collect()
+        .collect();
 }
 
 fn first_letter_to_uppercase(s: &str) -> String {
@@ -28,7 +29,10 @@ mod tests {
 
     #[test_case("s", "S")]
     #[test_case("string", "String")]
-    fn should_correctly_return_the_given_string_with_first_letter_uppercase(input: &str, expected: &str) {
+    fn should_correctly_return_the_given_string_with_first_letter_uppercase(
+        input: &str,
+        expected: &str,
+    ) {
         let actual = first_letter_to_uppercase(input);
         assert_eq!(actual, expected);
     }

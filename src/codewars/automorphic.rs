@@ -1,7 +1,7 @@
 fn automorphic(n: u64) -> String {
     return match is_automorphic(n) {
         true => String::from("Automorphic"),
-        false => String::from("Not!!")
+        false => String::from("Not!!"),
     };
 }
 

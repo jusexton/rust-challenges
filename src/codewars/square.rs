@@ -5,7 +5,10 @@ fn generate_square(n: i32) -> String {
     }
 
     let layer = "+".repeat(n as usize);
-    return (0..n).map(|_| String::from(&layer)).collect::<Vec<_>>().join("\n");
+    return (0..n)
+        .map(|_| String::from(&layer))
+        .collect::<Vec<_>>()
+        .join("\n");
 }
 
 // Refactored version

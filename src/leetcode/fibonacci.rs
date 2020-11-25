@@ -4,10 +4,9 @@ pub fn fibonacci(input: u32) -> u32 {
     match input {
         0 => 0,
         1 => 1,
-        n => fibonacci(n - 2) + fibonacci(n - 1)
+        n => fibonacci(n - 2) + fibonacci(n - 1),
     }
 }
-
 
 #[cfg(test)]
 mod tests {

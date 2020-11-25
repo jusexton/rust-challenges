@@ -1,17 +1,17 @@
 #![allow(dead_code)]
 
-mod recursion;
-mod square;
-mod sort_numbers;
-mod automorphic;
-mod coincombo;
 mod add;
-mod frequency_sort;
-mod deadfish;
+mod automorphic;
 mod casing;
-mod sumpairs;
-mod same;
-mod order;
-mod multiplication;
+mod coincombo;
+mod deadfish;
+mod frequency_sort;
 mod josephus;
+mod multiplication;
 mod nearest_prime;
+mod order;
+mod recursion;
+mod same;
+mod sort_numbers;
+mod square;
+mod sumpairs;

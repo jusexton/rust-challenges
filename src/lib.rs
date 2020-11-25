@@ -1,2 +1,2 @@
-mod leetcode;
 mod codewars;
+mod leetcode;

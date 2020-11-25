@@ -10,7 +10,7 @@ fn recursion(a: usize, b: usize) -> (usize, usize) {
             let updated_b = c.1 - (2 * c.0);
             return recursion(c.0, updated_b);
         }
-        _ => (a, b)
+        _ => (a, b),
     };
 }
 
