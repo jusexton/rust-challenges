@@ -15,3 +15,4 @@ mod same;
 mod sort_numbers;
 mod square;
 mod sumpairs;
+mod nth_power;
