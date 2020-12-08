@@ -3,6 +3,8 @@
 
 Programming challenges written in the Rust programming language
 
+Visit https://github.com/JSextonn/all-challenges if you're interested in seeing programming challenges completed in other languages.
+
 ## Completed Challenges
 
 ### Code Wars
