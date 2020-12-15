@@ -6,6 +6,7 @@ fn valid_spacing(s: &str) -> bool {
     }
 }
 
+#[cfg(test)]
 mod tests {
     use test_case::test_case;
 
