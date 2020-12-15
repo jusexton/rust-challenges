@@ -29,6 +29,7 @@ Visit https://github.com/JSextonn/all-challenges if you're interested in seeing 
 - Automorphic (https://www.codewars.com/kata/5a58d889880385c2f40000aa)
 - Coin Combinations (https://www.codewars.com/kata/564d0490e96393fc5c000029)
 - Nth Power (https://www.codewars.com/kata/57d814e4950d8489720008db)
+- Valid Spacing (https://www.codewars.com/kata/5f77d62851f6bc0033616bd8)
 
 ### LeetCode
 #### Easy

@@ -16,3 +16,4 @@ mod sort_numbers;
 mod square;
 mod sumpairs;
 mod nth_power;
+mod valid_spacing;
