@@ -34,3 +34,4 @@ Visit https://github.com/JSextonn/all-challenges if you're interested in seeing 
 ### LeetCode
 #### Easy
 - Fibonacci (https://leetcode.com/problems/fibonacci-number)
+- Perfect Square (https://leetcode.com/problems/valid-perfect-square/)
