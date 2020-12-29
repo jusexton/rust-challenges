@@ -19,10 +19,10 @@ mod tests {
     use crate::codewars::nearest_prime::is_prime;
     use crate::codewars::nearest_prime::minimum_number;
 
-    #[test_case(& [3, 1, 2], 1)]
-    #[test_case(& [1, 1, 1], 0)]
-    #[test_case(& [3, 2, 2], 0)]
-    #[test_case(& [50, 39, 49, 6, 17, 28], 2)]
+    #[test_case(&[3, 1, 2], 1)]
+    #[test_case(&[1, 1, 1], 0)]
+    #[test_case(&[3, 2, 2], 0)]
+    #[test_case(&[50, 39, 49, 6, 17, 28], 2)]
     fn should_return_the_smallest_number_to_sum_to_nearest_prime(numbers: &[u32], expected: u32) {
         let actual = minimum_number(numbers);
         assert_eq!(actual, expected);

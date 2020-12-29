@@ -15,7 +15,7 @@ mod tests {
     #[test_case(0, 0, 0)]
     #[test_case(5, 0, 5)]
     #[test_case(0, 5, 5)]
-    #[test_case(5, - 5, 0)]
+    #[test_case(5, -5, 0)]
     fn should_correctly_add_two_numbers_together(number_one: i32, number_two: i32, expected: i32) {
         let actual = add(number_one, number_two);
         assert_eq!(expected, actual);
