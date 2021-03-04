@@ -1,9 +1,11 @@
 # Rust Programming Challenges
-![](https://github.com/jsextonn/rust-challenges/workflows/build/badge.svg)  
+
+![](https://github.com/jsextonn/rust-challenges/workflows/build/badge.svg)
 
 Programming challenges written in the Rust programming language
 
-Visit https://github.com/JSextonn/all-challenges if you're interested in seeing programming challenges completed in other languages.
+Visit https://github.com/JSextonn/all-challenges if you're interested in seeing programming challenges completed in
+other languages.
 
 ## Completed Programming Challenges
 
@@ -13,12 +15,15 @@ Visit https://github.com/JSextonn/all-challenges if you're interested in seeing 
 ## Completed Challenges
 
 ### Code Wars
+
 #### Kata 5
+
 - Sum of Pairs (https://www.codewars.com/kata/54d81488b981293527000c8f)
 - Are They Same (https://www.codewars.com/kata/550498447451fbbd7600041c)
 - Josephus Survivor (https://www.codewars.com/kata/555624b601231dc7a400017a)
 
 #### Kata 6
+
 - Add Without Operator (https://www.codewars.com/kata/5a9c35e9ba1bb5c54a0001ac)
 - Frequency Sort (https://www.codewars.com/kata/5a8d2bf60025e9163c0000bc)
 - Dead Fish Parse (https://www.codewars.com/kata/51e0007c1f9378fa810002a9)
@@ -28,6 +33,7 @@ Visit https://github.com/JSextonn/all-challenges if you're interested in seeing 
 - Nearest Prime (https://www.codewars.com/kata/5a946d9fba1bb5135100007c)
 
 #### Kata 7
+
 - Recursion 101 (https://www.codewars.com/kata/5b752a42b11814b09c00005d)
 - Build Square (https://www.codewars.com/kata/59a96d71dbe3b06c0200009c)
 - Sort Numbers (https://www.codewars.com/kata/5174a4c0f2769dd8b1000003)
@@ -37,6 +43,12 @@ Visit https://github.com/JSextonn/all-challenges if you're interested in seeing 
 - Valid Spacing (https://www.codewars.com/kata/5f77d62851f6bc0033616bd8)
 
 ### LeetCode
+
 #### Easy
+
 - Fibonacci (https://leetcode.com/problems/fibonacci-number)
 - Perfect Square (https://leetcode.com/problems/valid-perfect-square/)
+
+#### Medium
+
+- The Largest Number (https://leetcode.com/problems/largest-number/)
