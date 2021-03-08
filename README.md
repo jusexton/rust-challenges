@@ -42,6 +42,9 @@ other languages.
 - Nth Power (https://www.codewars.com/kata/57d814e4950d8489720008db)
 - Valid Spacing (https://www.codewars.com/kata/5f77d62851f6bc0033616bd8)
 
+#### Kata 8
+- The Feast of Many Beasts (https://www.codewars.com/kata/5aa736a455f906981800360d)
+
 ### LeetCode
 
 #### Easy

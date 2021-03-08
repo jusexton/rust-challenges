@@ -17,3 +17,4 @@ mod square;
 mod sumpairs;
 mod nth_power;
 mod valid_spacing;
+mod feast;
