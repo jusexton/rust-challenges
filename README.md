@@ -31,6 +31,7 @@ other languages.
 - New Cashier Does Not Know Space or Shift (https://www.codewars.com/kata/5d23d89906f92a00267bb83d)
 - Multiplication Table (https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08)
 - Nearest Prime (https://www.codewars.com/kata/5a946d9fba1bb5135100007c)
+- NATO (https://www.codewars.com/kata/586538146b56991861000293)
 
 #### Kata 7
 
