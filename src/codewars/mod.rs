@@ -18,3 +18,4 @@ mod sumpairs;
 mod nth_power;
 mod valid_spacing;
 mod feast;
+mod doubleton;
