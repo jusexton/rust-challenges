@@ -20,3 +20,4 @@ mod valid_spacing;
 mod feast;
 mod doubleton;
 mod nato;
+mod perimeter;

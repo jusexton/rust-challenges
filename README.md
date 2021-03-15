@@ -21,6 +21,7 @@ other languages.
 - Sum of Pairs (https://www.codewars.com/kata/54d81488b981293527000c8f)
 - Are They Same (https://www.codewars.com/kata/550498447451fbbd7600041c)
 - Josephus Survivor (https://www.codewars.com/kata/555624b601231dc7a400017a)
+- Perimeter of Squares in Rectangles (https://www.codewars.com/kata/559a28007caad2ac4e000083)
 
 #### Kata 6
 
@@ -45,6 +46,7 @@ other languages.
 - Doubleton (https://www.codewars.com/kata/604287495a72ae00131685c7)
 
 #### Kata 8
+
 - The Feast of Many Beasts (https://www.codewars.com/kata/5aa736a455f906981800360d)
 
 ### LeetCode
