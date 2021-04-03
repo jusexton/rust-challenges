@@ -59,3 +59,4 @@ other languages.
 #### Medium
 
 - The Largest Number (https://leetcode.com/problems/largest-number/)
+- Authentication Manager (https://leetcode.com/problems/design-authentication-manager/)
