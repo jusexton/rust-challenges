@@ -55,6 +55,7 @@ other languages.
 
 - Fibonacci (https://leetcode.com/problems/fibonacci-number)
 - Perfect Square (https://leetcode.com/problems/valid-perfect-square/)
+- Third Maximum Number (https://leetcode.com/problems/third-maximum-number/)
 
 #### Medium
 
