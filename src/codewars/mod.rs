@@ -21,3 +21,4 @@ mod feast;
 mod doubleton;
 mod nato;
 mod perimeter;
+mod first_non_consecutive;
