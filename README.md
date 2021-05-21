@@ -34,6 +34,7 @@ other languages.
 - Nearest Prime (https://www.codewars.com/kata/5a946d9fba1bb5135100007c)
 - NATO (https://www.codewars.com/kata/586538146b56991861000293)
 - EsoLang: MiniBitMove (https://www.codewars.com/kata/587c0138110b20624e000253)
+- Ease the Stock Market (https://www.codewars.com/kata/54de3257f565801d96001200)
 
 #### Kata 7
 

@@ -23,3 +23,4 @@ mod nato;
 mod perimeter;
 mod first_non_consecutive;
 mod bitmove;
+mod stocks;
