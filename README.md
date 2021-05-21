@@ -33,6 +33,7 @@ other languages.
 - Multiplication Table (https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08)
 - Nearest Prime (https://www.codewars.com/kata/5a946d9fba1bb5135100007c)
 - NATO (https://www.codewars.com/kata/586538146b56991861000293)
+- EsoLang: MiniBitMove (https://www.codewars.com/kata/587c0138110b20624e000253)
 
 #### Kata 7
 
