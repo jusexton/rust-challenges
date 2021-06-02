@@ -24,3 +24,4 @@ mod perimeter;
 mod first_non_consecutive;
 mod bitmove;
 mod stocks;
+mod repeat_str;

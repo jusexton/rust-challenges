@@ -51,6 +51,7 @@ other languages.
 
 - The Feast of Many Beasts (https://www.codewars.com/kata/5aa736a455f906981800360d)
 - First Non-Consecutive (https://www.codewars.com/kata/58f8a3a27a5c28d92e000144)
+- Repeating String (https://www.codewars.com/kata/57a0e5c372292dd76d000d7e)
 
 ### LeetCode
 
