@@ -35,6 +35,7 @@ other languages.
 - NATO (https://www.codewars.com/kata/586538146b56991861000293)
 - EsoLang: MiniBitMove (https://www.codewars.com/kata/587c0138110b20624e000253)
 - Ease the Stock Market (https://www.codewars.com/kata/54de3257f565801d96001200)
+- Binaries (https://www.codewars.com/kata/5d98b6b38b0f6c001a461198)
 
 #### Kata 7
 
