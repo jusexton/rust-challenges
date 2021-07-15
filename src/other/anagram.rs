@@ -24,6 +24,9 @@ fn str_to_prime_product(input: &str) -> u64 {
 
 #[cfg(test)]
 mod tests {
+    #![cfg(test)]
+    extern crate test_case;
+
     use test_case::test_case;
 
     use crate::other::anagram::are_anagrams;

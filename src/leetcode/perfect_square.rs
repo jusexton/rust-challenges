@@ -4,6 +4,9 @@ fn is_perfect_square(number: i32) -> bool {
 
 #[cfg(test)]
 mod tests {
+    #![cfg(test)]
+    extern crate test_case;
+
     use test_case::test_case;
 
     use crate::leetcode::perfect_square::is_perfect_square;

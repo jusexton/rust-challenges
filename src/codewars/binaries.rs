@@ -25,6 +25,9 @@ fn decode(s: &str) -> String {
 
 #[cfg(test)]
 mod tests {
+    #![cfg(test)]
+    extern crate test_case;
+
     use test_case::test_case;
 
     use crate::codewars::binaries::{code, decode};
@@ -39,7 +42,10 @@ mod tests {
     }
 
     #[test_case("10001111", String::from("07"))]
-    #[test_case("01110111110001100100011000000110000011110011110111011100110000110001100110", String::from("33198877334422"))]
+    #[test_case(
+        "01110111110001100100011000000110000011110011110111011100110000110001100110",
+        String::from("33198877334422")
+    )]
     #[test_case("001100001100001100001110001110001110011101110111001110001110001110001111001111001111001100001100001100", String::from("444666333666777444"))]
     fn should_correctly_decode_given_coded_value(coded: &str, expected: String) {
         let actual = decode(coded);

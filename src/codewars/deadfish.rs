@@ -17,6 +17,9 @@ fn parse(code: &str) -> Vec<i32> {
 
 #[cfg(test)]
 mod tests {
+    #![cfg(test)]
+    extern crate test_case;
+
     use test_case::test_case;
 
     use crate::codewars::deadfish::parse;

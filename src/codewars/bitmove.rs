@@ -2,15 +2,23 @@ fn interpreter(tape: &str, data: &str) -> String {
     let mut commands = tape.chars().cycle();
     data.chars()
         .map(|mut c| {
-          while commands.next().unwrap() == '1' {
-              if c == '0' { c = '1' } else { c = '0' }
-          }
-          c
-        }).collect()
+            while commands.next().unwrap() == '1' {
+                if c == '0' {
+                    c = '1'
+                } else {
+                    c = '0'
+                }
+            }
+            c
+        })
+        .collect()
 }
 
 #[cfg(test)]
 mod tests {
+    #![cfg(test)]
+    extern crate test_case;
+
     use test_case::test_case;
 
     use crate::codewars::bitmove::interpreter;

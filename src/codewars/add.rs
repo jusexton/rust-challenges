@@ -8,6 +8,9 @@ fn add(a: i32, b: i32) -> i32 {
 
 #[cfg(test)]
 mod tests {
+    #![cfg(test)]
+    extern crate test_case;
+
     use test_case::test_case;
 
     use crate::codewars::add::add;

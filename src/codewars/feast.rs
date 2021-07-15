@@ -5,6 +5,9 @@ fn feast(beast: &str, dish: &str) -> bool {
 
 #[cfg(test)]
 mod tests {
+    #![cfg(test)]
+    extern crate test_case;
+
     use test_case::test_case;
 
     use crate::codewars::feast::feast;

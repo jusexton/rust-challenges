@@ -41,6 +41,9 @@ fn balance_statement(statement: &str) -> String {
 
 #[cfg(test)]
 mod tests {
+    #![cfg(test)]
+    extern crate test_case;
+
     use test_case::test_case;
 
     use crate::codewars::stocks::balance_statement;

@@ -24,6 +24,9 @@ fn third_max(numbers: Vec<i32>) -> i32 {
 
 #[cfg(test)]
 mod tests {
+    #![cfg(test)]
+    extern crate test_case;
+
     use test_case::test_case;
 
     use crate::leetcode::third_max::third_max;

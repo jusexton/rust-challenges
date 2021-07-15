@@ -14,6 +14,9 @@ fn is_prime(number: u32) -> bool {
 
 #[cfg(test)]
 mod tests {
+    #![cfg(test)]
+    extern crate test_case;
+
     use test_case::test_case;
 
     use crate::codewars::nearest_prime::is_prime;

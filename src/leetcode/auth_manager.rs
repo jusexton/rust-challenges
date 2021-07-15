@@ -52,6 +52,9 @@ impl AuthenticationManager {
 
 #[cfg(test)]
 mod tests {
+    #![cfg(test)]
+    extern crate test_case;
+
     use test_case::test_case;
 
     use crate::leetcode::auth_manager::{AuthenticationManager, Token};

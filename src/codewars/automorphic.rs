@@ -11,6 +11,9 @@ fn is_automorphic(n: u64) -> bool {
 
 #[cfg(test)]
 mod tests {
+    #![cfg(test)]
+    extern crate test_case;
+
     use test_case::test_case;
 
     use crate::codewars::automorphic::automorphic;
