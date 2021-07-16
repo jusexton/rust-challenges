@@ -7,3 +7,4 @@ mod auth_manager;
 mod third_max;
 mod hamming_distance;
 mod build_array;
+mod second_largest;

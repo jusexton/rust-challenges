@@ -63,6 +63,7 @@ other languages.
 - Third Maximum Number (https://leetcode.com/problems/third-maximum-number/)
 - Hamming Distance (https://leetcode.com/problems/hamming-distance)
 - Build an Array with Stack Operations (https://leetcode.com/problems/build-an-array-with-stack-operations/)
+- Second Largest Digit (https://leetcode.com/problems/second-largest-digit-in-a-string)
 
 #### Medium
 
