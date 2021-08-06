@@ -69,3 +69,6 @@ other languages.
 
 - The Largest Number (https://leetcode.com/problems/largest-number/)
 - Authentication Manager (https://leetcode.com/problems/design-authentication-manager/)
+
+### Other
+- Readability (https://cs50.harvard.edu/x/2021/psets/2/readability/)
