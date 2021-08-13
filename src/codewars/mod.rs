@@ -28,3 +28,4 @@ mod repeat_str;
 mod binaries;
 mod duplicate_words;
 mod sheep;
+mod remove_whitespace;
