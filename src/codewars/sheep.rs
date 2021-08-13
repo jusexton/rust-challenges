@@ -1,14 +1,3 @@
-// fn count_sheep(sheep: &[bool]) -> u8 {
-//     let mut count = 0;
-//     for s in sheep {
-//         if *s {
-//             count += 1;
-//         }
-//     }
-//
-//     count
-// }
-
 fn count_sheep(sheep: &[bool]) -> u8 {
     sheep.into_iter().map(|s| *s as u8).sum()
 }
