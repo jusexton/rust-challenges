@@ -26,3 +26,4 @@ mod bitmove;
 mod stocks;
 mod repeat_str;
 mod binaries;
+mod duplicate_words;

@@ -47,6 +47,7 @@ other languages.
 - Nth Power (https://www.codewars.com/kata/57d814e4950d8489720008db)
 - Valid Spacing (https://www.codewars.com/kata/5f77d62851f6bc0033616bd8)
 - Doubleton (https://www.codewars.com/kata/604287495a72ae00131685c7)
+- Duplicate Words (https://www.codewars.com/kata/5b39e3772ae7545f650000fc)
 
 #### Kata 8
 
