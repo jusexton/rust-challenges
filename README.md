@@ -48,6 +48,7 @@ other languages.
 - Valid Spacing (https://www.codewars.com/kata/5f77d62851f6bc0033616bd8)
 - Doubleton (https://www.codewars.com/kata/604287495a72ae00131685c7)
 - Duplicate Words (https://www.codewars.com/kata/5b39e3772ae7545f650000fc)
+- GPS (https://www.codewars.com/kata/56484848ba95170a8000004d)
 
 #### Kata 8
 
