@@ -30,3 +30,4 @@ mod duplicate_words;
 mod sheep;
 mod remove_whitespace;
 mod gps;
+mod multiplication_table;
