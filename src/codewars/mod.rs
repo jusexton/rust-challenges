@@ -31,3 +31,4 @@ mod sheep;
 mod remove_whitespace;
 mod gps;
 mod multiplication_table;
+mod alternating_case;
