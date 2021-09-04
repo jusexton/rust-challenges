@@ -50,6 +50,7 @@ other languages.
 - Doubleton (https://www.codewars.com/kata/604287495a72ae00131685c7)
 - Duplicate Words (https://www.codewars.com/kata/5b39e3772ae7545f650000fc)
 - GPS (https://www.codewars.com/kata/56484848ba95170a8000004d)
+- All Inclusive (https://www.codewars.com/kata/5700c9acc1555755be00027e)
 
 #### Kata 8
 
