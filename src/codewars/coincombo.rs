@@ -1,28 +1,10 @@
 fn coin_combo(cents: u64) -> Vec<u64> {
-    let mut remaining = cents;
-
-    let quarter_count = remaining / 25;
-    remaining = remaining - (quarter_count * 25);
-
-    let dime_count = remaining / 10;
-    remaining = remaining - (dime_count * 10);
-
-    let nickle_count = remaining / 5;
-    remaining = remaining - (nickle_count * 5);
-
-    let penny_count = remaining / 1;
-
-    return vec![penny_count, nickle_count, dime_count, quarter_count];
+    let qs = cents / 25;
+    let ds = (cents - qs * 25) / 10;
+    let ns = (cents - qs * 25 - ds * 10) / 5;
+    let ps = (cents - qs * 25 - ds * 10) % 5;
+    vec![ps, ns, ds, qs]
 }
-
-// Refactored version
-// fn coin_combo(cents: u64) -> Vec<u64> {
-//     let qs = cents / 25;
-//     let ds = (cents - qs * 25) / 10;
-//     let ns = (cents - qs * 25 - ds * 10) / 5;
-//     let ps = (cents - qs * 25 - ds * 10) % 5;
-//     vec![ps, ns, ds, qs]
-// }
 
 #[cfg(test)]
 mod tests {

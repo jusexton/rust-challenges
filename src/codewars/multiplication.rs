@@ -1,5 +1,5 @@
 fn multiplication_table(length: usize) -> Vec<Vec<usize>> {
-    let mut table: Vec<Vec<usize>> = Vec::new();
+    let mut table: Vec<Vec<usize>> = Vec::with_capacity(length);
     for row in 1..length + 1 {
         let row = (1..length + 1).map(|number| number * row).collect();
         table.push(row);
@@ -21,7 +21,7 @@ mod tests {
     #[test_case(1, &[&[1]])]
     #[test_case(2, &[&[1, 2], &[2, 4]])]
     #[test_case(3, &[&[1, 2, 3], &[2, 4, 6], &[3, 6, 9]])]
-    fn should_return_multiplication_table_of_specified_length(
+    fn test_multiplication_table(
         length: usize,
         expected: &[&[usize]],
     ) {

@@ -3,7 +3,7 @@ fn comp(a: Vec<i64>, b: Vec<i64>) -> bool {
     let mut b = b.clone();
     a.sort();
     b.sort();
-    return a == b;
+    a == b
 }
 
 #[cfg(test)]

@@ -11,7 +11,7 @@ fn sum_pairs(ints: &[i8], sum: i8) -> Option<(i8, i8)> {
         seen.insert(*number);
     }
 
-    return None;
+    None
 }
 
 #[cfg(test)]

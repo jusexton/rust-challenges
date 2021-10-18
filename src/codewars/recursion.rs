@@ -1,6 +1,6 @@
 /// https://www.codewars.com/kata/5b752a42b11814b09c00005d
 fn recursion(a: usize, b: usize) -> (usize, usize) {
-    return match (a, b) {
+    match (a, b) {
         c if c.0 == 0 || c.1 == 0 => c,
         c if c.0 >= 2 * c.1 => {
             let updated_a = c.0 - (2 * c.1);
@@ -11,7 +11,7 @@ fn recursion(a: usize, b: usize) -> (usize, usize) {
             return recursion(c.0, updated_b);
         }
         _ => (a, b),
-    };
+    }
 }
 
 #[cfg(test)]

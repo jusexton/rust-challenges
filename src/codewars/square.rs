@@ -5,10 +5,10 @@ fn generate_square(n: i32) -> String {
     }
 
     let layer = "+".repeat(n as usize);
-    return (0..n)
+    (0..n)
         .map(|_| String::from(&layer))
         .collect::<Vec<_>>()
-        .join("\n");
+        .join("\n")
 }
 
 // Refactored version
@@ -36,7 +36,7 @@ mod tests {
 
     #[test]
     #[should_panic]
-    fn test_generate_square_panics_when_given_negative_value() {
+    fn test_generate_square_with_negative_value() {
         generate_square(-1);
     }
 }

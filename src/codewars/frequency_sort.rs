@@ -13,7 +13,7 @@ fn frequency_sort(vec: &[i32]) -> Vec<i32> {
         y.cmp(x).then(a.cmp(b))
     });
 
-    return sorted;
+    sorted
 }
 
 #[cfg(test)]

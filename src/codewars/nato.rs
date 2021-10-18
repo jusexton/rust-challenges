@@ -1,10 +1,10 @@
 fn to_nato(message: &str) -> String {
-    return message
+    message
         .chars()
         .map(nato_from_character)
         .filter(|nato| !nato.is_empty())
         .collect::<Vec<String>>()
-        .join(" ");
+        .join(" ")
 }
 
 fn nato_from_character(character: char) -> String {

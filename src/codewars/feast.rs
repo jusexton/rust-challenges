@@ -1,6 +1,7 @@
 fn feast(beast: &str, dish: &str) -> bool {
-    beast.chars().next().unwrap() == dish.chars().next().unwrap()
-        && beast.chars().last().unwrap() == dish.chars().last().unwrap()
+    let first_chars_match = beast.chars().next().unwrap() == dish.chars().next().unwrap();
+    let last_chars_match = beast.chars().last().unwrap() == dish.chars().last().unwrap();
+    first_chars_match && last_chars_match
 }
 
 #[cfg(test)]
@@ -15,7 +16,7 @@ mod tests {
     #[test_case("great blue heron", "garlic naan", true)]
     #[test_case("chickadee", "chocolate cake", true)]
     #[test_case("rhino", "no", false)]
-    fn should_return_whether_a_beast_can_bring_a_given_plate(
+    fn test_feast(
         beast: &str,
         dish: &str,
         expected: bool,

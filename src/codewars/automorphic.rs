@@ -1,12 +1,12 @@
 fn automorphic(n: u64) -> String {
-    return match is_automorphic(n) {
+    match is_automorphic(n) {
         true => String::from("Automorphic"),
         false => String::from("Not!!"),
-    };
+    }
 }
 
 fn is_automorphic(n: u64) -> bool {
-    return n.pow(2).to_string().ends_with(&n.to_string());
+    n.pow(2).to_string().ends_with(&n.to_string())
 }
 
 #[cfg(test)]

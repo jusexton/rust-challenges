@@ -4,12 +4,12 @@ fn minimum_number(numbers: &[u32]) -> u32 {
     while !is_prime(total + result) {
         result += 1;
     }
-    return result;
+    result
 }
 
 fn is_prime(number: u32) -> bool {
     let limit = (number as f64).sqrt() as u32;
-    return !(2..=limit).any(|i| number % i == 0);
+    !(2..=limit).any(|i| number % i == 0)
 }
 
 #[cfg(test)]

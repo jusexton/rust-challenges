@@ -1,9 +1,5 @@
 fn josephus_survivor(person_count: i32, skip: i32) -> i32 {
-    let mut index = 0;
-    for i in 1..person_count + 1 {
-        index = (index + skip) % i
-    }
-    return index + 1;
+    (1..person_count + 1).fold(0, |acc, cur| (acc + skip) % cur) + 1
 }
 
 #[cfg(test)]
@@ -21,7 +17,7 @@ mod tests {
     #[test_case(2, 300, 1)]
     #[test_case(7, 300, 7)]
     #[test_case(300, 300, 265)]
-    fn should_return_correct_survivor(n: i32, k: i32, expected: i32) {
+    fn test_josephus_survivor(n: i32, k: i32, expected: i32) {
         let actual = josephus_survivor(n, k);
         assert_eq!(actual, expected);
     }

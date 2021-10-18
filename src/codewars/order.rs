@@ -10,7 +10,7 @@ fn get_order(input: String) -> String {
 
     matches.sort_by_key(|item| sort_order(item));
 
-    return matches.join(" ");
+    matches.join(" ")
 }
 
 fn sort_order(item: &String) -> u8 {

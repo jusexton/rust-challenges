@@ -12,7 +12,7 @@ fn parse(code: &str) -> Vec<i32> {
         }
     }
 
-    return output;
+    output
 }
 
 #[cfg(test)]

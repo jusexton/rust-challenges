@@ -3,7 +3,7 @@ fn add(a: i32, b: i32) -> i32 {
         return a;
     }
 
-    return add(a ^ b, (a & b) << 1);
+    add(a ^ b, (a & b) << 1)
 }
 
 #[cfg(test)]

@@ -1,7 +1,7 @@
 fn sort_numbers(vector: &Vec<i32>) -> Vec<i32> {
     let mut sorted = vector.clone();
     sorted.sort();
-    return sorted;
+    sorted
 }
 
 #[cfg(test)]
