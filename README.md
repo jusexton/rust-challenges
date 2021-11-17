@@ -72,6 +72,7 @@ other languages.
 - Build an Array with Stack Operations (https://leetcode.com/problems/build-an-array-with-stack-operations/)
 - Second Largest Digit (https://leetcode.com/problems/second-largest-digit-in-a-string)
 - Counting Sheep (https://www.codewars.com/kata/54edbc7200b811e956000556)
+- Robot Returns to Origin (https://leetcode.com/problems/robot-return-to-origin)
 
 #### Medium
 
