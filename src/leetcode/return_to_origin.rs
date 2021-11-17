@@ -1,6 +1,6 @@
 fn returns_to_origin(moves: String) -> bool {
-    let mut x:i32 = 0;
-    let mut y:i32 = 0;
+    let mut x = 0;
+    let mut y = 0;
 
     for movement in moves.chars() {
         match movement {
