@@ -34,3 +34,4 @@ mod multiplication_table;
 mod alternating_case;
 mod max_profit;
 mod all_inclusive;
+mod car_buyer;

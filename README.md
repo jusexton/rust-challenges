@@ -37,6 +37,7 @@ other languages.
 - Ease the Stock Market (https://www.codewars.com/kata/54de3257f565801d96001200)
 - Binaries (https://www.codewars.com/kata/5d98b6b38b0f6c001a461198)
 - Max Stock Profit (https://www.codewars.com/kata/597ef546ee48603f7a000057)
+- Buying a Car (https://www.codewars.com/kata/554a44516729e4d80b000012)
 
 #### Kata 7
 
