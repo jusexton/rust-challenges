@@ -22,6 +22,7 @@ other languages.
 - Are They Same (https://www.codewars.com/kata/550498447451fbbd7600041c)
 - Josephus Survivor (https://www.codewars.com/kata/555624b601231dc7a400017a)
 - Perimeter of Squares in Rectangles (https://www.codewars.com/kata/559a28007caad2ac4e000083)
+- Diamond (https://www.codewars.com/kata/5503013e34137eeeaa001648)
 
 #### Kata 6
 
