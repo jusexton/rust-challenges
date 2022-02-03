@@ -76,6 +76,7 @@ other languages.
 - Counting Sheep (https://www.codewars.com/kata/54edbc7200b811e956000556)
 - Robot Returns to Origin (https://leetcode.com/problems/robot-return-to-origin)
 - Consistent Strings (https://leetcode.com/problems/count-the-number-of-consistent-strings)
+- Two Sum (https://leetcode.com/problems/two-sum/)
 
 #### Medium
 

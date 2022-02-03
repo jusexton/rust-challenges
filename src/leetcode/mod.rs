@@ -10,3 +10,4 @@ mod build_array;
 mod second_largest;
 mod return_to_origin;
 mod consistent_strings;
+mod two_sum;
