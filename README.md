@@ -23,6 +23,7 @@ other languages.
 - Josephus Survivor (https://www.codewars.com/kata/555624b601231dc7a400017a)
 - Perimeter of Squares in Rectangles (https://www.codewars.com/kata/559a28007caad2ac4e000083)
 - Diamond (https://www.codewars.com/kata/5503013e34137eeeaa001648)
+- Fibonacci Product (https://www.codewars.com/kata/5541f58a944b85ce6d00006a)
 
 #### Kata 6
 
@@ -84,4 +85,5 @@ other languages.
 - Authentication Manager (https://leetcode.com/problems/design-authentication-manager/)
 
 ### Other
+
 - Readability (https://cs50.harvard.edu/x/2021/psets/2/readability/)

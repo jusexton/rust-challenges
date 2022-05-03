@@ -36,3 +36,4 @@ mod max_profit;
 mod all_inclusive;
 mod car_buyer;
 mod diamond;
+mod fib_product;
