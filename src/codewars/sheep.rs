@@ -4,9 +4,6 @@ fn count_sheep(sheep: &[bool]) -> u8 {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::sheep::count_sheep;

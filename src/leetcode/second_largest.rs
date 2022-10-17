@@ -18,9 +18,6 @@ fn second_highest(s: String) -> i32 {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::leetcode::second_largest::second_highest;

@@ -26,9 +26,6 @@ impl Iterator for Fibonacci {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::perimeter::{perimeter, Fibonacci};

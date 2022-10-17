@@ -4,9 +4,6 @@ fn repeat_str(src: &str, count: usize) -> String {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::repeat_str::repeat_str;

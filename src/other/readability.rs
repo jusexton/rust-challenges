@@ -56,9 +56,6 @@ fn coleman_liau_index(average_letters: f64, average_sentences: f64) -> i32 {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::other::readability::readability;

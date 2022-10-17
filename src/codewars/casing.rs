@@ -6,9 +6,6 @@ fn pascal_case(str: &str) -> String {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::casing::pascal_case;

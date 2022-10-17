@@ -19,9 +19,6 @@ fn build_array(target: Vec<i32>, n: i32) -> Vec<String> {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::leetcode::build_array::build_array;

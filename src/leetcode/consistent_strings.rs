@@ -13,9 +13,6 @@ pub fn count_consistent_strings(allowed: String, words: Vec<String>) -> i32 {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::leetcode::consistent_strings::count_consistent_strings;

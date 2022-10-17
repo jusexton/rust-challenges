@@ -13,9 +13,6 @@ fn first_non_consecutive(numbers: &Vec<i32>) -> Option<i32> {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::first_non_consecutive::first_non_consecutive;

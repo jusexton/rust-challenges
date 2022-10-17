@@ -15,9 +15,6 @@ fn max_profit(quotes: &[u32]) -> u32 {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::max_profit::max_profit;

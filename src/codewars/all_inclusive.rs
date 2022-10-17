@@ -6,9 +6,6 @@ fn contain_all_rots(s: &str, rotations: Vec<&str>) -> bool {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::all_inclusive::contain_all_rots;

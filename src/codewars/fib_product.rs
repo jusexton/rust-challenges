@@ -11,9 +11,6 @@ fn fib_product(product: u64) -> (u64, u64, bool) {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::fib_product::fib_product;

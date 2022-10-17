@@ -18,9 +18,6 @@ fn frequency_sort(vec: &[i32]) -> Vec<i32> {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::frequency_sort::frequency_sort;

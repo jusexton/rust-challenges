@@ -30,9 +30,6 @@ fn sort_order(item: &String) -> u8 {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::order::get_order;

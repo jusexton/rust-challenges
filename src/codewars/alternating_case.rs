@@ -12,9 +12,6 @@ fn to_alternating_case(s: &str) -> String {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::alternating_case::to_alternating_case;

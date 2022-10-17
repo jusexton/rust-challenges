@@ -16,9 +16,6 @@ fn sum_pairs(ints: &[i8], sum: i8) -> Option<(i8, i8)> {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::sumpairs::sum_pairs;

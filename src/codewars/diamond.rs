@@ -21,9 +21,6 @@ fn build_diamond(n: i32) -> Option<String> {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::diamond::build_diamond;

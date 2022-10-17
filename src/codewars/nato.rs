@@ -45,9 +45,6 @@ fn nato_from_character(character: char) -> String {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::nato::to_nato;

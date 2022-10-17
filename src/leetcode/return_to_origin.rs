@@ -17,9 +17,6 @@ fn returns_to_origin(moves: String) -> bool {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::leetcode::return_to_origin::returns_to_origin;

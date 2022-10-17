@@ -20,9 +20,6 @@ fn largest_number(nums: Vec<i32>) -> String {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::leetcode::largest_number::largest_number;

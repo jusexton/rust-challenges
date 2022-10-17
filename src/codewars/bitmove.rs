@@ -16,9 +16,6 @@ fn interpreter(tape: &str, data: &str) -> String {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::bitmove::interpreter;

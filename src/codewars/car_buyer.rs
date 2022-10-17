@@ -21,9 +21,6 @@ fn nb_months(old: i32, new: i32, saving: i32, percent: f64) -> (i32, i32) {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::car_buyer::nb_months;

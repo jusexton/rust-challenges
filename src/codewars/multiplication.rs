@@ -10,9 +10,6 @@ fn multiplication_table(length: usize) -> Vec<Vec<usize>> {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::multiplication::multiplication_table;

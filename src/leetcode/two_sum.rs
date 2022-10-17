@@ -15,8 +15,6 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
 
 #[cfg(test)]
 mod tests {
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::leetcode::two_sum::two_sum;

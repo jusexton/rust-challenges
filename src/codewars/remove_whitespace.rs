@@ -4,9 +4,6 @@ fn no_space(s: String) -> String {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::remove_whitespace::no_space;

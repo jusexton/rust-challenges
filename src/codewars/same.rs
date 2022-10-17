@@ -8,9 +8,6 @@ fn comp(a: Vec<i64>, b: Vec<i64>) -> bool {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::same::comp;

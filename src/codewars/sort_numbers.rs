@@ -6,9 +6,6 @@ fn sort_numbers(vector: &Vec<i32>) -> Vec<i32> {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use crate::codewars::sort_numbers::sort_numbers;
 
     #[test]

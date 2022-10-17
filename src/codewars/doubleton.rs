@@ -15,9 +15,6 @@ fn doubleton(start: u32) -> u32 {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::doubleton::doubleton;

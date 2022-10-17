@@ -7,9 +7,6 @@ fn gps(s: i32, x: Vec<f64>) -> i32 {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::gps::gps;

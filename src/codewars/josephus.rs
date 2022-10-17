@@ -4,9 +4,6 @@ fn josephus_survivor(person_count: i32, skip: i32) -> i32 {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::josephus::josephus_survivor;

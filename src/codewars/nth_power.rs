@@ -4,9 +4,6 @@ fn nth_power(numbers: &[u64], index: usize) -> Option<u64> {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::nth_power::nth_power;

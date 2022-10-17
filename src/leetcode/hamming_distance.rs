@@ -4,9 +4,6 @@ fn hamming_distance(x: i32, y: i32) -> i32 {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::leetcode::hamming_distance::hamming_distance;

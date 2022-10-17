@@ -7,9 +7,6 @@ fn multi_table(number: u64) -> String {
 
 #[cfg(test)]
 mod tests {
-    #![cfg(test)]
-    extern crate test_case;
-
     use test_case::test_case;
 
     use crate::codewars::multiplication_table::multi_table;
