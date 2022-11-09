@@ -38,3 +38,4 @@ mod car_buyer;
 mod diamond;
 mod fib_product;
 mod spinning_words;
+mod valid_parentheses;

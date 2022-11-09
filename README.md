@@ -24,6 +24,7 @@ other languages.
 - Perimeter of Squares in Rectangles (https://www.codewars.com/kata/559a28007caad2ac4e000083)
 - Diamond (https://www.codewars.com/kata/5503013e34137eeeaa001648)
 - Fibonacci Product (https://www.codewars.com/kata/5541f58a944b85ce6d00006a)
+- Valid Parentheses (https://www.codewars.com/kata/52774a314c2333f0a7000688)
 
 #### Kata 6
 
