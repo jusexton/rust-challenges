@@ -12,12 +12,10 @@ impl StringStats {
         let mut word_count = 0;
         let mut sentence_count = 0;
 
-        for index in 0..s.len() {
-            let char = s.chars().nth(index).unwrap();
-
+        let mut previous: Option<char> = None;
+        for char in s.chars() {
             if char.is_whitespace() {
-                let previous_char = s.chars().nth(index - 1).unwrap();
-                if !SENTENCE_ENDINGS.contains(&previous_char) {
+                if !SENTENCE_ENDINGS.contains(&previous.unwrap()) {
                     word_count += 1;
                 }
             } else if char.is_alphabetic() {
@@ -26,6 +24,7 @@ impl StringStats {
                 sentence_count += 1;
                 word_count += 1;
             }
+            previous = Some(char)
         }
 
         StringStats {
