@@ -80,6 +80,7 @@ other languages.
 - Robot Returns to Origin (https://leetcode.com/problems/robot-return-to-origin)
 - Consistent Strings (https://leetcode.com/problems/count-the-number-of-consistent-strings)
 - Two Sum (https://leetcode.com/problems/two-sum/)
+- Merge Two Sorted Lists (https://leetcode.com/problems/merge-two-sorted-lists/)
 
 #### Medium
 
