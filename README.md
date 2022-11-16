@@ -81,6 +81,7 @@ other languages.
 - Consistent Strings (https://leetcode.com/problems/count-the-number-of-consistent-strings)
 - Two Sum (https://leetcode.com/problems/two-sum/)
 - Merge Two Sorted Lists (https://leetcode.com/problems/merge-two-sorted-lists/)
+- Best Time to Buy and Sell Stock (https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 
 #### Medium
 
