@@ -8,7 +8,7 @@ fn pascal_case(str: &str) -> String {
 mod tests {
     use test_case::test_case;
 
-    use crate::codewars::casing::pascal_case;
+    use crate::codewars::pascal_case::pascal_case;
 
     #[test_case("string", "String")]
     #[test_case("test string", "TestString")]

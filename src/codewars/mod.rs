@@ -2,7 +2,7 @@
 
 mod add;
 mod automorphic;
-mod casing;
+mod pascal_case;
 mod coincombo;
 mod deadfish;
 mod frequency_sort;
@@ -39,3 +39,4 @@ mod diamond;
 mod fib_product;
 mod spinning_words;
 mod valid_parentheses;
+mod camel_case;
