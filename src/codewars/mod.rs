@@ -40,3 +40,4 @@ mod fib_product;
 mod spinning_words;
 mod valid_parentheses;
 mod camel_case;
+mod cats_and_shelves;

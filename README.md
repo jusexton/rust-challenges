@@ -57,6 +57,7 @@ other languages.
 - Duplicate Words (https://www.codewars.com/kata/5b39e3772ae7545f650000fc)
 - GPS (https://www.codewars.com/kata/56484848ba95170a8000004d)
 - All Inclusive (https://www.codewars.com/kata/5700c9acc1555755be00027e)
+- Cats and Shelves (https://www.codewars.com/kata/62c93765cef6f10030dfa92b)
 
 #### Kata 8
 
