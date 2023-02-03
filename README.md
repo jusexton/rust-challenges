@@ -58,6 +58,7 @@ other languages.
 - GPS (https://www.codewars.com/kata/56484848ba95170a8000004d)
 - All Inclusive (https://www.codewars.com/kata/5700c9acc1555755be00027e)
 - Cats and Shelves (https://www.codewars.com/kata/62c93765cef6f10030dfa92b)
+- People on the Bus (https://www.codewars.com/kata/5648b12ce68d9daa6b000099)
 
 #### Kata 8
 
