@@ -68,6 +68,7 @@ other languages.
 - Remove Whitespace (https://www.codewars.com/kata/57eae20f5500ad98e50002c5)
 - Multiplication Table (https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce)
 - Alternating Case (https://www.codewars.com/kata/56efc695740d30f963000557)
+- Summation (https://www.codewars.com/kata/55d24f55d7dd296eb9000030)
 
 ### LeetCode
 

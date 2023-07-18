@@ -42,3 +42,4 @@ mod valid_parentheses;
 mod camel_case;
 mod cats_and_shelves;
 mod people_on_the_bus;
+mod summation;
