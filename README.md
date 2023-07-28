@@ -44,6 +44,7 @@ other languages.
 - Buying a Car (https://www.codewars.com/kata/554a44516729e4d80b000012)
 - Spinning Words (https://www.codewars.com/kata/5264d2b162488dc400000001)
 - Camel Case (https://www.codewars.com/kata/517abf86da9663f1d2000003)
+- Count Characters (https://www.codewars.com/kata/52efefcbcdf57161d4000091)
 
 #### Kata 7
 
