@@ -15,3 +15,4 @@ mod merge_lists;
 mod sell_stock_easy;
 mod sell_stock_medium;
 mod plus_one;
+mod climb_stairs;
