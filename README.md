@@ -88,6 +88,7 @@ other languages.
 - Two Sum (https://leetcode.com/problems/two-sum/)
 - Merge Two Sorted Lists (https://leetcode.com/problems/merge-two-sorted-lists/)
 - Best Time to Buy and Sell Stock (https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
+- Plus One (https://leetcode.com/problems/plus-one/)
 
 #### Medium
 
