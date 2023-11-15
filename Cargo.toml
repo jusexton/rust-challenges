@@ -10,4 +10,4 @@ edition = "2018"
 regex = "1"
 
 [dev-dependencies]
-test-case = "2.2.2"
+test-case = "3.2.1"
