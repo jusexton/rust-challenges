@@ -16,3 +16,6 @@ mod sell_stock_easy;
 mod sell_stock_medium;
 mod plus_one;
 mod climb_stairs;
+mod longest_subtsring;
+mod largest_odd_number;
+mod number_of_strings;

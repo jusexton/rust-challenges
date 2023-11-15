@@ -90,12 +90,15 @@ other languages.
 - Best Time to Buy and Sell Stock (https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 - Plus One (https://leetcode.com/problems/plus-one/)
 - Climbing Stairs (https://leetcode.com/problems/climbing-stairs/)
+- Largest Odd Number (https://leetcode.com/problems/largest-odd-number-in-string/)
+- Number of Different Integers (https://leetcode.com/problems/number-of-different-integers-in-a-string)
 
 #### Medium
 
 - The Largest Number (https://leetcode.com/problems/largest-number/)
 - Authentication Manager (https://leetcode.com/problems/design-authentication-manager/)
 - Best Time to Buy and Sell Stock (https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
+- Longest Substring Without Repeating Characters (https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ### Other
 
