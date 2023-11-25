@@ -45,6 +45,7 @@ other languages.
 - Spinning Words (https://www.codewars.com/kata/5264d2b162488dc400000001)
 - Camel Case (https://www.codewars.com/kata/517abf86da9663f1d2000003)
 - Count Characters (https://www.codewars.com/kata/52efefcbcdf57161d4000091)
+- Position Average (https://www.codewars.com/kata/59f4a0acbee84576800000af)
 
 #### Kata 7
 

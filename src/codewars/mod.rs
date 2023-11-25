@@ -45,3 +45,4 @@ mod people_on_the_bus;
 mod summation;
 mod not_secure;
 mod count_characters;
+mod position_average;
