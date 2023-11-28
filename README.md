@@ -16,6 +16,10 @@ other languages.
 
 ### Code Wars
 
+#### Kata 4
+
+- Pyramid Slide (https://www.codewars.com/kata/551f23362ff852e2ab000037)
+
 #### Kata 5
 
 - Sum of Pairs (https://www.codewars.com/kata/54d81488b981293527000c8f)

@@ -46,3 +46,4 @@ mod summation;
 mod not_secure;
 mod count_characters;
 mod position_average;
+mod pyramid_slide;
