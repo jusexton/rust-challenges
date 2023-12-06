@@ -1,19 +1,15 @@
 const SENTENCE_ENDINGS: &[char] = &['!', '.', '?'];
 
-struct StringStats {
-    character_count: i32,
-    word_count: i32,
-    sentence_count: i32,
-}
+pub struct ColemanLiauIndex(i32);
 
-impl StringStats {
-    fn from(s: &str) -> Self {
+impl From<&str> for ColemanLiauIndex {
+    fn from(value: &str) -> Self {
         let mut character_count = 0;
         let mut word_count = 0;
         let mut sentence_count = 0;
 
         let mut previous: Option<char> = None;
-        for char in s.chars() {
+        for char in value.chars() {
             if char.is_whitespace() {
                 if !SENTENCE_ENDINGS.contains(&previous.unwrap()) {
                     word_count += 1;
@@ -27,25 +23,16 @@ impl StringStats {
             previous = Some(char)
         }
 
-        StringStats {
-            character_count,
-            word_count,
-            sentence_count,
-        }
-    }
-
-    fn average_letters(&self) -> f64 {
-        (self.character_count * 100) as f64 / self.word_count as f64
-    }
-
-    fn average_sentences(&self) -> f64 {
-        (self.sentence_count * 100) as f64 / self.word_count as f64
+        let average_letters = (character_count * 100) as f64 / word_count as f64;
+        let average_sentences = (sentence_count * 100) as f64 / word_count as f64;
+        let index = coleman_liau_index(average_letters, average_sentences);
+        Self(index)
     }
 }
 
 fn readability(s: &str) -> i32 {
-    let stats = StringStats::from(s);
-    coleman_liau_index(stats.average_letters(), stats.average_sentences())
+    let index = ColemanLiauIndex::from(s);
+    index.0
 }
 
 fn coleman_liau_index(average_letters: f64, average_sentences: f64) -> i32 {
