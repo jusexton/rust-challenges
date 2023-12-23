@@ -104,6 +104,7 @@ other languages.
 - Authentication Manager (https://leetcode.com/problems/design-authentication-manager/)
 - Best Time to Buy and Sell Stock (https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
 - Longest Substring Without Repeating Characters (https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- Kth Largest Element (https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
 ### Other
 
