@@ -1,5 +1,6 @@
 use std::cell::RefCell;
 use std::collections::HashSet;
+use std::fmt::{Display, Formatter};
 use std::iter::FromIterator;
 use std::rc::Rc;
 
@@ -45,15 +46,18 @@ impl Bitset {
     fn count(&self) -> i32 {
         self.ones.borrow().len() as i32
     }
+}
 
-    fn to_string(&self) -> String {
+impl Display for Bitset {
+    fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
         let ones = self.ones.borrow();
-        (0..self.size)
+        let result = (0..self.size)
             .map(|idx| match ones.contains(&idx) {
                 true => '1',
                 false => '0',
             })
-            .collect()
+            .collect::<String>();
+        write!(f, "{}", result)
     }
 }
 
@@ -63,7 +67,7 @@ mod test {
 
     #[test]
     fn test_initialization() {
-        let mut bitset = Bitset::new(3);
+        let bitset = Bitset::new(3);
         assert_eq!(bitset.to_string(), "000")
     }
 
