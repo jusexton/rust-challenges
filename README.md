@@ -107,6 +107,7 @@ other languages.
 - Kth Largest Element (https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - Rearrange Elements by Sign (https://leetcode.com/problems/rearrange-array-elements-by-sign/)
 - Lonely Numbers (https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)
+- Design Bitset (https://leetcode.com/problems/design-bitset)
 
 ### Other
 
