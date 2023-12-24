@@ -106,6 +106,7 @@ other languages.
 - Longest Substring Without Repeating Characters (https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - Kth Largest Element (https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - Rearrange Elements by Sign (https://leetcode.com/problems/rearrange-array-elements-by-sign/)
+- Lonely Numbers (https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)
 
 ### Other
 
