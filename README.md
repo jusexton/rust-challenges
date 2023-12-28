@@ -108,6 +108,7 @@ other languages.
 - Rearrange Elements by Sign (https://leetcode.com/problems/rearrange-array-elements-by-sign/)
 - Lonely Numbers (https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)
 - Design Bitset (https://leetcode.com/problems/design-bitset)
+- Minimum Rounds (https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks)
 
 ### Other
 
