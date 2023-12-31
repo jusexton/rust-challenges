@@ -24,3 +24,4 @@ mod rearrange_by_sign;
 mod lonely_numbers;
 mod bitset;
 mod minimum_rounds;
+mod max_substr_between_duplicates;
