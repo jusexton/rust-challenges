@@ -26,3 +26,4 @@ mod bitset;
 mod minimum_rounds;
 mod max_substr_between_duplicates;
 mod alike_halves;
+mod anagram_min_step;

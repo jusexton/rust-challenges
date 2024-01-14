@@ -111,6 +111,7 @@ other languages.
 - Lonely Numbers (https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)
 - Design Bitset (https://leetcode.com/problems/design-bitset)
 - Minimum Rounds (https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks)
+- Minimum Steps to Anagram (https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram)
 
 ### Other
 
