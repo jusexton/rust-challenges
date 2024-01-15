@@ -112,6 +112,7 @@ other languages.
 - Design Bitset (https://leetcode.com/problems/design-bitset)
 - Minimum Rounds (https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks)
 - Minimum Steps to Anagram (https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram)
+- Zero or One Losses (https://leetcode.com/problems/find-players-with-zero-or-one-losses)
 
 ### Other
 
