@@ -115,6 +115,7 @@ other languages.
 - Minimum Steps to Anagram (https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram)
 - Zero or One Losses (https://leetcode.com/problems/find-players-with-zero-or-one-losses)
 - Randomized Set (https://leetcode.com/problems/insert-delete-getrandom-o1)
+- Remove Occurrences (https://leetcode.com/problems/remove-all-occurrences-of-a-substring)
 
 ### Other
 
