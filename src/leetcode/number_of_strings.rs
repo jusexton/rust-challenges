@@ -4,7 +4,7 @@ pub fn number_of_different_integers(s: String) -> i32 {
     let mut numbers = HashSet::from([""]);
     let mut left = 0;
     for (right, ch) in s.char_indices() {
-        if ch.is_digit(10) {
+        if ch.is_ascii_digit() {
             if left < right && s.chars().nth(left).unwrap() == '0' {
                 left += 1
             }
