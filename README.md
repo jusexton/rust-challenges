@@ -99,6 +99,7 @@ other languages.
 - Number of Different Integers (https://leetcode.com/problems/number-of-different-integers-in-a-string)
 - Largest Substring Between Two Equal Characters (https://leetcode.com/problems/largest-substring-between-two-equal-characters)
 - Alike Halves (https://leetcode.com/problems/determine-if-string-halves-are-alike)
+- Unique Number of Occurrences (https://leetcode.com/problems/unique-number-of-occurrences)
 
 #### Medium
 
@@ -113,6 +114,7 @@ other languages.
 - Minimum Rounds (https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks)
 - Minimum Steps to Anagram (https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram)
 - Zero or One Losses (https://leetcode.com/problems/find-players-with-zero-or-one-losses)
+- Randomized Set (https://leetcode.com/problems/insert-delete-getrandom-o1)
 
 ### Other
 

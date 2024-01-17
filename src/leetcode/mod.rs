@@ -28,3 +28,5 @@ mod max_substr_between_duplicates;
 mod alike_halves;
 mod anagram_min_step;
 mod zero_or_one;
+mod randomized_set;
+mod unique_occurrences;
