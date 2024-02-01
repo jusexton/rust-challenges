@@ -1,4 +1,4 @@
-const SENTENCE_ENDINGS: &[char] = &['!', '.', '?'];
+const SENTENCE_ENDINGS: [char; 3] = ['!', '.', '?'];
 
 pub struct ColemanLiauIndex(i32);
 
