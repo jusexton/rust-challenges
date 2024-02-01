@@ -31,3 +31,4 @@ mod zero_or_one;
 mod randomized_set;
 mod unique_occurrences;
 mod remove_occurrences;
+mod divide_array;

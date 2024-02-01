@@ -116,6 +116,7 @@ other languages.
 - Zero or One Losses (https://leetcode.com/problems/find-players-with-zero-or-one-losses)
 - Randomized Set (https://leetcode.com/problems/insert-delete-getrandom-o1)
 - Remove Occurrences (https://leetcode.com/problems/remove-all-occurrences-of-a-substring)
+- Divide Array Into Arrays With Max Difference (https://leetcode.com/problems/divide-array-into-arrays-with-max-difference)
 
 ### Other
 
