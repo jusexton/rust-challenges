@@ -1,12 +1,13 @@
+use std::fmt::Write;
+
 fn code(s: &str) -> String {
-    s.chars()
-        .map(|c| {
-            let int_value = c.to_digit(10).unwrap();
-            let bits = format!("{:b}", int_value);
-            let zero_count = bits.len() - 1;
-            format!("{}1{}", "0".repeat(zero_count), bits)
-        })
-        .collect()
+    s.chars().fold(String::new(), |mut acc, curr| {
+        let int_value = curr.to_digit(10).unwrap();
+        let bits = format!("{:b}", int_value);
+        let zero_count = bits.len() - 1;
+        write!(acc, "{}1{}", "0".repeat(zero_count), bits).expect("Buffer write failed.");
+        acc
+    })
 }
 
 fn decode(s: &str) -> String {
