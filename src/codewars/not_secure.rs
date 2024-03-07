@@ -19,7 +19,7 @@ mod tests {
     #[test]
     fn should_return_false_when_value_is_empty() {
         let actual = alphanumeric("");
-        assert_eq!(actual, false);
+        assert!(!actual);
     }
 
     #[test_case("hello", true)]

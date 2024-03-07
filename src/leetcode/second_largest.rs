@@ -2,7 +2,7 @@ fn second_highest(s: String) -> i32 {
     let mut largest = -1;
     let mut second_largest = -1;
     for character in s.chars() {
-        if character.is_digit(10) {
+        if character.is_ascii_digit() {
             let digit = character.to_digit(10).unwrap() as i32;
             if digit > largest {
                 second_largest = largest;

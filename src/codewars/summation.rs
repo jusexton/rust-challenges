@@ -2,7 +2,6 @@ fn summation(number: i32) -> i32 {
     (1..=number).sum()
 }
 
-
 #[cfg(test)]
 mod tests {
     use test_case::test_case;

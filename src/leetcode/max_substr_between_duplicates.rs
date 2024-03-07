@@ -17,8 +17,8 @@ fn max_length_between_equal_characters(s: String) -> i32 {
 
 #[cfg(test)]
 mod tests {
-    use test_case::test_case;
     use crate::leetcode::max_substr_between_duplicates::max_length_between_equal_characters;
+    use test_case::test_case;
 
     #[test_case("aa", 0)]
     #[test_case("abba", 2)]

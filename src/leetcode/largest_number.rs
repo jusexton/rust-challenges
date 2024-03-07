@@ -11,7 +11,7 @@ fn largest_number(nums: Vec<i32>) -> String {
     });
 
     let result = nums.into_iter().collect::<String>();
-    if result.starts_with("0") {
+    if result.starts_with('0') {
         String::from("0")
     } else {
         result

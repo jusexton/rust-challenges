@@ -4,11 +4,11 @@ fn recursion(a: usize, b: usize) -> (usize, usize) {
         c if c.0 == 0 || c.1 == 0 => c,
         c if c.0 >= 2 * c.1 => {
             let updated_a = c.0 - (2 * c.1);
-            return recursion(updated_a, c.1);
+            recursion(updated_a, c.1)
         }
         c if c.1 >= 2 * c.0 => {
             let updated_b = c.1 - (2 * c.0);
-            return recursion(c.0, updated_b);
+            recursion(c.0, updated_b)
         }
         _ => (a, b),
     }

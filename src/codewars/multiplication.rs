@@ -5,7 +5,7 @@ fn multiplication_table(length: usize) -> Vec<Vec<usize>> {
         table.push(row);
     }
 
-    return table;
+    table
 }
 
 #[cfg(test)]
@@ -18,10 +18,7 @@ mod tests {
     #[test_case(1, &[&[1]])]
     #[test_case(2, &[&[1, 2], &[2, 4]])]
     #[test_case(3, &[&[1, 2, 3], &[2, 4, 6], &[3, 6, 9]])]
-    fn test_multiplication_table(
-        length: usize,
-        expected: &[&[usize]],
-    ) {
+    fn test_multiplication_table(length: usize, expected: &[&[usize]]) {
         let actual = multiplication_table(length);
         let expected = expected
             .iter()

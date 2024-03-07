@@ -43,7 +43,7 @@ mod tests {
     fn should_merge_two_lists() {
         let list_one = Some(Box::new(ListNode {
             val: 1,
-            next: Some(Box::new(ListNode::new(3)))
+            next: Some(Box::new(ListNode::new(3))),
         }));
         let list_two = Some(Box::new(ListNode {
             val: 2,
@@ -58,9 +58,9 @@ mod tests {
                 val: 2,
                 next: Some(Box::new(ListNode {
                     val: 3,
-                    next: Some(Box::new(ListNode::new(4)))
-                }))
-            }))
+                    next: Some(Box::new(ListNode::new(4))),
+                })),
+            })),
         }));
         assert_eq!(expected, actual);
     }

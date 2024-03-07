@@ -1,7 +1,7 @@
 fn build_diamond(n: i32) -> Option<String> {
     let get_row = |count: usize| {
         let width = ((n as usize - count) / 2) + count;
-        format!("{: >width$}\n", "*".repeat(count), width=width)
+        format!("{: >width$}\n", "*".repeat(count), width = width)
     };
     match n {
         n if n % 2 == 0 => None,

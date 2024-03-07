@@ -1,5 +1,5 @@
 fn count_sheep(sheep: &[bool]) -> u8 {
-    sheep.into_iter().map(|s| *s as u8).sum()
+    sheep.iter().map(|s| *s as u8).sum()
 }
 
 #[cfg(test)]

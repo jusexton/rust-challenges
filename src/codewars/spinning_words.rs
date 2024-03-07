@@ -1,9 +1,13 @@
 // https://www.codewars.com/kata/5264d2b162488dc400000001
 fn spinning_words(words: &str) -> String {
-    words.split_ascii_whitespace().map(|word| match word.len() >= 5 {
-        true => word.chars().rev().collect(),
-        false => word.to_string()
-    }).collect::<Vec<String>>().join(" ")
+    words
+        .split_ascii_whitespace()
+        .map(|word| match word.len() >= 5 {
+            true => word.chars().rev().collect(),
+            false => word.to_string(),
+        })
+        .collect::<Vec<String>>()
+        .join(" ")
 }
 
 #[cfg(test)]

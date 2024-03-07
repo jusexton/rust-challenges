@@ -13,8 +13,7 @@ fn get_order(input: String) -> String {
     matches.join(" ")
 }
 
-fn sort_order(item: &String) -> u8 {
-    let item = item.as_str();
+fn sort_order(item: &str) -> u8 {
     match item {
         "Burger" => 0,
         "Fries" => 1,

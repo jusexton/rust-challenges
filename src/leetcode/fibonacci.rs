@@ -13,7 +13,7 @@ fn fibonacci_memoized(target: u32, cache: &mut HashMap<u32, u32>) -> u32 {
             let result = fibonacci_memoized(n - 1, cache) + fibonacci_memoized(n - 2, cache);
             cache.insert(n, result);
             result
-        })
+        }),
     }
 }
 

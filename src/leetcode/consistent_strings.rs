@@ -5,9 +5,7 @@ pub fn count_consistent_strings(allowed: String, words: Vec<String>) -> i32 {
     let allowed: HashSet<char> = HashSet::from_iter(allowed.chars());
     words
         .iter()
-        .filter(|word| {
-            word.chars().all(|c| allowed.contains(&c))
-        })
+        .filter(|word| word.chars().all(|c| allowed.contains(&c)))
         .count() as i32
 }
 

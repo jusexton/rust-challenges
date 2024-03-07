@@ -8,7 +8,7 @@ fn doubleton(start: u32) -> u32 {
         if characters.len() == 2 {
             return current;
         } else {
-            current = current + 1;
+            current += 1;
         }
     }
 }

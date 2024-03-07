@@ -13,11 +13,7 @@ mod tests {
     #[test_case("great blue heron", "garlic naan", true)]
     #[test_case("chickadee", "chocolate cake", true)]
     #[test_case("rhino", "no", false)]
-    fn test_feast(
-        beast: &str,
-        dish: &str,
-        expected: bool,
-    ) {
+    fn test_feast(beast: &str, dish: &str, expected: bool) {
         let actual = feast(beast, dish);
         assert_eq!(expected, actual)
     }

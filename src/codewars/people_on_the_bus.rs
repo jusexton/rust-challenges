@@ -1,6 +1,6 @@
 fn people_on_the_bus(bus_stops: &[(i32, i32)]) -> i32 {
     bus_stops
-        .into_iter()
+        .iter()
         .fold(0, |acc, curr| acc + (curr.0 - curr.1))
 }
 

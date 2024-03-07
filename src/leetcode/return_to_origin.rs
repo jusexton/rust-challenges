@@ -12,7 +12,7 @@ fn returns_to_origin(moves: String) -> bool {
         }
     }
 
-    return x == 0 && y == 0;
+    x == 0 && y == 0
 }
 
 #[cfg(test)]

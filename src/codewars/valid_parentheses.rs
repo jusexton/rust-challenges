@@ -6,7 +6,7 @@ fn valid_parentheses(s: &str) -> bool {
             '(' => open_count += 1,
             ')' if open_count > 0 => open_count -= 1,
             ')' => return false,
-            _ => ()
+            _ => (),
         }
     }
     open_count == 0
@@ -23,7 +23,7 @@ mod tests {
             ("()", true),
             ("()()", true),
             ("())", false),
-            (")(", false)
+            (")(", false),
         ];
 
         for (parentheses, expected) in test_cases {

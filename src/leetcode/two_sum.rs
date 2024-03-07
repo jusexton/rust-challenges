@@ -7,7 +7,7 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
         .find_map(|(i, n)| {
             compliments
                 .get(n)
-                .and_then(|j| Some(vec![i as i32, *j]))
+                .map(|j| vec![i as i32, *j])
                 .or_else(|| compliments.insert(target - n, i as i32).and(None))
         })
         .unwrap_or(vec![-1, -1])
