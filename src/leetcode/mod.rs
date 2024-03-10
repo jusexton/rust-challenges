@@ -17,6 +17,7 @@ mod lonely_numbers;
 mod longest_subtsring;
 mod max_substr_between_duplicates;
 mod merge_lists;
+mod minimum_common_value;
 mod minimum_rounds;
 mod number_of_strings;
 mod perfect_square;

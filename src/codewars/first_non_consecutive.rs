@@ -1,4 +1,4 @@
-fn first_non_consecutive(numbers: &Vec<i32>) -> Option<i32> {
+fn first_non_consecutive(numbers: &[i32]) -> Option<i32> {
     for index in 1..numbers.len() {
         let a = *numbers.get(index - 1).unwrap();
         let b = *numbers.get(index).unwrap();
@@ -21,14 +21,14 @@ mod tests {
     #[test_case(&[1, 2, 4], 4)]
     #[test_case(&[1, 2, 3, 4, 10], 10)]
     fn should_return_first_non_consecutive_number(numbers: &[i32], expected: i32) {
-        let actual = first_non_consecutive(&numbers.to_vec()).unwrap();
+        let actual = first_non_consecutive(numbers).unwrap();
         assert_eq!(expected, actual)
     }
 
     #[test_case(&[1])]
     #[test_case(&[1, 2, 3, 4])]
     fn should_return_none_when_all_values_are_consecutive(numbers: &[i32]) {
-        let actual = first_non_consecutive(&numbers.to_vec());
+        let actual = first_non_consecutive(numbers);
         assert!(actual.is_none())
     }
 }

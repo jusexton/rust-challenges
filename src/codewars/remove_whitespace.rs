@@ -1,5 +1,5 @@
 fn no_space(s: String) -> String {
-    s.replace(" ", "")
+    s.replace(' ', "")
 }
 
 #[cfg(test)]

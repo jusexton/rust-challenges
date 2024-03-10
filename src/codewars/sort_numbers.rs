@@ -1,5 +1,5 @@
 fn sort_numbers(vector: &Vec<i32>) -> Vec<i32> {
-    let mut sorted = vector.clone();
+    let mut sorted = vector.to_owned();
     sorted.sort();
     sorted
 }
