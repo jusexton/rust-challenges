@@ -1,16 +1,17 @@
 # Rust Programming Challenges
 
-![](https://github.com/jsextonn/rust-challenges/workflows/build/badge.svg)
+![](https://github.com/jusexton/rust-challenges/workflows/build/badge.svg)
 
 Programming challenges written in the Rust programming language
 
-Visit https://github.com/JSextonn/all-challenges if you're interested in seeing programming challenges completed in
+Visit https://github.com/jusexton/all-challenges if you're interested in seeing programming challenges completed in
 other languages.
 
 ## Completed Programming Challenges
 
 - [Code Wars](#code-wars)
-- [Leetcode](#leetcode)
+- [r/dailyprogrammer](#r/dailyprogrammer)
+- [LeetCode](#leetcode)
 
 ## Completed Challenges
 
@@ -76,6 +77,12 @@ other languages.
 - Multiplication Table (https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce)
 - Alternating Case (https://www.codewars.com/kata/56efc695740d30f963000557)
 - Summation (https://www.codewars.com/kata/55d24f55d7dd296eb9000030)
+
+### r/dailyprogrammer
+
+#### Easy
+
+- Letter Value Sum (https://www.reddit.com/r/dailyprogrammer/comments/onfehl/20210719_challenge_399_easy_letter_value_sum/)
 
 ### LeetCode
 
