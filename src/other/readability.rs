@@ -1,26 +1,33 @@
-const SENTENCE_ENDINGS: [char; 3] = ['!', '.', '?'];
+use std::ops::Deref;
 
-pub struct ColemanLiauIndex(i32);
+fn coleman_liau_index(average_letters: f64, average_sentences: f64) -> usize {
+    let index = (0.0588 * average_letters) - (0.296 * average_sentences) - 15.8;
+    index.round() as usize
+}
+
+fn is_sentence_end(c: char) -> bool {
+    c == '!' || c == '.' || c == '?'
+}
+
+pub struct ColemanLiauIndex(usize);
 
 impl From<&str> for ColemanLiauIndex {
     fn from(value: &str) -> Self {
-        let mut character_count = 0;
+        let mut character_count = 1;
         let mut word_count = 0;
         let mut sentence_count = 0;
 
-        let mut previous: Option<char> = None;
+        let mut previous = value.chars().nth(0).unwrap();
         for char in value.chars() {
-            if char.is_whitespace() {
-                if !SENTENCE_ENDINGS.contains(&previous.unwrap()) {
-                    word_count += 1;
-                }
+            if char.is_whitespace() && !is_sentence_end(previous) {
+                word_count += 1;
             } else if char.is_alphabetic() {
                 character_count += 1;
-            } else if SENTENCE_ENDINGS.contains(&char) {
+            } else if is_sentence_end(char) {
                 sentence_count += 1;
                 word_count += 1;
             }
-            previous = Some(char)
+            previous = char
         }
 
         let average_letters = (character_count * 100) as f64 / word_count as f64;
@@ -30,21 +37,19 @@ impl From<&str> for ColemanLiauIndex {
     }
 }
 
-fn readability(s: &str) -> i32 {
-    let index = ColemanLiauIndex::from(s);
-    index.0
-}
+impl Deref for ColemanLiauIndex {
+    type Target = usize;
 
-fn coleman_liau_index(average_letters: f64, average_sentences: f64) -> i32 {
-    let index = (0.0588 * average_letters) - (0.296 * average_sentences) - 15.8;
-    index.round() as i32
+    fn deref(&self) -> &Self::Target {
+        &self.0
+    }
 }
 
 #[cfg(test)]
 mod tests {
     use test_case::test_case;
 
-    use crate::other::readability::readability;
+    use crate::other::readability::ColemanLiauIndex;
 
     #[test_case(
         "Congratulations! Today is your day. You're off to Great Places! You're off and away!",
@@ -58,8 +63,8 @@ mod tests {
         "As the average number of letters and words per sentence increases, the Coleman-Liau index gives the text a higher reading level. If you were to take this paragraph, for instance, which has longer words and sentences than either of the prior two examples, the formula would give the text an eleventh grade reading level.",
         11
     )]
-    fn should_return_correct_grade(s: &str, grade: i32) {
-        let result = readability(s);
-        assert_eq!(result, grade)
+    fn should_return_correct_grade(s: &str, grade: usize) {
+        let result = ColemanLiauIndex::from(s);
+        assert_eq!(*result, grade)
     }
 }
