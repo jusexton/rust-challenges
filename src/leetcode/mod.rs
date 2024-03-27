@@ -29,6 +29,7 @@ mod return_to_origin;
 mod second_largest;
 mod sell_stock_easy;
 mod sell_stock_medium;
+mod sort_by_bites;
 mod third_max;
 mod two_sum;
 mod unique_occurrences;

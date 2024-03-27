@@ -82,7 +82,8 @@ other languages.
 
 #### Easy
 
-- Letter Value Sum (https://www.reddit.com/r/dailyprogrammer/comments/onfehl/20210719_challenge_399_easy_letter_value_sum/)
+- Letter Value
+  Sum (https://www.reddit.com/r/dailyprogrammer/comments/onfehl/20210719_challenge_399_easy_letter_value_sum/)
 
 ### LeetCode
 
@@ -104,17 +105,20 @@ other languages.
 - Climbing Stairs (https://leetcode.com/problems/climbing-stairs/)
 - Largest Odd Number (https://leetcode.com/problems/largest-odd-number-in-string/)
 - Number of Different Integers (https://leetcode.com/problems/number-of-different-integers-in-a-string)
-- Largest Substring Between Two Equal Characters (https://leetcode.com/problems/largest-substring-between-two-equal-characters)
+- Largest Substring Between Two Equal
+  Characters (https://leetcode.com/problems/largest-substring-between-two-equal-characters)
 - Alike Halves (https://leetcode.com/problems/determine-if-string-halves-are-alike)
 - Unique Number of Occurrences (https://leetcode.com/problems/unique-number-of-occurrences)
 - Minimum Common Value (https://leetcode.com/problems/minimum-common-value)
+- Sort by Number of Bits (https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits)
 
 #### Medium
 
 - The Largest Number (https://leetcode.com/problems/largest-number/)
 - Authentication Manager (https://leetcode.com/problems/design-authentication-manager/)
 - Best Time to Buy and Sell Stock (https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
-- Longest Substring Without Repeating Characters (https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- Longest Substring Without Repeating
+  Characters (https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - Kth Largest Element (https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - Rearrange Elements by Sign (https://leetcode.com/problems/rearrange-array-elements-by-sign/)
 - Lonely Numbers (https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)
@@ -124,7 +128,8 @@ other languages.
 - Zero or One Losses (https://leetcode.com/problems/find-players-with-zero-or-one-losses)
 - Randomized Set (https://leetcode.com/problems/insert-delete-getrandom-o1)
 - Remove Occurrences (https://leetcode.com/problems/remove-all-occurrences-of-a-substring)
-- Divide Array Into Arrays With Max Difference (https://leetcode.com/problems/divide-array-into-arrays-with-max-difference)
+- Divide Array Into Arrays With Max
+  Difference (https://leetcode.com/problems/divide-array-into-arrays-with-max-difference)
 
 ### Other
 
