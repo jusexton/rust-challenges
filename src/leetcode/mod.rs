@@ -15,6 +15,7 @@ mod largest_number;
 mod largest_odd_number;
 mod lonely_numbers;
 mod longest_subtsring;
+mod make_string_great;
 mod max_substr_between_duplicates;
 mod merge_lists;
 mod minimum_common_value;

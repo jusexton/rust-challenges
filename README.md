@@ -111,6 +111,7 @@ other languages.
 - Unique Number of Occurrences (https://leetcode.com/problems/unique-number-of-occurrences)
 - Minimum Common Value (https://leetcode.com/problems/minimum-common-value)
 - Sort by Number of Bits (https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits)
+- Make the String Great (https://leetcode.com/problems/make-the-string-great/)
 
 #### Medium
 
