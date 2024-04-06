@@ -131,6 +131,7 @@ other languages.
 - Remove Occurrences (https://leetcode.com/problems/remove-all-occurrences-of-a-substring)
 - Divide Array Into Arrays With Max
   Difference (https://leetcode.com/problems/divide-array-into-arrays-with-max-difference)
+- Remove Minimum to Make Valid Parentheses (https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)
 
 ### Other
 

@@ -26,6 +26,7 @@ mod plus_one;
 mod randomized_set;
 mod rearrange_by_sign;
 mod remove_occurrences;
+mod remove_parentheses;
 mod return_to_origin;
 mod second_largest;
 mod sell_stock_easy;
