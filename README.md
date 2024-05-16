@@ -10,11 +10,10 @@ other languages.
 ## Completed Programming Challenges
 
 - [Code Wars](#code-wars)
-- [r/dailyprogrammer](#r/dailyprogrammer)
+- [r/dailyprogrammer](#rdailyprogrammer)
 - [LeetCode](#leetcode)
-
-## Completed Challenges
-
+- [Other](#other)
+ 
 ### Code Wars
 
 #### Kata 4
@@ -137,5 +136,6 @@ other languages.
 - Repeated DNA Sequence (https://leetcode.com/problems/repeated-dna-sequences/)
 
 ### Other
+
 
 - Readability (https://cs50.harvard.edu/x/2021/psets/2/readability/)
