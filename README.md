@@ -134,6 +134,7 @@ other languages.
   Difference (https://leetcode.com/problems/divide-array-into-arrays-with-max-difference)
 - Remove Minimum to Make Valid Parentheses (https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)
 - Sum Root to Leaf (https://leetcode.com/problems/sum-root-to-leaf-numbers)
+- Repeated DNA Sequence (https://leetcode.com/problems/repeated-dna-sequences/)
 
 ### Other
 

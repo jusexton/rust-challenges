@@ -38,3 +38,4 @@ mod two_sum;
 mod unique_occurrences;
 mod zero_or_one;
 mod excel_sheet_number;
+mod repeated_dna;
