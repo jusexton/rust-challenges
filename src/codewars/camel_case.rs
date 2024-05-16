@@ -1,14 +1,20 @@
 fn camel_case(str: &str) -> String {
-    str.split(['-', '_'])
-        .enumerate()
-        .map(|(index, s)| {
-            if index == 0 {
-                String::from(s)
-            } else {
-                [&s[..1].to_uppercase(), &s[1..]].join("")
-            }
-        })
-        .collect()
+    let mut words = str.split(&['-', '_']);
+    let mut camel_cased = String::with_capacity(str.len());
+
+    if let Some(first_word) = words.next() {
+        camel_cased.push_str(first_word);
+    }
+
+    for word in words {
+        let mut chars = word.chars();
+        if let Some(first_char) = chars.next() {
+            camel_cased.push(first_char.to_ascii_uppercase());
+            camel_cased.extend(chars);
+        }
+    }
+
+    camel_cased
 }
 
 #[cfg(test)]
