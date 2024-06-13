@@ -3,30 +3,18 @@ pub fn rotated_digits(n: i32) -> i32 {
 }
 
 fn good_after_rotating(number: &i32) -> bool {
-    let mut digits = vec![];
-    let mut value = *number;
-
-    while value > 0 {
-        digits.push(value % 10);
-        value /= 10;
+    let mut number = *number;
+    let mut valid = false;
+    while number > 0 {
+        let digit = number % 10;
+        match digit {
+            2 | 5 | 6 | 9 => valid = true,
+            3 | 4 | 7 => return false,
+            _ => {}
+        }
+        number /= 10;
     }
-
-    let mut rotated = 0;
-    let mut offset = 1;
-    for digit in digits.iter() {
-        let rotated_digit = match digit {
-            0 | 1 | 8 => *digit,
-            5 => 2,
-            2 => 5,
-            6 => 9,
-            9 => 6,
-            _ => return false,
-        };
-        rotated += rotated_digit * offset;
-        offset *= 10;
-    }
-
-    rotated != *number
+    valid
 }
 
 #[cfg(test)]
