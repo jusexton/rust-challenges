@@ -136,6 +136,7 @@ other languages.
 - Repeated DNA Sequence (https://leetcode.com/problems/repeated-dna-sequences/)
 - Rotate Array (https://leetcode.com/problems/rotate-array/)
 - Sort Colors (https://leetcode.com/problems/sort-colors)
+- Rotate Digits (https://leetcode.com/problems/rotated-digits)
 
 ### Other
 
