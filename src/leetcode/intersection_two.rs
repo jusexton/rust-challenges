@@ -19,7 +19,7 @@ pub fn intersect(numbers_one: Vec<i32>, numbers_two: Vec<i32>) -> Vec<i32> {
     }
     result
 }
-g
+
 #[cfg(test)]
 mod tests {
     use std::vec;
