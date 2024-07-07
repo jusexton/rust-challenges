@@ -30,6 +30,7 @@ other languages.
 - Fibonacci Product (https://www.codewars.com/kata/5541f58a944b85ce6d00006a)
 - Valid Parentheses (https://www.codewars.com/kata/52774a314c2333f0a7000688)
 - Alphanumeric (https://www.codewars.com/kata/526dbd6c8c0eb53254000110)
+- Lazy Repeater (https://www.codewars.com/kata/51fc3beb41ecc97ee20000c3)
 
 #### Kata 6
 
