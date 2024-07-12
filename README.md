@@ -114,6 +114,7 @@ other languages.
 - Make the String Great (https://leetcode.com/problems/make-the-string-great/)
 - Excel Column Number (https://leetcode.com/problems/excel-sheet-column-number/)
 - Intersection of Two Arrays (https://leetcode.com/problems/intersection-of-two-arrays-ii)
+- X of a kind in a deck of cards (https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)
 
 #### Medium
 
