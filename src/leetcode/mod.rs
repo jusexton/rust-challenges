@@ -44,3 +44,4 @@ mod sort_colors;
 mod rotate_digits;
 mod intersection_two;
 mod x_kind;
+mod remove_duplicates;
