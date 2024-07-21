@@ -48,3 +48,4 @@ mod sumpairs;
 mod valid_parentheses;
 mod valid_spacing;
 mod lazy_repeater;
+mod parse_number;
