@@ -7,17 +7,14 @@ fn are_anagrams(a: &str, b: &str) -> bool {
     if a.len() != b.len() {
         return false;
     }
-
-    let a_product = str_to_prime_product(a);
-    let b_product = str_to_prime_product(b);
-    a_product == b_product
+    str_to_prime_product(a) == str_to_prime_product(b)
 }
 
 fn str_to_prime_product(input: &str) -> u64 {
     input
         .to_ascii_lowercase()
         .chars()
-        .map(|c| (c as u8) - b'a')
+        .map(|c| c as u8 - b'a')
         .map(|idx| PRIMES[idx as usize])
         .product()
 }

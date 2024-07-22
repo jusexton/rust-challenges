@@ -1,16 +1,11 @@
-use std::collections::HashSet;
+const VOWELS: [char; 10] = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
 
 pub fn halves_are_alike(s: String) -> bool {
     fn count_vowels(s: &str) -> usize {
-        let vowels = HashSet::from(['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']);
-        s.chars().filter(|c| vowels.contains(c)).count()
+        s.chars().filter(|c| VOWELS.contains(c)).count()
     }
-
     let middle = s.len() / 2;
-    let first = &s.as_str()[0..middle];
-    let second = &s.as_str()[middle..];
-
-    count_vowels(first) == count_vowels(second)
+    count_vowels(&s[0..middle]) == count_vowels(&s[middle..])
 }
 
 #[cfg(test)]

@@ -1,62 +1,58 @@
-use std::cell::RefCell;
 use std::collections::HashSet;
 use std::fmt::{Display, Formatter};
 use std::iter::FromIterator;
-use std::rc::Rc;
+use std::mem;
 
 struct Bitset {
     size: i32,
-    ones: Rc<RefCell<HashSet<i32>>>,
-    zeros: Rc<RefCell<HashSet<i32>>>,
+    ones: HashSet<i32>,
+    zeros: HashSet<i32>,
 }
 
 impl Bitset {
     fn new(size: i32) -> Self {
         Self {
             size,
-            ones: Rc::new(RefCell::new(HashSet::new())),
-            zeros: Rc::new(RefCell::new(HashSet::from_iter(0..size))),
+            ones: HashSet::new(),
+            zeros: HashSet::from_iter(0..size),
         }
     }
 
     fn fix(&mut self, idx: i32) {
-        self.ones.borrow_mut().insert(idx);
-        self.zeros.borrow_mut().remove(&idx);
+        self.ones.insert(idx);
+        self.zeros.remove(&idx);
     }
 
     fn unfix(&mut self, idx: i32) {
-        self.zeros.borrow_mut().insert(idx);
-        self.ones.borrow_mut().remove(&idx);
+        self.zeros.insert(idx);
+        self.ones.remove(&idx);
     }
 
     fn flip(&mut self) {
-        let temp = self.ones.clone();
-        self.ones = self.zeros.clone();
-        self.zeros = temp;
+        mem::swap(&mut self.ones, &mut self.zeros);
     }
 
     fn all(&self) -> bool {
-        self.ones.borrow().len() == self.size as usize
+        self.ones.len() == self.size as usize
     }
 
     fn one(&self) -> bool {
-        self.ones.borrow().len() > 0
+        !self.ones.is_empty()
     }
 
     fn count(&self) -> i32 {
-        self.ones.borrow().len() as i32
+        self.ones.len() as i32
     }
 }
 
 impl Display for Bitset {
     fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
-        let ones = self.ones.borrow();
-        let result = (0..self.size)
-            .map(|idx| match ones.contains(&idx) {
+        let result: String = (0..self.size)
+            .map(|idx| match self.ones.contains(&idx) {
                 true => '1',
                 false => '0',
             })
-            .collect::<String>();
+            .collect();
         write!(f, "{}", result)
     }
 }
