@@ -117,6 +117,7 @@ other languages.
 - Intersection of Two Arrays (https://leetcode.com/problems/intersection-of-two-arrays-ii)
 - X of a kind in a deck of cards (https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)
 - Remove From Sorted Array (https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+- Sort the People (https://leetcode.com/problems/sort-the-people)
 
 #### Medium
 

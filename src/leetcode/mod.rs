@@ -45,3 +45,4 @@ mod rotate_digits;
 mod intersection_two;
 mod x_kind;
 mod remove_duplicates;
+mod sort_people;
