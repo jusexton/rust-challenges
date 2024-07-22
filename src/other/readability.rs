@@ -1,5 +1,3 @@
-use std::ops::Deref;
-
 fn coleman_liau_index(average_letters: f64, average_sentences: f64) -> usize {
     let index = (0.0588 * average_letters) - (0.296 * average_sentences) - 15.8;
     index.round() as usize
@@ -9,6 +7,7 @@ fn is_sentence_end(c: char) -> bool {
     c == '!' || c == '.' || c == '?'
 }
 
+#[derive(Debug)]
 pub struct ColemanLiauIndex(usize);
 
 impl From<&str> for ColemanLiauIndex {
@@ -37,11 +36,9 @@ impl From<&str> for ColemanLiauIndex {
     }
 }
 
-impl Deref for ColemanLiauIndex {
-    type Target = usize;
-
-    fn deref(&self) -> &Self::Target {
-        &self.0
+impl PartialEq<usize> for ColemanLiauIndex {
+    fn eq(&self, other: &usize) -> bool {
+        self.0 == *other
     }
 }
 
@@ -49,7 +46,7 @@ impl Deref for ColemanLiauIndex {
 mod tests {
     use test_case::test_case;
 
-    use crate::other::readability::ColemanLiauIndex;
+    use super::*;
 
     #[test_case(
         "Congratulations! Today is your day. You're off to Great Places! You're off and away!",
@@ -64,7 +61,7 @@ mod tests {
         11
     )]
     fn should_return_correct_grade(s: &str, grade: usize) {
-        let result = ColemanLiauIndex::from(s);
-        assert_eq!(*result, grade)
+        let index = ColemanLiauIndex::from(s);
+        assert_eq!(index, grade)
     }
 }
