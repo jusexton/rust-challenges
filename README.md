@@ -119,6 +119,7 @@ other languages.
 - Remove From Sorted Array (https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 - Sort the People (https://leetcode.com/problems/sort-the-people)
 - Max Repeating Substring (https://leetcode.com/problems/maximum-repeating-substring/)
+- Sort by Increasing Frequency (https://leetcode.com/problems/sort-array-by-increasing-frequency)
 
 #### Medium
 
