@@ -145,6 +145,7 @@ other languages.
 - Rotate Array (https://leetcode.com/problems/rotate-array/)
 - Sort Colors (https://leetcode.com/problems/sort-colors)
 - Rotate Digits (https://leetcode.com/problems/rotated-digits)
+- Sort Jumbled Numbers (https://leetcode.com/problems/sort-the-jumbled-numbers)
 
 ### Other
 
