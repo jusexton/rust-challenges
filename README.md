@@ -120,6 +120,7 @@ other languages.
 - Sort the People (https://leetcode.com/problems/sort-the-people)
 - Max Repeating Substring (https://leetcode.com/problems/maximum-repeating-substring/)
 - Sort by Increasing Frequency (https://leetcode.com/problems/sort-array-by-increasing-frequency)
+- Maximum Odd Binary Number (https://leetcode.com/problems/maximum-odd-binary-number)
 
 #### Medium
 

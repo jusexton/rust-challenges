@@ -49,3 +49,4 @@ mod sort_people;
 mod max_repeating_substr;
 mod freq_sort;
 mod sort_jumbled_numbers;
+mod max_binary_number;
