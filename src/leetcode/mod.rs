@@ -51,3 +51,4 @@ mod freq_sort;
 mod sort_jumbled_numbers;
 mod max_binary_number;
 mod custom_sort;
+mod max_positive_negative;
