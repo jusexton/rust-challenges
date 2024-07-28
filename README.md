@@ -147,6 +147,7 @@ other languages.
 - Sort Colors (https://leetcode.com/problems/sort-colors)
 - Rotate Digits (https://leetcode.com/problems/rotated-digits)
 - Sort Jumbled Numbers (https://leetcode.com/problems/sort-the-jumbled-numbers)
+- Custom Sort String (https://leetcode.com/problems/custom-sort-string)
 
 ### Other
 
