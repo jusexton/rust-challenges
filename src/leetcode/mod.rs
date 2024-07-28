@@ -53,3 +53,4 @@ mod max_binary_number;
 mod custom_sort;
 mod max_positive_negative;
 mod alternating_digit_sum;
+mod separate_digits;

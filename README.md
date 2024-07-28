@@ -123,6 +123,7 @@ other languages.
 - Maximum Odd Binary Number (https://leetcode.com/problems/maximum-odd-binary-number)
 - Maximum Count of Positive or Negative Integer (https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer)
 - Alternating Digit Sum (https://leetcode.com/problems/alternating-digit-sum/)
+- Separate Digits (https://leetcode.com/problems/separate-the-digits-in-an-array)
 
 #### Medium
 
