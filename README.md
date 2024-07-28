@@ -122,6 +122,7 @@ other languages.
 - Sort by Increasing Frequency (https://leetcode.com/problems/sort-array-by-increasing-frequency)
 - Maximum Odd Binary Number (https://leetcode.com/problems/maximum-odd-binary-number)
 - Maximum Count of Positive or Negative Integer (https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer)
+- Alternating Digit Sum (https://leetcode.com/problems/alternating-digit-sum/)
 
 #### Medium
 
