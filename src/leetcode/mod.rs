@@ -56,3 +56,4 @@ mod alternating_digit_sum;
 mod separate_digits;
 mod product_except_self;
 mod shift_grid;
+mod product_sum_digits;

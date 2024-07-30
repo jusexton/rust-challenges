@@ -125,6 +125,7 @@ other languages.
 - Alternating Digit Sum (https://leetcode.com/problems/alternating-digit-sum/)
 - Separate Digits (https://leetcode.com/problems/separate-the-digits-in-an-array)
 - Shift Grid (https://leetcode.com/problems/shift-2d-grid)
+- Subtract Digit Product From Digit Sum (https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
 
 #### Medium
 
