@@ -1,17 +1,13 @@
-struct Aggregations {
-    product: i32,
-    sum: i32,
-}
-
 pub fn subtract_product_and_sum(mut n: i32) -> i32 {
-    let mut agg = Aggregations { product: 1, sum: 0 };
+    let mut product = 1;
+    let mut sum = 0;
     while n > 0 {
         let digit = n % 10;
-        agg.product *= digit;
-        agg.sum += digit;
+        product *= digit;
+        sum += digit;
         n /= 10;
     }
-    agg.product - agg.sum
+    product - sum
 }
 
 #[cfg(test)]
