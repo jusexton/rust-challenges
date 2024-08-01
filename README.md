@@ -155,6 +155,7 @@ other languages.
 - Sort Jumbled Numbers (https://leetcode.com/problems/sort-the-jumbled-numbers)
 - Custom Sort String (https://leetcode.com/problems/custom-sort-string)
 - Product of Array Except Self (https://leetcode.com/problems/product-of-array-except-self)
+- Minimum Number of Operations to Make Array Empty (https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty)
 
 ### Other
 
