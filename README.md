@@ -127,6 +127,7 @@ other languages.
 - Shift Grid (https://leetcode.com/problems/shift-2d-grid)
 - Subtract Digit Product From Digit Sum (https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
 - Number of Senior Citizens (https://leetcode.com/problems/number-of-senior-citizens)
+- Kth Distinct String (https://leetcode.com/problems/kth-distinct-string-in-an-array)
 
 #### Medium
 
