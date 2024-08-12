@@ -128,6 +128,7 @@ other languages.
 - Subtract Digit Product From Digit Sum (https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
 - Number of Senior Citizens (https://leetcode.com/problems/number-of-senior-citizens)
 - Kth Distinct String (https://leetcode.com/problems/kth-distinct-string-in-an-array)
+- Kth Largest in Stream (https://leetcode.com/problems/kth-largest-element-in-a-stream)
 
 #### Medium
 
