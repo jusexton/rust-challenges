@@ -130,6 +130,7 @@ other languages.
 - Kth Distinct String (https://leetcode.com/problems/kth-distinct-string-in-an-array)
 - Kth Largest in Stream (https://leetcode.com/problems/kth-largest-element-in-a-stream)
 - Length of Last Word (https://leetcode.com/problems/length-of-last-word)
+- Isomorphic Strings (https://leetcode.com/problems/isomorphic-strings)
 
 #### Medium
 

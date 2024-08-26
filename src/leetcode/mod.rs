@@ -63,3 +63,4 @@ mod kth_distinct_string;
 mod beautiful_number;
 mod kth_largest;
 mod last_word;
+mod isomorphic;
