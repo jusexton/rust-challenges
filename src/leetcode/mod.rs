@@ -62,3 +62,4 @@ mod operations_for_empty_array;
 mod kth_distinct_string;
 mod beautiful_number;
 mod kth_largest;
+mod last_word;

@@ -129,6 +129,7 @@ other languages.
 - Number of Senior Citizens (https://leetcode.com/problems/number-of-senior-citizens)
 - Kth Distinct String (https://leetcode.com/problems/kth-distinct-string-in-an-array)
 - Kth Largest in Stream (https://leetcode.com/problems/kth-largest-element-in-a-stream)
+- Length of Last Word (https://leetcode.com/problems/length-of-last-word)
 
 #### Medium
 
