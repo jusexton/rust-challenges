@@ -161,6 +161,7 @@ other languages.
 - Product of Array Except Self (https://leetcode.com/problems/product-of-array-except-self)
 - Minimum Number of Operations to Make Array Empty (https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty)
 - Next Beautiful Number (https://leetcode.com/problems/next-greater-numerically-balanced-number)
+- Valid Parenthesis (https://leetcode.com/problems/valid-parenthesis-string)
 
 ### Other
 

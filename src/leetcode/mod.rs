@@ -64,3 +64,4 @@ mod beautiful_number;
 mod kth_largest;
 mod last_word;
 mod isomorphic;
+mod valid_parenthesis;
