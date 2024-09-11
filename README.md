@@ -131,6 +131,7 @@ other languages.
 - Kth Largest in Stream (https://leetcode.com/problems/kth-largest-element-in-a-stream)
 - Length of Last Word (https://leetcode.com/problems/length-of-last-word)
 - Isomorphic Strings (https://leetcode.com/problems/isomorphic-strings)
+- Minimum Bit Flips (https://leetcode.com/problems/minimum-bit-flips-to-convert-number)
 
 #### Medium
 

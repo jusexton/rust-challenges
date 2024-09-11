@@ -65,3 +65,4 @@ mod kth_largest;
 mod last_word;
 mod isomorphic;
 mod valid_parenthesis;
+mod min_bit_flips;
