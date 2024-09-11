@@ -132,6 +132,7 @@ other languages.
 - Length of Last Word (https://leetcode.com/problems/length-of-last-word)
 - Isomorphic Strings (https://leetcode.com/problems/isomorphic-strings)
 - Minimum Bit Flips (https://leetcode.com/problems/minimum-bit-flips-to-convert-number)
+- Replace All Digits With Characters (https://leetcode.com/problems/replace-all-digits-with-characters)
 
 #### Medium
 
