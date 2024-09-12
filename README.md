@@ -135,6 +135,7 @@ other languages.
 - Replace All Digits With Characters (https://leetcode.com/problems/replace-all-digits-with-characters)
 - Sorting the Sentence (https://leetcode.com/problems/sorting-the-sentence/)
 - Positions of Large Groups (https://leetcode.com/problems/positions-of-large-groups)
+- Backspace Compare (https://leetcode.com/problems/backspace-string-compare/)
 
 #### Medium
 
