@@ -133,6 +133,7 @@ other languages.
 - Isomorphic Strings (https://leetcode.com/problems/isomorphic-strings)
 - Minimum Bit Flips (https://leetcode.com/problems/minimum-bit-flips-to-convert-number)
 - Replace All Digits With Characters (https://leetcode.com/problems/replace-all-digits-with-characters)
+- Sorting the Sentence (https://leetcode.com/problems/sorting-the-sentence/)
 
 #### Medium
 

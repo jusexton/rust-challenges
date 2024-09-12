@@ -67,3 +67,4 @@ mod isomorphic;
 mod valid_parenthesis;
 mod min_bit_flips;
 mod replace_digits;
+mod sort_sentence;
