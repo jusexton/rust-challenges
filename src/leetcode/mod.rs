@@ -70,3 +70,4 @@ mod replace_digits;
 mod sort_sentence;
 mod large_groups;
 mod backspace_compare;
+mod xor_subarray;
