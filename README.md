@@ -168,6 +168,7 @@ other languages.
 - Next Beautiful Number (https://leetcode.com/problems/next-greater-numerically-balanced-number)
 - Valid Parenthesis (https://leetcode.com/problems/valid-parenthesis-string)
 - XOR Queries of Sub Array (https://leetcode.com/problems/xor-queries-of-a-subarray)
+- Minimum Time Difference (https://leetcode.com/problems/minimum-time-difference)
 
 ### Other
 

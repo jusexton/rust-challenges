@@ -71,3 +71,4 @@ mod sort_sentence;
 mod large_groups;
 mod backspace_compare;
 mod xor_subarray;
+mod min_time_diff;
