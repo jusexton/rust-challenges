@@ -1,20 +1,14 @@
-fn largest_number(nums: Vec<i32>) -> String {
-    let mut nums = nums
-        .into_iter()
-        .map(|n| n.to_string())
-        .collect::<Vec<String>>();
-
-    nums.sort_by(|a, b| {
-        let ab = format!("{}{}", a, b);
-        let ba = format!("{}{}", b, a);
+fn largest_number(numbers: Vec<i32>) -> String {
+    let mut numbers: Vec<String> = numbers.iter().map(|item| item.to_string()).collect();
+    numbers.sort_unstable_by(|a, b| {
+        let ab = format!("{}{}", a, b).as_str().parse::<i128>().unwrap();
+        let ba = format!("{}{}", b, a).as_str().parse::<i128>().unwrap();
         ba.cmp(&ab)
     });
-
-    let result = nums.into_iter().collect::<String>();
-    if result.starts_with('0') {
-        String::from("0")
+    if numbers[0] == "0" {
+        "0".to_string()
     } else {
-        result
+        numbers.join("")
     }
 }
 
