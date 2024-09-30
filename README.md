@@ -171,6 +171,7 @@ other languages.
 - XOR Queries of Sub Array (https://leetcode.com/problems/xor-queries-of-a-subarray)
 - Minimum Time Difference (https://leetcode.com/problems/minimum-time-difference)
 - Maximum Product (https://leetcode.com/problems/maximum-product-after-k-increments)
+- Custom Stack (https://leetcode.com/problems/design-a-stack-with-increment-operation)
 
 ### Other
 
