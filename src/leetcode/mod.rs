@@ -75,3 +75,4 @@ mod min_time_diff;
 mod uncommon_word;
 mod maximum_product;
 mod custom_stack;
+mod boats;

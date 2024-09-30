@@ -172,6 +172,7 @@ other languages.
 - Minimum Time Difference (https://leetcode.com/problems/minimum-time-difference)
 - Maximum Product (https://leetcode.com/problems/maximum-product-after-k-increments)
 - Custom Stack (https://leetcode.com/problems/design-a-stack-with-increment-operation)
+- Boats to Save People (https://leetcode.com/problems/boats-to-save-people)
 
 ### Other
 
