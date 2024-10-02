@@ -137,6 +137,7 @@ other languages.
 - Positions of Large Groups (https://leetcode.com/problems/positions-of-large-groups)
 - Backspace Compare (https://leetcode.com/problems/backspace-string-compare/)
 - Uncommon Words from Two Sentences (https://leetcode.com/problems/uncommon-words-from-two-sentences)
+- Rank Transform Array (https://leetcode.com/problems/rank-transform-of-an-array)
 
 #### Medium
 
