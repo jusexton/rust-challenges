@@ -23,7 +23,7 @@ mod tests {
     use super::array_rank_transform;
 
     #[test]
-    fn test() {
+    fn transformed_by_rank() {
         assert_eq!(vec![4, 1, 2, 3], array_rank_transform(vec![40, 10, 20, 30]));
         assert_eq!(vec![1, 1, 1], array_rank_transform(vec![100, 100, 100]));
         assert_eq!(

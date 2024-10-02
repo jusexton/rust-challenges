@@ -175,6 +175,10 @@ other languages.
 - Custom Stack (https://leetcode.com/problems/design-a-stack-with-increment-operation)
 - Boats to Save People (https://leetcode.com/problems/boats-to-save-people)
 
+#### Hard
+
+Kth Smallest Pair Distance (https://leetcode.com/problems/find-k-th-smallest-pair-distance)
+
 ### Other
 
 
