@@ -77,3 +77,4 @@ mod x_kind;
 mod xor_subarray;
 mod zero_or_one;
 mod rank_transform;
+mod min_str_len;

@@ -138,6 +138,7 @@ other languages.
 - Backspace Compare (https://leetcode.com/problems/backspace-string-compare/)
 - Uncommon Words from Two Sentences (https://leetcode.com/problems/uncommon-words-from-two-sentences)
 - Rank Transform Array (https://leetcode.com/problems/rank-transform-of-an-array)
+- Minimum String Length After Removing Substrings (https://leetcode.com/problems/minimum-string-length-after-removing-substrings)
 
 #### Medium
 
