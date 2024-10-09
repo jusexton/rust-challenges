@@ -175,7 +175,8 @@ other languages.
 - Maximum Product (https://leetcode.com/problems/maximum-product-after-k-increments)
 - Custom Stack (https://leetcode.com/problems/design-a-stack-with-increment-operation)
 - Boats to Save People (https://leetcode.com/problems/boats-to-save-people)
-- Minimum NUmber of Swaps to Balance String (https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced)
+- Minimum Number of Swaps to Balance String (https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced)
+- Gas Stations (https://leetcode.com/problems/gas-station/)
 
 #### Hard
 
