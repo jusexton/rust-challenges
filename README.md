@@ -177,10 +177,11 @@ other languages.
 - Boats to Save People (https://leetcode.com/problems/boats-to-save-people)
 - Minimum Number of Swaps to Balance String (https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced)
 - Gas Stations (https://leetcode.com/problems/gas-station/)
+- Separate Black and White Balls (https://leetcode.com/problems/separate-black-and-white-balls)
 
 #### Hard
 
-Kth Smallest Pair Distance (https://leetcode.com/problems/find-k-th-smallest-pair-distance)
+- Kth Smallest Pair Distance (https://leetcode.com/problems/find-k-th-smallest-pair-distance)
 
 ### Other
 
