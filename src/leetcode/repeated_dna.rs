@@ -10,14 +10,9 @@ pub fn find_repeated_dna_sequences(s: String) -> Vec<String> {
             acc
         });
     occurrences
-        .iter()
-        .filter_map(|(key, value)| {
-            if *value > 1 {
-                Some(key.to_string())
-            } else {
-                None
-            }
-        })
+        .into_iter()
+        .filter(|(_, value)| *value > 1)
+        .map(|(key, _)| key.to_string())
         .collect()
 }
 
