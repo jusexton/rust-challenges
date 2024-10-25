@@ -52,6 +52,7 @@ other languages.
 - Count Characters (https://www.codewars.com/kata/52efefcbcdf57161d4000091)
 - Position Average (https://www.codewars.com/kata/59f4a0acbee84576800000af)
 - Parse Bank Account Number (https://www.codewars.com/kata/597eeb0136f4ae84f9000001)
+- Sum Digits Raised to Consecutive Powers (https://www.codewars.com/kata/5626b561280a42ecc50000d1)
 
 #### Kata 7
 
