@@ -141,6 +141,7 @@ other languages.
 - Rank Transform Array (https://leetcode.com/problems/rank-transform-of-an-array)
 - Minimum String Length After Removing Substrings (https://leetcode.com/problems/minimum-string-length-after-removing-substrings)
 - Make Fancy String (https://leetcode.com/problems/delete-characters-to-make-fancy-string)
+- Common Characters (https://leetcode.com/problems/find-common-characters)
 
 #### Medium
 
