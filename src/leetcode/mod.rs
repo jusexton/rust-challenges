@@ -81,3 +81,4 @@ mod min_str_len;
 mod balanced_str;
 mod gas_station;
 mod separate_balls;
+mod fancy_string;
