@@ -184,6 +184,7 @@ other languages.
 - Maximum Sum of Hourglass (https://leetcode.com/problems/maximum-sum-of-an-hourglass/)
 - String Compression (https://leetcode.com/problems/string-compression-iii)
 - Find If Array Can Be Sorted (https://leetcode.com/problems/find-if-array-can-be-sorted)
+- Maximum XOR Query (https://leetcode.com/problems/maximum-xor-for-each-query)
 
 #### Hard
 

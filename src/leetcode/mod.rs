@@ -86,3 +86,4 @@ mod common_characters;
 mod hour_glass_sum;
 mod string_compression;
 mod can_sort;
+mod maximum_xor;
