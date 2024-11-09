@@ -6,17 +6,16 @@ pub fn sort_people(names: Vec<String>, heights: Vec<i32>) -> Vec<String> {
 
 #[cfg(test)]
 mod tests {
+    use crate::string_vec;
+
     use super::*;
 
     #[test]
     fn test_sort_people() {
-        let names = vec!["Mary".to_string(), "John".to_string(), "Emma".to_string()];
+        let names = string_vec!["Mary", "John", "Emma"];
         let heights = vec![180, 165, 170];
         let sorted = sort_people(names, heights);
 
-        assert_eq!(
-            vec!["Mary".to_string(), "Emma".to_string(), "John".to_string()],
-            sorted
-        )
+        assert_eq!(string_vec!["Mary", "Emma", "John"], sorted)
     }
 }

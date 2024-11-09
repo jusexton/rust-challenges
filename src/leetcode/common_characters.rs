@@ -22,14 +22,13 @@ pub fn common_chars(words: Vec<String>) -> Vec<String> {
 
 #[cfg(test)]
 mod tests {
+    use crate::string_vec;
+
     use super::common_chars;
 
     #[test]
     fn returns_common_characters() {
-        let words = vec!["bella".to_string().to_string(), "roller".to_string()];
-        assert_eq!(
-            vec!["e".to_string(), "l".to_string(), "l".to_string()],
-            common_chars(words)
-        )
+        let words = string_vec!["bella", "roller"];
+        assert_eq!(string_vec!["e", "l", "l"], common_chars(words))
     }
 }

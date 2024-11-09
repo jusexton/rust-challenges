@@ -20,18 +20,13 @@ pub fn kth_distinct(arr: Vec<String>, mut k: i32) -> String {
 
 #[cfg(test)]
 mod tests {
+    use crate::string_vec;
+
     use super::kth_distinct;
 
     #[test]
     fn kth_distinct_string_is_returned() {
-        let strings = vec![
-            "d".to_string(),
-            "b".to_string(),
-            "c".to_string(),
-            "b".to_string(),
-            "c".to_string(),
-            "a".to_string(),
-        ];
+        let strings = string_vec!["d", "b", "c", "b", "c", "a",];
         let k = 2;
         assert_eq!("a".to_string(), kth_distinct(strings, k))
     }

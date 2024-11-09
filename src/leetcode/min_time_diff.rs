@@ -14,18 +14,16 @@ pub fn find_min_difference(time_points: Vec<String>) -> i32 {
 
 #[cfg(test)]
 mod tests {
+    use crate::string_vec;
+
     use super::find_min_difference;
 
     #[test]
     fn test() {
-        let times = vec!["23:59".to_string(), "00:00".to_string()];
+        let times = string_vec!["23:59", "00:00"];
         assert_eq!(1, find_min_difference(times));
 
-        let times = vec![
-            "00:00".to_string(),
-            "23:59".to_string(),
-            "00:00".to_string(),
-        ];
+        let times = string_vec!["00:00", "23:59", "00:00"];
         assert_eq!(0, find_min_difference(times))
     }
 }
