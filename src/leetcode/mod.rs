@@ -89,3 +89,4 @@ mod can_sort;
 mod maximum_xor;
 mod min_array_end;
 mod prime_set_bits;
+mod partition_labels;

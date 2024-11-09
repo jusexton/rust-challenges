@@ -242,6 +242,7 @@ programming challenges completed in other languages.
   (https://leetcode.com/problems/find-if-array-can-be-sorted)
 - Maximum XOR Query (https://leetcode.com/problems/maximum-xor-for-each-query)
 - Minimum Array End (https://leetcode.com/problems/minimum-array-end)
+- Partition Labels (https://leetcode.com/problems/partition-labels/)
 
 #### Hard
 
