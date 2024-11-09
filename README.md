@@ -4,8 +4,8 @@
 
 Programming challenges written in the Rust programming language
 
-Visit https://github.com/jusexton/all-challenges if you're interested in seeing programming challenges completed in
-other languages.
+Visit https://github.com/jusexton/all-challenges if you're interested in seeing
+programming challenges completed in other languages.
 
 ## Completed Programming Challenges
 
@@ -13,7 +13,7 @@ other languages.
 - [r/dailyprogrammer](#rdailyprogrammer)
 - [LeetCode](#leetcode)
 - [Other](#other)
- 
+
 ### Code Wars
 
 #### Kata 4
@@ -25,7 +25,8 @@ other languages.
 - Sum of Pairs (https://www.codewars.com/kata/54d81488b981293527000c8f)
 - Are They Same (https://www.codewars.com/kata/550498447451fbbd7600041c)
 - Josephus Survivor (https://www.codewars.com/kata/555624b601231dc7a400017a)
-- Perimeter of Squares in Rectangles (https://www.codewars.com/kata/559a28007caad2ac4e000083)
+- Perimeter of Squares in Rectangles
+  (https://www.codewars.com/kata/559a28007caad2ac4e000083)
 - Diamond (https://www.codewars.com/kata/5503013e34137eeeaa001648)
 - Fibonacci Product (https://www.codewars.com/kata/5541f58a944b85ce6d00006a)
 - Valid Parentheses (https://www.codewars.com/kata/52774a314c2333f0a7000688)
@@ -38,7 +39,8 @@ other languages.
 - Frequency Sort (https://www.codewars.com/kata/5a8d2bf60025e9163c0000bc)
 - Dead Fish Parse (https://www.codewars.com/kata/51e0007c1f9378fa810002a9)
 - Pascal Case (https://www.codewars.com/kata/587731fda577b3d1b0001196)
-- New Cashier Does Not Know Space or Shift (https://www.codewars.com/kata/5d23d89906f92a00267bb83d)
+- New Cashier Does Not Know Space or Shift
+  (https://www.codewars.com/kata/5d23d89906f92a00267bb83d)
 - Multiplication Table (https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08)
 - Nearest Prime (https://www.codewars.com/kata/5a946d9fba1bb5135100007c)
 - NATO (https://www.codewars.com/kata/586538146b56991861000293)
@@ -51,8 +53,10 @@ other languages.
 - Camel Case (https://www.codewars.com/kata/517abf86da9663f1d2000003)
 - Count Characters (https://www.codewars.com/kata/52efefcbcdf57161d4000091)
 - Position Average (https://www.codewars.com/kata/59f4a0acbee84576800000af)
-- Parse Bank Account Number (https://www.codewars.com/kata/597eeb0136f4ae84f9000001)
-- Sum Digits Raised to Consecutive Powers (https://www.codewars.com/kata/5626b561280a42ecc50000d1)
+- Parse Bank Account Number
+  (https://www.codewars.com/kata/597eeb0136f4ae84f9000001)
+- Sum Digits Raised to Consecutive Powers
+  (https://www.codewars.com/kata/5626b561280a42ecc50000d1)
 
 #### Kata 7
 
@@ -72,7 +76,8 @@ other languages.
 
 #### Kata 8
 
-- The Feast of Many Beasts (https://www.codewars.com/kata/5aa736a455f906981800360d)
+- The Feast of Many Beasts
+  (https://www.codewars.com/kata/5aa736a455f906981800360d)
 - First Non-Consecutive (https://www.codewars.com/kata/58f8a3a27a5c28d92e000144)
 - Repeating String (https://www.codewars.com/kata/57a0e5c372292dd76d000d7e)
 - Remove Whitespace (https://www.codewars.com/kata/57eae20f5500ad98e50002c5)
@@ -84,8 +89,8 @@ other languages.
 
 #### Easy
 
-- Letter Value
-  Sum (https://www.reddit.com/r/dailyprogrammer/comments/onfehl/20210719_challenge_399_easy_letter_value_sum/)
+- Letter Value Sum
+  (https://www.reddit.com/r/dailyprogrammer/comments/onfehl/20210719_challenge_399_easy_letter_value_sum/)
 
 ### LeetCode
 
@@ -95,73 +100,113 @@ other languages.
 - Perfect Square (https://leetcode.com/problems/valid-perfect-square/)
 - Third Maximum Number (https://leetcode.com/problems/third-maximum-number/)
 - Hamming Distance (https://leetcode.com/problems/hamming-distance)
-- Build an Array with Stack Operations (https://leetcode.com/problems/build-an-array-with-stack-operations/)
-- Second Largest Digit (https://leetcode.com/problems/second-largest-digit-in-a-string)
+- Build an Array with Stack Operations
+  (https://leetcode.com/problems/build-an-array-with-stack-operations/)
+- Second Largest Digit
+  (https://leetcode.com/problems/second-largest-digit-in-a-string)
 - Counting Sheep (https://www.codewars.com/kata/54edbc7200b811e956000556)
 - Robot Returns to Origin (https://leetcode.com/problems/robot-return-to-origin)
-- Consistent Strings (https://leetcode.com/problems/count-the-number-of-consistent-strings)
+- Consistent Strings
+  (https://leetcode.com/problems/count-the-number-of-consistent-strings)
 - Two Sum (https://leetcode.com/problems/two-sum/)
 - Merge Two Sorted Lists (https://leetcode.com/problems/merge-two-sorted-lists/)
-- Best Time to Buy and Sell Stock (https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
+- Best Time to Buy and Sell Stock
+  (https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
 - Plus One (https://leetcode.com/problems/plus-one/)
 - Climbing Stairs (https://leetcode.com/problems/climbing-stairs/)
-- Largest Odd Number (https://leetcode.com/problems/largest-odd-number-in-string/)
-- Number of Different Integers (https://leetcode.com/problems/number-of-different-integers-in-a-string)
-- Largest Substring Between Two Equal
-  Characters (https://leetcode.com/problems/largest-substring-between-two-equal-characters)
-- Alike Halves (https://leetcode.com/problems/determine-if-string-halves-are-alike)
-- Unique Number of Occurrences (https://leetcode.com/problems/unique-number-of-occurrences)
+- Largest Odd Number
+  (https://leetcode.com/problems/largest-odd-number-in-string/)
+- Number of Different Integers
+  (https://leetcode.com/problems/number-of-different-integers-in-a-string)
+- Largest Substring Between Two Equal Characters
+  (https://leetcode.com/problems/largest-substring-between-two-equal-characters)
+- Alike Halves
+  (https://leetcode.com/problems/determine-if-string-halves-are-alike)
+- Unique Number of Occurrences
+  (https://leetcode.com/problems/unique-number-of-occurrences)
 - Minimum Common Value (https://leetcode.com/problems/minimum-common-value)
-- Sort by Number of Bits (https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits)
+- Sort by Number of Bits
+  (https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits)
 - Make the String Great (https://leetcode.com/problems/make-the-string-great/)
 - Excel Column Number (https://leetcode.com/problems/excel-sheet-column-number/)
-- Intersection of Two Arrays (https://leetcode.com/problems/intersection-of-two-arrays-ii)
-- X of a kind in a deck of cards (https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)
-- Remove From Sorted Array (https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+- Intersection of Two Arrays
+  (https://leetcode.com/problems/intersection-of-two-arrays-ii)
+- X of a kind in a deck of cards
+  (https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/)
+- Remove From Sorted Array
+  (https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 - Sort the People (https://leetcode.com/problems/sort-the-people)
-- Max Repeating Substring (https://leetcode.com/problems/maximum-repeating-substring/)
-- Sort by Increasing Frequency (https://leetcode.com/problems/sort-array-by-increasing-frequency)
-- Maximum Odd Binary Number (https://leetcode.com/problems/maximum-odd-binary-number)
-- Maximum Count of Positive or Negative Integer (https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer)
+- Max Repeating Substring
+  (https://leetcode.com/problems/maximum-repeating-substring/)
+- Sort by Increasing Frequency
+  (https://leetcode.com/problems/sort-array-by-increasing-frequency)
+- Maximum Odd Binary Number
+  (https://leetcode.com/problems/maximum-odd-binary-number)
+- Maximum Count of Positive or Negative Integer
+  (https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer)
 - Alternating Digit Sum (https://leetcode.com/problems/alternating-digit-sum/)
-- Separate Digits (https://leetcode.com/problems/separate-the-digits-in-an-array)
+- Separate Digits
+  (https://leetcode.com/problems/separate-the-digits-in-an-array)
 - Shift Grid (https://leetcode.com/problems/shift-2d-grid)
-- Subtract Digit Product From Digit Sum (https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
-- Number of Senior Citizens (https://leetcode.com/problems/number-of-senior-citizens)
-- Kth Distinct String (https://leetcode.com/problems/kth-distinct-string-in-an-array)
-- Kth Largest in Stream (https://leetcode.com/problems/kth-largest-element-in-a-stream)
+- Subtract Digit Product From Digit Sum
+  (https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
+- Number of Senior Citizens
+  (https://leetcode.com/problems/number-of-senior-citizens)
+- Kth Distinct String
+  (https://leetcode.com/problems/kth-distinct-string-in-an-array)
+- Kth Largest in Stream
+  (https://leetcode.com/problems/kth-largest-element-in-a-stream)
 - Length of Last Word (https://leetcode.com/problems/length-of-last-word)
 - Isomorphic Strings (https://leetcode.com/problems/isomorphic-strings)
-- Minimum Bit Flips (https://leetcode.com/problems/minimum-bit-flips-to-convert-number)
-- Replace All Digits With Characters (https://leetcode.com/problems/replace-all-digits-with-characters)
+- Minimum Bit Flips
+  (https://leetcode.com/problems/minimum-bit-flips-to-convert-number)
+- Replace All Digits With Characters
+  (https://leetcode.com/problems/replace-all-digits-with-characters)
 - Sorting the Sentence (https://leetcode.com/problems/sorting-the-sentence/)
-- Positions of Large Groups (https://leetcode.com/problems/positions-of-large-groups)
+- Positions of Large Groups
+  (https://leetcode.com/problems/positions-of-large-groups)
 - Backspace Compare (https://leetcode.com/problems/backspace-string-compare/)
-- Uncommon Words from Two Sentences (https://leetcode.com/problems/uncommon-words-from-two-sentences)
-- Rank Transform Array (https://leetcode.com/problems/rank-transform-of-an-array)
-- Minimum String Length After Removing Substrings (https://leetcode.com/problems/minimum-string-length-after-removing-substrings)
-- Make Fancy String (https://leetcode.com/problems/delete-characters-to-make-fancy-string)
+- Uncommon Words from Two Sentences
+  (https://leetcode.com/problems/uncommon-words-from-two-sentences)
+- Rank Transform Array
+  (https://leetcode.com/problems/rank-transform-of-an-array)
+- Minimum String Length After Removing Substrings
+  (https://leetcode.com/problems/minimum-string-length-after-removing-substrings)
+- Make Fancy String
+  (https://leetcode.com/problems/delete-characters-to-make-fancy-string)
 - Common Characters (https://leetcode.com/problems/find-common-characters)
+- Prime Number of Set Bits in Binary Representation
+  (https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)
 
 #### Medium
 
 - The Largest Number (https://leetcode.com/problems/largest-number/)
-- Authentication Manager (https://leetcode.com/problems/design-authentication-manager/)
-- Best Time to Buy and Sell Stock (https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
-- Longest Substring Without Repeating
-  Characters (https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-- Kth Largest Element (https://leetcode.com/problems/kth-largest-element-in-an-array/)
-- Rearrange Elements by Sign (https://leetcode.com/problems/rearrange-array-elements-by-sign/)
-- Lonely Numbers (https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)
+- Authentication Manager
+  (https://leetcode.com/problems/design-authentication-manager/)
+- Best Time to Buy and Sell Stock
+  (https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)
+- Longest Substring Without Repeating Characters
+  (https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- Kth Largest Element
+  (https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- Rearrange Elements by Sign
+  (https://leetcode.com/problems/rearrange-array-elements-by-sign/)
+- Lonely Numbers
+  (https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)
 - Design Bitset (https://leetcode.com/problems/design-bitset)
-- Minimum Rounds (https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks)
-- Minimum Steps to Anagram (https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram)
-- Zero or One Losses (https://leetcode.com/problems/find-players-with-zero-or-one-losses)
+- Minimum Rounds
+  (https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks)
+- Minimum Steps to Anagram
+  (https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram)
+- Zero or One Losses
+  (https://leetcode.com/problems/find-players-with-zero-or-one-losses)
 - Randomized Set (https://leetcode.com/problems/insert-delete-getrandom-o1)
-- Remove Occurrences (https://leetcode.com/problems/remove-all-occurrences-of-a-substring)
-- Divide Array Into Arrays With Max
-  Difference (https://leetcode.com/problems/divide-array-into-arrays-with-max-difference)
-- Remove Minimum to Make Valid Parentheses (https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)
+- Remove Occurrences
+  (https://leetcode.com/problems/remove-all-occurrences-of-a-substring)
+- Divide Array Into Arrays With Max Difference
+  (https://leetcode.com/problems/divide-array-into-arrays-with-max-difference)
+- Remove Minimum to Make Valid Parentheses
+  (https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses)
 - Sum Root to Leaf (https://leetcode.com/problems/sum-root-to-leaf-numbers)
 - Repeated DNA Sequence (https://leetcode.com/problems/repeated-dna-sequences/)
 - Rotate Array (https://leetcode.com/problems/rotate-array/)
@@ -169,29 +214,40 @@ other languages.
 - Rotate Digits (https://leetcode.com/problems/rotated-digits)
 - Sort Jumbled Numbers (https://leetcode.com/problems/sort-the-jumbled-numbers)
 - Custom Sort String (https://leetcode.com/problems/custom-sort-string)
-- Product of Array Except Self (https://leetcode.com/problems/product-of-array-except-self)
-- Minimum Number of Operations to Make Array Empty (https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty)
-- Next Beautiful Number (https://leetcode.com/problems/next-greater-numerically-balanced-number)
+- Product of Array Except Self
+  (https://leetcode.com/problems/product-of-array-except-self)
+- Minimum Number of Operations to Make Array Empty
+  (https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty)
+- Next Beautiful Number
+  (https://leetcode.com/problems/next-greater-numerically-balanced-number)
 - Valid Parenthesis (https://leetcode.com/problems/valid-parenthesis-string)
-- XOR Queries of Sub Array (https://leetcode.com/problems/xor-queries-of-a-subarray)
-- Minimum Time Difference (https://leetcode.com/problems/minimum-time-difference)
-- Maximum Product (https://leetcode.com/problems/maximum-product-after-k-increments)
-- Custom Stack (https://leetcode.com/problems/design-a-stack-with-increment-operation)
+- XOR Queries of Sub Array
+  (https://leetcode.com/problems/xor-queries-of-a-subarray)
+- Minimum Time Difference
+  (https://leetcode.com/problems/minimum-time-difference)
+- Maximum Product
+  (https://leetcode.com/problems/maximum-product-after-k-increments)
+- Custom Stack
+  (https://leetcode.com/problems/design-a-stack-with-increment-operation)
 - Boats to Save People (https://leetcode.com/problems/boats-to-save-people)
-- Minimum Number of Swaps to Balance String (https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced)
+- Minimum Number of Swaps to Balance String
+  (https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced)
 - Gas Stations (https://leetcode.com/problems/gas-station/)
-- Separate Black and White Balls (https://leetcode.com/problems/separate-black-and-white-balls)
-- Maximum Sum of Hourglass (https://leetcode.com/problems/maximum-sum-of-an-hourglass/)
+- Separate Black and White Balls
+  (https://leetcode.com/problems/separate-black-and-white-balls)
+- Maximum Sum of Hourglass
+  (https://leetcode.com/problems/maximum-sum-of-an-hourglass/)
 - String Compression (https://leetcode.com/problems/string-compression-iii)
-- Find If Array Can Be Sorted (https://leetcode.com/problems/find-if-array-can-be-sorted)
+- Find If Array Can Be Sorted
+  (https://leetcode.com/problems/find-if-array-can-be-sorted)
 - Maximum XOR Query (https://leetcode.com/problems/maximum-xor-for-each-query)
 - Minimum Array End (https://leetcode.com/problems/minimum-array-end)
 
 #### Hard
 
-- Kth Smallest Pair Distance (https://leetcode.com/problems/find-k-th-smallest-pair-distance)
+- Kth Smallest Pair Distance
+  (https://leetcode.com/problems/find-k-th-smallest-pair-distance)
 
 ### Other
-
 
 - Readability (https://cs50.harvard.edu/x/2021/psets/2/readability/)

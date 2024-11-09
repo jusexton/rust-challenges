@@ -88,3 +88,4 @@ mod string_compression;
 mod can_sort;
 mod maximum_xor;
 mod min_array_end;
+mod prime_set_bits;
