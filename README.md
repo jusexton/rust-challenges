@@ -185,6 +185,7 @@ other languages.
 - String Compression (https://leetcode.com/problems/string-compression-iii)
 - Find If Array Can Be Sorted (https://leetcode.com/problems/find-if-array-can-be-sorted)
 - Maximum XOR Query (https://leetcode.com/problems/maximum-xor-for-each-query)
+- Minimum Array End (https://leetcode.com/problems/minimum-array-end)
 
 #### Hard
 
