@@ -1,6 +1,6 @@
 # Rust Programming Challenges
 
-![](https://github.com/jusexton/rust-challenges/workflows/build/badge.svg)
+[![build](https://github.com/jusexton/rust-challenges/actions/workflows/build.yml/badge.svg)](https://github.com/jusexton/rust-challenges/actions/workflows/build.yml)
 
 Programming challenges written in the Rust programming language
 
