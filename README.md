@@ -244,6 +244,7 @@ programming challenges completed in other languages.
 - Minimum Array End (https://leetcode.com/problems/minimum-array-end)
 - Partition Labels (https://leetcode.com/problems/partition-labels/)
 - Shortest SubArray With Or At Least K II (https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii)
+- Range Sum Query (https://leetcode.com/problems/range-sum-query-mutable/)
 
 #### Hard
 

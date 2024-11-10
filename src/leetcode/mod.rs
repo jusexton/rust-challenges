@@ -91,3 +91,4 @@ mod min_array_end;
 mod prime_set_bits;
 mod partition_labels;
 mod shortest_subarray_xor;
+mod range_sum_query;
