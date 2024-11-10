@@ -243,6 +243,7 @@ programming challenges completed in other languages.
 - Maximum XOR Query (https://leetcode.com/problems/maximum-xor-for-each-query)
 - Minimum Array End (https://leetcode.com/problems/minimum-array-end)
 - Partition Labels (https://leetcode.com/problems/partition-labels/)
+- Shortest SubArray With Or At Least K II (https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii)
 
 #### Hard
 
