@@ -92,3 +92,4 @@ mod prime_set_bits;
 mod partition_labels;
 mod shortest_subarray_xor;
 mod range_sum_query;
+mod prime_subtraction;
