@@ -246,6 +246,7 @@ programming challenges completed in other languages.
 - Shortest SubArray With Or At Least K II (https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii)
 - Range Sum Query (https://leetcode.com/problems/range-sum-query-mutable/)
 - Prime Subtraction (https://leetcode.com/problems/prime-subtraction-operation)
+- Duplicate File in System (https://leetcode.com/problems/find-duplicate-file-in-system)
 
 #### Hard
 
