@@ -247,6 +247,7 @@ programming challenges completed in other languages.
 - Range Sum Query (https://leetcode.com/problems/range-sum-query-mutable/)
 - Prime Subtraction (https://leetcode.com/problems/prime-subtraction-operation)
 - Duplicate File in System (https://leetcode.com/problems/find-duplicate-file-in-system)
+- Most Beautiful Item for Each Query (https://leetcode.com/problems/most-beautiful-item-for-each-query)
 
 #### Hard
 
