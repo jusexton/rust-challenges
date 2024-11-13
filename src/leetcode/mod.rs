@@ -95,3 +95,4 @@ mod range_sum_query;
 mod prime_subtraction;
 mod duplicate_file;
 mod max_beauty;
+mod count_fair_pairs;
