@@ -249,6 +249,7 @@ programming challenges completed in other languages.
 - Duplicate File in System (https://leetcode.com/problems/find-duplicate-file-in-system)
 - Most Beautiful Item for Each Query (https://leetcode.com/problems/most-beautiful-item-for-each-query)
 - Count Number of Fair Pairs(https://leetcode.com/problems/count-the-number-of-fair-pairs)
+- Sum of Square Numbers (https://leetcode.com/problems/sum-of-square-numbers)
 
 #### Hard
 
