@@ -97,3 +97,4 @@ mod duplicate_file;
 mod max_beauty;
 mod count_fair_pairs;
 mod square_numbers;
+mod minimized_maximum;
