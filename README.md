@@ -250,7 +250,8 @@ programming challenges completed in other languages.
 - Most Beautiful Item for Each Query (https://leetcode.com/problems/most-beautiful-item-for-each-query)
 - Count Number of Fair Pairs(https://leetcode.com/problems/count-the-number-of-fair-pairs)
 - Sum of Square Numbers (https://leetcode.com/problems/sum-of-square-numbers)
-_ Minimized Maximum of Products Distributed to Any Store (https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store)
+- Minimized Maximum of Products Distributed to Any Store (https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store)
+- Remove K Digits (https://leetcode.com/problems/remove-k-digits)
 
 #### Hard
 

@@ -98,3 +98,4 @@ mod max_beauty;
 mod count_fair_pairs;
 mod square_numbers;
 mod minimized_maximum;
+mod remove_k_digits;
