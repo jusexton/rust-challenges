@@ -252,6 +252,7 @@ programming challenges completed in other languages.
 - Sum of Square Numbers (https://leetcode.com/problems/sum-of-square-numbers)
 - Minimized Maximum of Products Distributed to Any Store (https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store)
 - Remove K Digits (https://leetcode.com/problems/remove-k-digits)
+- Range Frequency Queries (https://leetcode.com/problems/range-frequency-queries)
 
 #### Hard
 
