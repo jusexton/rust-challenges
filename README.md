@@ -177,6 +177,7 @@ programming challenges completed in other languages.
 - Common Characters (https://leetcode.com/problems/find-common-characters)
 - Prime Number of Set Bits in Binary Representation
   (https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)
+- Make Square With Same Color (https://leetcode.com/problems/make-a-square-with-the-same-color/)
 
 #### Medium
 
