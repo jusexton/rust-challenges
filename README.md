@@ -256,6 +256,7 @@ programming challenges completed in other languages.
 - Remove K Digits (https://leetcode.com/problems/remove-k-digits)
 - Range Frequency Queries (https://leetcode.com/problems/range-frequency-queries)
 - Find the Power of K Size Sub-Arrays (https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i)
+- Added K Diff Pairs in Array (https://leetcode.com/problems/k-diff-pairs-in-an-array)
 
 #### Hard
 
