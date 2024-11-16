@@ -100,3 +100,4 @@ mod square_numbers;
 mod minimized_maximum;
 mod remove_k_digits;
 mod range_freq;
+mod power_of_subarrays;

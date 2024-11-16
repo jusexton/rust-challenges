@@ -253,6 +253,7 @@ programming challenges completed in other languages.
 - Minimized Maximum of Products Distributed to Any Store (https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store)
 - Remove K Digits (https://leetcode.com/problems/remove-k-digits)
 - Range Frequency Queries (https://leetcode.com/problems/range-frequency-queries)
+- Find the Power of K Size Sub-Arrays (https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i)
 
 #### Hard
 
