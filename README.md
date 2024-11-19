@@ -257,6 +257,7 @@ programming challenges completed in other languages.
 - Range Frequency Queries (https://leetcode.com/problems/range-frequency-queries)
 - Find the Power of K Size Sub-Arrays (https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i)
 - Added K Diff Pairs in Array (https://leetcode.com/problems/k-diff-pairs-in-an-array)
+- Maximum Sum of Distinct SubArray (https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k)
 
 #### Hard
 
