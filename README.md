@@ -260,6 +260,7 @@ programming challenges completed in other languages.
 - Added K Diff Pairs in Array (https://leetcode.com/problems/k-diff-pairs-in-an-array)
 - Maximum Sum of Distinct SubArray (https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k)
 - Bitwise Or Trailing Zeroes (https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)
+- Cinema Seat Allocation (https://leetcode.com/problems/cinema-seat-allocation)
 
 #### Hard
 

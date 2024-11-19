@@ -107,3 +107,4 @@ mod find_pairs;
 mod max_subarray_sum;
 mod trailing_zero;
 mod distance_value;
+mod cinema_seats;
