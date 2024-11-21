@@ -109,3 +109,4 @@ mod trailing_zero;
 mod distance_value;
 mod cinema_seats;
 mod take_k_characters;
+mod unguarded_cells;

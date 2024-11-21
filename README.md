@@ -262,6 +262,7 @@ programming challenges completed in other languages.
 - Bitwise Or Trailing Zeroes (https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)
 - Cinema Seat Allocation (https://leetcode.com/problems/cinema-seat-allocation)
 - Take K Characters From Left and Right (https://leetcode.com/problems/take-k-of-each-character-from-left-and-right)
+- Unguarded Cells (https://leetcode.com/problems/count-unguarded-cells-in-the-grid)
 
 #### Hard
 
