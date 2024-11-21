@@ -111,3 +111,4 @@ mod cinema_seats;
 mod take_k_characters;
 mod unguarded_cells;
 mod find_difference;
+mod make_increasing;

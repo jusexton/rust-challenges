@@ -181,6 +181,7 @@ programming challenges completed in other languages.
 - Find Integer Add to Array (https://leetcode.com/problems/find-the-integer-added-to-array-i)
 - Distance Value Between Two Arrays (https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 - Find the Difference (https://leetcode.com/problems/find-the-difference)
+- Minimum Operations to Make Array Increasing (https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)
 
 #### Medium
 
