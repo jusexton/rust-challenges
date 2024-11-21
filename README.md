@@ -180,6 +180,7 @@ programming challenges completed in other languages.
 - Make Square With Same Color (https://leetcode.com/problems/make-a-square-with-the-same-color/)
 - Find Integer Add to Array (https://leetcode.com/problems/find-the-integer-added-to-array-i)
 - Distance Value Between Two Arrays (https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
+- Find the Difference (https://leetcode.com/problems/find-the-difference)
 
 #### Medium
 
