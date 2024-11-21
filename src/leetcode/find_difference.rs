@@ -6,7 +6,6 @@ pub fn find_the_difference(s: String, t: String) -> char {
     char::from_u32(sum_bytes(&t) - sum_bytes(&s)).unwrap()
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::find_the_difference;
