@@ -261,6 +261,7 @@ programming challenges completed in other languages.
 - Maximum Sum of Distinct SubArray (https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k)
 - Bitwise Or Trailing Zeroes (https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)
 - Cinema Seat Allocation (https://leetcode.com/problems/cinema-seat-allocation)
+- Take K Characters From Left and Right (https://leetcode.com/problems/take-k-of-each-character-from-left-and-right)
 
 #### Hard
 
