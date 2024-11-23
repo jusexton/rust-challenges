@@ -15,9 +15,9 @@ pub fn rotate_the_box(mut box_: Vec<Vec<char>>) -> Vec<Vec<char>> {
 
     let mut rotated_box = vec![vec!['.'; box_.len()]; box_[0].len()];
     for i in 0..box_.len() {
-        for j in 0..box_[0].len() {
+        (0..box_[0].len()).for_each(|j| {
             rotated_box[j][box_.len() - 1 - i] = box_[i][j];
-        }
+        });
     }
     rotated_box
 }
