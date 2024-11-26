@@ -182,6 +182,7 @@ programming challenges completed in other languages.
 - Distance Value Between Two Arrays (https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 - Find the Difference (https://leetcode.com/problems/find-the-difference)
 - Minimum Operations to Make Array Increasing (https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)
+- Single Number (https://leetcode.com/problems/single-number/)
 
 #### Medium
 

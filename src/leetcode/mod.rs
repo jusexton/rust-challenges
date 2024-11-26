@@ -114,3 +114,4 @@ mod find_difference;
 mod make_increasing;
 mod rotate_box;
 mod find_champion;
+mod single_number;
