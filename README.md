@@ -266,6 +266,7 @@ programming challenges completed in other languages.
 - Take K Characters From Left and Right (https://leetcode.com/problems/take-k-of-each-character-from-left-and-right)
 - Unguarded Cells (https://leetcode.com/problems/count-unguarded-cells-in-the-grid)
 - Rotate the Box (https://leetcode.com/problems/rotating-the-box)
+- Find Champion (https://leetcode.com/problems/find-champion-ii/)
 
 #### Hard
 
