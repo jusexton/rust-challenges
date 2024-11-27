@@ -116,3 +116,4 @@ mod rotate_box;
 mod find_champion;
 mod single_number;
 mod single_number_ii;
+mod invert_tree;

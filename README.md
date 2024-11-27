@@ -147,7 +147,7 @@ programming challenges completed in other languages.
 - [Find the Difference](https://leetcode.com/problems/find-the-difference)
 - [Minimum Operations to Make Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)
 - [Single Number](https://leetcode.com/problems/single-number/)
-
+- [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 #### Medium
 
 - [The Largest Number](https://leetcode.com/problems/largest-number/)
