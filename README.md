@@ -151,6 +151,7 @@ programming challenges completed in other languages.
 - [Double Exists](https://leetcode.com/problems/check-if-n-and-its-double-exist)
 - [Word Occurs as Prefix in Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence)
 - [Parking System](https://leetcode.com/problems/design-parking-system)
+- [Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs)
 
 #### Medium
 
