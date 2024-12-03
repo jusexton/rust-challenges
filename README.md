@@ -215,6 +215,7 @@ programming challenges completed in other languages.
 - [Rotate the Box](https://leetcode.com/problems/rotating-the-box)
 - [Find Champion II](https://leetcode.com/problems/find-champion-ii/)
 - [Single Number II](https://leetcode.com/problems/find-champion-ii/)
+- [Longest String](https://leetcode.com/problems/construct-the-longest-new-string/)
 
 #### Hard
 

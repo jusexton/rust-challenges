@@ -121,3 +121,4 @@ mod double_exists;
 mod prefix_occurence;
 mod parking_system;
 mod str_pairs;
+mod longest_str;
