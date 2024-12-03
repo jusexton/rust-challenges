@@ -216,6 +216,7 @@ programming challenges completed in other languages.
 - [Find Champion II](https://leetcode.com/problems/find-champion-ii/)
 - [Single Number II](https://leetcode.com/problems/find-champion-ii/)
 - [Longest String](https://leetcode.com/problems/construct-the-longest-new-string/)
+- [Adding Spaces](https://leetcode.com/problems/adding-spaces-to-a-string)
 
 #### Hard
 
