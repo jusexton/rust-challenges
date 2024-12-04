@@ -1,13 +1,29 @@
+// 1. First solution
+// fn make_good(s: String) -> String {
+//     let mut result = String::with_capacity(s.len());
+//     for char in s.chars() {
+//         if !result.is_empty() && (char as u8).abs_diff(result.chars().last().unwrap() as u8) == 32 {
+//             result.pop();
+//         } else {
+//             result.push(char);
+//         }
+//     }
+//     result
+// }
+
 fn make_good(s: String) -> String {
-    let mut result = String::with_capacity(s.len());
-    for char in s.chars() {
-        if !result.is_empty() && (char as u8).abs_diff(result.chars().last().unwrap() as u8) == 32 {
-            result.pop();
-        } else {
-            result.push(char);
+    let mut res = String::new();
+    for ch in s.into_bytes() {
+        match res.chars().last() {
+            Some(last) if (last as u8).abs_diff(ch) == 32 => {
+                res.pop();
+            }
+            _ => {
+                res.push(ch as char);
+            }
         }
     }
-    result
+    res
 }
 
 #[cfg(test)]
