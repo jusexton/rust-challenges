@@ -217,6 +217,7 @@ programming challenges completed in other languages.
 - [Single Number II](https://leetcode.com/problems/find-champion-ii/)
 - [Longest String](https://leetcode.com/problems/construct-the-longest-new-string/)
 - [Adding Spaces](https://leetcode.com/problems/adding-spaces-to-a-string)
+- [Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments)
 
 #### Hard
 
