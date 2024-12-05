@@ -218,6 +218,7 @@ programming challenges completed in other languages.
 - [Longest String](https://leetcode.com/problems/construct-the-longest-new-string/)
 - [Adding Spaces](https://leetcode.com/problems/adding-spaces-to-a-string)
 - [Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments)
+- [Move Pieces to Obtain String](https://leetcode.com/problems/move-pieces-to-obtain-a-string)
 
 #### Hard
 
