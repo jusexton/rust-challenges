@@ -126,3 +126,4 @@ mod add_spaces;
 mod cyclic_increments;
 mod move_pieces;
 mod max_numbers_in_range;
+mod balls_in_bag;

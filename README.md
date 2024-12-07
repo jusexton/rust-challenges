@@ -220,6 +220,7 @@ programming challenges completed in other languages.
 - [Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments)
 - [Move Pieces to Obtain String](https://leetcode.com/problems/move-pieces-to-obtain-a-string)
 - [Maximum Number of Integer from Range](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i)
+- [Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag)
 
 #### Hard
 
