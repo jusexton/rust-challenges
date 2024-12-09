@@ -226,6 +226,7 @@ programming challenges completed in other languages.
 #### Hard
 
 - [Kth Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance)
+- [Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze)
 
 ### Other
 
