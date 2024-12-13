@@ -152,6 +152,7 @@ programming challenges completed in other languages.
 - [Word Occurs as Prefix in Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence)
 - [Parking System](https://leetcode.com/problems/design-parking-system)
 - [Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs)
+- [Take Gifts from the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile)
 
 #### Medium
 

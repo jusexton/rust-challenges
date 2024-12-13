@@ -131,3 +131,4 @@ mod non_overlapping_events;
 mod grid_illumination;
 mod escape_maze;
 mod score_array;
+mod take_gifts;
