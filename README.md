@@ -225,6 +225,7 @@ programming challenges completed in other languages.
 - [Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag)
 - [Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events)
 - [Find Score of Array After Marking](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements)
+- [Merge Intervals](https://leetcode.com/problems/merge-intervals)
 
 #### Hard
 
