@@ -18,7 +18,7 @@ macro_rules! cell_vec {
     () => {
         Vec::<Vec<i32>>::new()
     };
-    ($($t:tt),*) => {
-        vec![$(vec![$t.0, $t.1]),*]
+    ($($t:tt),+ $(,)?) => {
+        vec![$(vec![$t.0, $t.1]),+]
     };
 }

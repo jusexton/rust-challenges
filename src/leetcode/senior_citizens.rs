@@ -13,7 +13,7 @@ mod tests {
 
     #[test]
     fn returns_number_of_senior_citizens() {
-        let details = string_vec!["7868190130M7522", "5303914400F9211", "9273338290F4010",];
+        let details = string_vec!["7868190130M7522", "5303914400F9211", "9273338290F4010"];
         assert_eq!(2, count_seniors(details))
     }
 }

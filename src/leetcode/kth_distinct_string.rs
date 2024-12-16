@@ -26,7 +26,7 @@ mod tests {
 
     #[test]
     fn kth_distinct_string_is_returned() {
-        let strings = string_vec!["d", "b", "c", "b", "c", "a",];
+        let strings = string_vec!["d", "b", "c", "b", "c", "a"];
         let k = 2;
         assert_eq!("a".to_string(), kth_distinct(strings, k))
     }
