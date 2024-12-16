@@ -153,6 +153,7 @@ programming challenges completed in other languages.
 - [Parking System](https://leetcode.com/problems/design-parking-system)
 - [Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs)
 - [Take Gifts from the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile)
+- [Array State After K Multiplications](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i)
 
 #### Medium
 
