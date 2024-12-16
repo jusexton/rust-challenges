@@ -231,6 +231,7 @@ programming challenges completed in other languages.
 
 - [Kth Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance)
 - [Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze)
+- [Graph With Stortest Path](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/)
 
 ### Other
 
