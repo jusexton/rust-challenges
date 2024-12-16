@@ -30,6 +30,7 @@ mod escape_maze;
 mod excel_sheet_number;
 mod fancy_string;
 mod fibonacci;
+mod final_value;
 mod find_champion;
 mod find_difference;
 mod find_integer;

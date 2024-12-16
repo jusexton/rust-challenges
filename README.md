@@ -154,6 +154,7 @@ programming challenges completed in other languages.
 - [Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs)
 - [Take Gifts from the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile)
 - [Array State After K Multiplications](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i)
+- [Final Value of Variable After Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 
 #### Medium
 
