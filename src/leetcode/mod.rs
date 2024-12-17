@@ -73,6 +73,7 @@ mod min_array_end;
 mod min_bit_flips;
 mod min_str_len;
 mod min_time_diff;
+mod minimize_pair_sum;
 mod minimized_maximum;
 mod minimum_common_value;
 mod minimum_rounds;

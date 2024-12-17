@@ -229,6 +229,7 @@ programming challenges completed in other languages.
 - [Find Score of Array After Marking](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements)
 - [Merge Intervals](https://leetcode.com/problems/merge-intervals)
 - [Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit)
+- [Minimize Max Pair Sum](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)
 
 #### Hard
 
