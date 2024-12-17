@@ -1,16 +1,16 @@
 use std::collections::HashMap;
 
-pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
+pub fn two_sum(numbers: Vec<i32>, target: i32) -> Vec<i32> {
     let mut compliments = HashMap::new();
-    nums.iter()
-        .enumerate()
-        .find_map(|(i, n)| {
-            compliments
-                .get(n)
-                .map(|j| vec![i as i32, *j])
-                .or_else(|| compliments.insert(target - n, i as i32).and(None))
-        })
-        .unwrap_or(vec![-1, -1])
+    for (number, idx) in numbers.iter().zip(0..) {
+        let diff = target - number;
+        if let Some(&prev_idx) = compliments.get(&diff) {
+            return vec![prev_idx, idx];
+        }
+        compliments.insert(number, idx);
+    }
+
+    vec![-1, -1]
 }
 
 #[cfg(test)]
