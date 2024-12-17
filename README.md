@@ -158,6 +158,7 @@ programming challenges completed in other languages.
 - [Substring With Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)
 - [Remove Element](https://leetcode.com/problems/remove-element)
 - [Majority Element](https://leetcode.com/problems/majority-element)
+- [First Occurance](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string)
 
 #### Medium
 

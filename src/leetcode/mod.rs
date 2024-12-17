@@ -36,6 +36,7 @@ mod find_champion;
 mod find_difference;
 mod find_integer;
 mod find_pairs;
+mod first_occurrance;
 mod freq_sort;
 mod gas_station;
 mod good_substr;
