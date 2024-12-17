@@ -155,6 +155,7 @@ programming challenges completed in other languages.
 - [Take Gifts from the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile)
 - [Array State After K Multiplications](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i)
 - [Final Value of Variable After Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
+- [Substring With Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)
 
 #### Medium
 

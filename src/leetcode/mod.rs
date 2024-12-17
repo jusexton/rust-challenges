@@ -37,6 +37,7 @@ mod find_integer;
 mod find_pairs;
 mod freq_sort;
 mod gas_station;
+mod good_substr;
 mod graph_shortest_path;
 mod grid_illumination;
 mod hamming_distance;
