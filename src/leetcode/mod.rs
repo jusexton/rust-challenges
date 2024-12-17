@@ -97,6 +97,7 @@ mod range_sum_query;
 mod rank_transform;
 mod rearrange_by_sign;
 mod remove_duplicates;
+mod remove_element;
 mod remove_k_digits;
 mod remove_occurrences;
 mod remove_parentheses;
