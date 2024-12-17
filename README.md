@@ -233,6 +233,7 @@ programming challenges completed in other languages.
 - [Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit)
 - [Minimize Max Pair Sum](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)
 - [Jump Game](https://leetcode.com/problems/jump-game)
+- [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)
 
 #### Hard
 
