@@ -98,6 +98,7 @@ mod remove_duplicates;
 mod remove_k_digits;
 mod remove_occurrences;
 mod remove_parentheses;
+mod repeat_limit;
 mod repeated_dna;
 mod replace_digits;
 mod return_to_origin;
