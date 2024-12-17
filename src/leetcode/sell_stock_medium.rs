@@ -1,15 +1,9 @@
 fn max_profit(prices: Vec<i32>) -> i32 {
-    let mut total_profit = 0;
-
-    for price_window in prices.windows(2) {
-        let previous_day = price_window[0];
-        let current_day = price_window[1];
-        if previous_day < current_day {
-            total_profit += current_day - previous_day;
-        }
-    }
-
-    total_profit
+    prices
+        .windows(2)
+        .filter(|window| window[0] < window[1])
+        .map(|window| window[1] - window[0])
+        .sum()
 }
 
 #[cfg(test)]
