@@ -157,6 +157,7 @@ programming challenges completed in other languages.
 - [Final Value of Variable After Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 - [Substring With Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)
 - [Remove Element](https://leetcode.com/problems/remove-element)
+- [Majority Element](https://leetcode.com/problems/majority-element)
 
 #### Medium
 
