@@ -12,6 +12,7 @@ mod beautiful_number;
 mod bitset;
 mod boats;
 mod build_array;
+mod can_jump;
 mod can_make_square;
 mod can_sort;
 mod cinema_seats;
