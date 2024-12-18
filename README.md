@@ -160,6 +160,7 @@ programming challenges completed in other languages.
 - [Majority Element](https://leetcode.com/problems/majority-element)
 - [First Occurance](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string)
 - [Is Subsequence](https://leetcode.com/problems/is-subsequence)
+- [Final Prices After Discounts](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop)
 
 #### Medium
 

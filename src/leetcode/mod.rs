@@ -23,6 +23,7 @@ mod count_fair_pairs;
 mod custom_sort;
 mod custom_stack;
 mod cyclic_increments;
+mod discounted_prices;
 mod distance_value;
 mod divide_array;
 mod double_exists;
