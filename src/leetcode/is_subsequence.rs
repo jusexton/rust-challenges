@@ -1,21 +1,12 @@
 pub fn is_subsequence(s: String, t: String) -> bool {
-    if s.len() > t.len() || s.len() == 0 {
-        return false;
-    }
-
-    let (mut s_idx, mut t_idx) = (0, 0);
+    let (mut i, mut j) = (0, 0);
     let s = s.as_bytes();
     let t = t.as_bytes();
-
-    while t_idx < t.len() {
-        if s[s_idx] == t[t_idx] {
-            s_idx += 1;
-            if s_idx == s.len() {
-                return true;
-            }
+    while i < s.len() && j < t.len() {
+        if s[i] == t[j] {
+            i += 1;
         }
-        t_idx += 1;
+        j += 1;
     }
-
-    false
+    i == s.len()
 }
