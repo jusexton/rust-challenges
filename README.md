@@ -236,6 +236,7 @@ programming challenges completed in other languages.
 - [Minimize Max Pair Sum](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)
 - [Jump Game](https://leetcode.com/problems/jump-game)
 - [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)
+- [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)
 
 #### Hard
 
