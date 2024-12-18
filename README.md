@@ -159,6 +159,7 @@ programming challenges completed in other languages.
 - [Remove Element](https://leetcode.com/problems/remove-element)
 - [Majority Element](https://leetcode.com/problems/majority-element)
 - [First Occurance](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string)
+- [Is Subsequence](https://leetcode.com/problems/is-subsequence)
 
 #### Medium
 

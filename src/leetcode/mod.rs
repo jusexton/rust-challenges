@@ -46,6 +46,7 @@ mod hamming_distance;
 mod hour_glass_sum;
 mod intersection_two;
 mod invert_tree;
+mod is_subsequence;
 mod isomorphic;
 mod k_multiplications;
 mod kth_distinct_string;
