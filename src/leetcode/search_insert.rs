@@ -1,3 +1,11 @@
+// pub fn search_insert(numbers: Vec<i32>, target: i32) -> i32 {
+//     let idx = match numbers.binary_search(&target) {
+//         Ok(i) => i,
+//         Err(i) => i,
+//     };
+//     idx as i32
+// }
+
 use std::cmp::Ordering;
 
 pub fn search_insert(numbers: Vec<i32>, target: i32) -> i32 {
