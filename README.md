@@ -241,6 +241,7 @@ programming challenges completed in other languages.
 - [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)
 - [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)
 - [Container With Most Water](https://leetcode.com/problems/container-with-most-water)
+- [Max Chunks to Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted)
 
 #### Hard
 

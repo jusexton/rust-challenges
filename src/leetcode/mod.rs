@@ -65,6 +65,7 @@ mod make_increasing;
 mod make_string_great;
 mod max_beauty;
 mod max_binary_number;
+mod max_chunks;
 mod max_numbers_in_range;
 mod max_positive_negative;
 mod max_repeating_substr;
