@@ -164,6 +164,7 @@ programming challenges completed in other languages.
 - [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer)
 - [Binary Search](https://leetcode.com/problems/binary-search)
+- [Binary Search Insert](https://leetcode.com/problems/search-insert-position)
 
 #### Medium
 

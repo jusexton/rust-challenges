@@ -152,3 +152,4 @@ mod zero_or_one;
 mod zigzag_conversion;
 mod valid_sudoku;
 mod binary_search;
+mod search_insert;
