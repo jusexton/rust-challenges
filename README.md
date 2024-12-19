@@ -161,6 +161,7 @@ programming challenges completed in other languages.
 - [First Occurance](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string)
 - [Is Subsequence](https://leetcode.com/problems/is-subsequence)
 - [Final Prices After Discounts](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop)
+- [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
 
 #### Medium
 
