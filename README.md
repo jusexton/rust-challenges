@@ -162,6 +162,7 @@ programming challenges completed in other languages.
 - [Is Subsequence](https://leetcode.com/problems/is-subsequence)
 - [Final Prices After Discounts](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop)
 - [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
+- [Roman to Integer](https://leetcode.com/problems/roman-to-integer)
 
 #### Medium
 

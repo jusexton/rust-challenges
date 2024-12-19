@@ -111,6 +111,7 @@ mod repeat_limit;
 mod repeated_dna;
 mod replace_digits;
 mod return_to_origin;
+mod roman_to_int;
 mod rotate_array;
 mod rotate_box;
 mod rotate_digits;
