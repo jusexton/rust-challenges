@@ -1,5 +1,6 @@
 use std::collections::HashSet;
 
+#[allow(clippy::needless_range_loop)]
 pub fn is_valid_sudoku(board: Vec<Vec<char>>) -> bool {
     let mut seen = HashSet::new();
     for i in 0..9 {
