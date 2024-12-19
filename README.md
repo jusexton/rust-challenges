@@ -163,6 +163,7 @@ programming challenges completed in other languages.
 - [Final Prices After Discounts](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop)
 - [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer)
+- [Binary Search](https://leetcode.com/problems/binary-search)
 
 #### Medium
 
