@@ -242,6 +242,7 @@ programming challenges completed in other languages.
 - [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)
 - [Container With Most Water](https://leetcode.com/problems/container-with-most-water)
 - [Max Chunks to Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted)
+- [Valid Sudoku](https://leetcode.com/problems/valid-sudoku)
 
 #### Hard
 
