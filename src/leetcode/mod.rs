@@ -156,3 +156,4 @@ mod search_insert;
 mod smallest_letter;
 mod negative_numbers;
 mod guess_number;
+mod merge_nodes;

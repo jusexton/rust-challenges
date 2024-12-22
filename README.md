@@ -248,7 +248,8 @@ programming challenges completed in other languages.
 - [Container With Most Water](https://leetcode.com/problems/container-with-most-water)
 - [Max Chunks to Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted)
 - [Valid Sudoku](https://leetcode.com/problems/valid-sudoku)
-
+- [Merge Nodes In Between Zeroes](https://leetcode.com/problems/merge-nodes-in-between-zeros/)
+ 
 #### Hard
 
 - [Kth Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance)
