@@ -154,3 +154,4 @@ mod valid_sudoku;
 mod binary_search;
 mod search_insert;
 mod smallest_letter;
+mod negative_numbers;
