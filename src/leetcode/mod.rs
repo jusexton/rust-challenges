@@ -153,3 +153,4 @@ mod zigzag_conversion;
 mod valid_sudoku;
 mod binary_search;
 mod search_insert;
+mod smallest_letter;

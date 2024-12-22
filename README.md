@@ -165,6 +165,7 @@ programming challenges completed in other languages.
 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer)
 - [Binary Search](https://leetcode.com/problems/binary-search)
 - [Binary Search Insert](https://leetcode.com/problems/search-insert-position)
+- [Find Smallest Letter Greater than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)
 
 #### Medium
 
