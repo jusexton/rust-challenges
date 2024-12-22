@@ -167,6 +167,7 @@ programming challenges completed in other languages.
 - [Binary Search Insert](https://leetcode.com/problems/search-insert-position)
 - [Find Smallest Letter Greater than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)
 - [Count Negative Numbers](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix)
+- [Guess Number](https://leetcode.com/problems/guess-number-higher-or-lower/)
 
 #### Medium
 
