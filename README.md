@@ -250,6 +250,7 @@ programming challenges completed in other languages.
 - [Valid Sudoku](https://leetcode.com/problems/valid-sudoku)
 - [Merge Nodes In Between Zeroes](https://leetcode.com/problems/merge-nodes-in-between-zeros/)
 - [Minimum Size SubArray](https://leetcode.com/problems/minimum-size-subarray-sum)
+- [Rotate Image](https://leetcode.com/problems/rotate-image)
  
 #### Hard
 
