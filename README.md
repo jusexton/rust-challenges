@@ -249,6 +249,7 @@ programming challenges completed in other languages.
 - [Max Chunks to Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted)
 - [Valid Sudoku](https://leetcode.com/problems/valid-sudoku)
 - [Merge Nodes In Between Zeroes](https://leetcode.com/problems/merge-nodes-in-between-zeros/)
+- [Minimum Size SubArray](https://leetcode.com/problems/minimum-size-subarray-sum)
  
 #### Hard
 

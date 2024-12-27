@@ -157,3 +157,4 @@ mod smallest_letter;
 mod negative_numbers;
 mod guess_number;
 mod merge_nodes;
+mod subarray_sum;
