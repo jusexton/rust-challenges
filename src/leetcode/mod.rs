@@ -103,6 +103,7 @@ mod prime_set_bits;
 mod prime_subtraction;
 mod product_except_self;
 mod product_sum_digits;
+mod random_note;
 mod randomized_set;
 mod range_freq;
 mod range_sum_query;

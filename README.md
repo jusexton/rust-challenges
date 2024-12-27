@@ -168,6 +168,7 @@ programming challenges completed in other languages.
 - [Find Smallest Letter Greater than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)
 - [Count Negative Numbers](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix)
 - [Guess Number](https://leetcode.com/problems/guess-number-higher-or-lower/)
+- [Ransom Note](https://leetcode.com/problems/ransom-note)
 
 #### Medium
 
@@ -252,7 +253,7 @@ programming challenges completed in other languages.
 - [Minimum Size SubArray](https://leetcode.com/problems/minimum-size-subarray-sum)
 - [Rotate Image](https://leetcode.com/problems/rotate-image)
 - [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)
- 
+
 #### Hard
 
 - [Kth Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance)
