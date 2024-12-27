@@ -4,7 +4,7 @@ use std::collections::HashMap;
 pub fn longest_substring(s: String) -> i32 {
     let mut result = 0;
     let mut left = 0;
-    let mut char_indexes: HashMap<char, usize> = HashMap::new();
+    let mut char_indexes = HashMap::new();
 
     for (right, char) in s.char_indices() {
         if let Some(&index) = char_indexes.get(&char) {
