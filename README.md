@@ -171,6 +171,7 @@ programming challenges completed in other languages.
 - [Ransom Note](https://leetcode.com/problems/ransom-note)
 - [Word Pattern](https://leetcode.com/problems/word-pattern)
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram)
+- [Happy Number](https://leetcode.com/problems/happy-number)
 
 #### Medium
 

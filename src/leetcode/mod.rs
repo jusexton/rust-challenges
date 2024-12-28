@@ -47,6 +47,7 @@ mod grid_illumination;
 mod group_anagrams;
 mod guess_number;
 mod hamming_distance;
+mod happy_number;
 mod hour_glass_sum;
 mod intersection_two;
 mod invert_tree;
