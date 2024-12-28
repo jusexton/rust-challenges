@@ -157,6 +157,7 @@ mod unguarded_cells;
 mod unique_occurrences;
 mod valid_parenthesis;
 mod valid_sudoku;
+mod word_pattern;
 mod x_kind;
 mod xor_subarray;
 mod zero_or_one;
