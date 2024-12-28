@@ -1,8 +1,11 @@
 pub fn is_isomorphic(s: String, t: String) -> bool {
+    let s = s.as_bytes();
+    let t = t.as_bytes();
+
     let mut map_one = [0; 256];
     let mut map_two = [0; 256];
     for idx in 0..s.len() {
-        let (c1, c2) = (s.as_bytes()[idx] as usize, t.as_bytes()[idx] as usize);
+        let (c1, c2) = (s[idx] as usize, t[idx] as usize);
         if map_one[c1] != map_two[c2] {
             return false;
         }
