@@ -162,3 +162,4 @@ mod x_kind;
 mod xor_subarray;
 mod zero_or_one;
 mod zigzag_conversion;
+mod valid_anagram;

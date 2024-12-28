@@ -170,6 +170,7 @@ programming challenges completed in other languages.
 - [Guess Number](https://leetcode.com/problems/guess-number-higher-or-lower/)
 - [Ransom Note](https://leetcode.com/problems/ransom-note)
 - [Word Pattern](https://leetcode.com/problems/word-pattern)
+- [Valid Anagram](https://leetcode.com/problems/valid-anagram)
 
 #### Medium
 

@@ -21,12 +21,12 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test() {
+    fn identifies_valid_patterns() {
         assert!(word_pattern("aaa".to_string(), "dog dog dog".to_string()))
     }
 
     #[test]
-    fn test_name() {
+    fn identifies_invalid_patterns() {
         assert!(!word_pattern("aaa".to_string(), "dog cat dog".to_string()));
         assert!(!word_pattern(
             "abba".to_string(),
