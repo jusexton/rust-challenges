@@ -158,6 +158,7 @@ mod uncommon_word;
 mod unguarded_cells;
 mod unique_occurrences;
 mod valid_anagram;
+mod valid_parentheses;
 mod valid_parenthesis;
 mod valid_sudoku;
 mod word_pattern;

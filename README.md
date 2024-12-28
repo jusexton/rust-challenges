@@ -172,6 +172,7 @@ programming challenges completed in other languages.
 - [Word Pattern](https://leetcode.com/problems/word-pattern)
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram)
 - [Happy Number](https://leetcode.com/problems/happy-number)
+- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 
 #### Medium
 
