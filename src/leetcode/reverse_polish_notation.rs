@@ -1,28 +1,18 @@
 pub fn eval_rpn(tokens: Vec<String>) -> i32 {
     let mut stack = vec![];
     for token in tokens {
-        match token.as_str() {
-            "+" => {
-                let b = stack.pop().unwrap();
-                let a = stack.pop().unwrap();
-                stack.push(a + b)
+        if let Ok(n) = token.parse() {
+            stack.push(n);
+        } else {
+            let rhs = stack.pop().unwrap();
+            let lhs = stack.pop().unwrap();
+            match token.as_str() {
+                "+" => stack.push(lhs + rhs),
+                "-" => stack.push(lhs - rhs),
+                "*" => stack.push(lhs * rhs),
+                "/" => stack.push(lhs / rhs),
+                _ => {}
             }
-            "-" => {
-                let b = stack.pop().unwrap();
-                let a = stack.pop().unwrap();
-                stack.push(a - b)
-            }
-            "*" => {
-                let b = stack.pop().unwrap();
-                let a = stack.pop().unwrap();
-                stack.push(a * b)
-            }
-            "/" => {
-                let b = stack.pop().unwrap();
-                let a = stack.pop().unwrap();
-                stack.push(a / b)
-            }
-            _ => stack.push(token.parse::<i32>().unwrap()),
         }
     }
     stack[0]
