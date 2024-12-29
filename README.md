@@ -259,6 +259,7 @@ programming challenges completed in other languages.
 - [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)
 - [Group Anagrams](https://leetcode.com/problems/group-anagrams)
 - [Min Stack](https://leetcode.com/problems/min-stack)
+- [Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)
 
 #### Hard
 
