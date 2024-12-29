@@ -258,6 +258,7 @@ programming challenges completed in other languages.
 - [Rotate Image](https://leetcode.com/problems/rotate-image)
 - [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)
 - [Group Anagrams](https://leetcode.com/problems/group-anagrams)
+- [Min Stack](https://leetcode.com/problems/min-stack)
 
 #### Hard
 

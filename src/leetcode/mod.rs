@@ -84,6 +84,7 @@ mod merge_lists;
 mod merge_nodes;
 mod min_array_end;
 mod min_bit_flips;
+mod min_stack;
 mod min_str_len;
 mod min_time_diff;
 mod minimize_pair_sum;
