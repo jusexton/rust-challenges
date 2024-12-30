@@ -40,6 +40,7 @@ mod find_integer;
 mod find_pairs;
 mod first_occurrance;
 mod freq_sort;
+mod game_of_life;
 mod gas_station;
 mod good_substr;
 mod graph_shortest_path;
