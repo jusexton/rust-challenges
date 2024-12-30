@@ -173,6 +173,7 @@ programming challenges completed in other languages.
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram)
 - [Happy Number](https://leetcode.com/problems/happy-number)
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
+- [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)
 
 #### Medium
 

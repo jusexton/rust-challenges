@@ -20,6 +20,7 @@ mod cinema_seats;
 mod climb_stairs;
 mod common_characters;
 mod consistent_strings;
+mod contains_duplicates_ii;
 mod count_fair_pairs;
 mod custom_sort;
 mod custom_stack;
