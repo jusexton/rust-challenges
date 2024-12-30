@@ -152,6 +152,7 @@ mod str_pairs;
 mod string_compression;
 mod subarray_sum;
 mod sum_root_to_leaf;
+mod summary_ranges;
 mod take_gifts;
 mod take_k_characters;
 mod third_max;

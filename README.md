@@ -174,6 +174,7 @@ programming challenges completed in other languages.
 - [Happy Number](https://leetcode.com/problems/happy-number)
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 - [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)
+- [Summary Ranges](https://leetcode.com/problems/summary-ranges)
 
 #### Medium
 
