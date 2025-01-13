@@ -175,6 +175,7 @@ programming challenges completed in other languages.
 - [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 - [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)
 - [Summary Ranges](https://leetcode.com/problems/summary-ranges)
+- [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)
 
 #### Medium
 
