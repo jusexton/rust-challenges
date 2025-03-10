@@ -7,7 +7,7 @@ pub fn is_palindrome(s: String) -> bool {
         } else if !s[right].is_ascii_alphanumeric() {
             right -= 1;
         } else {
-            if s[left].to_ascii_lowercase() != s[right].to_ascii_lowercase() {
+            if !s[left].eq_ignore_ascii_case(&s[right]) {
                 return false;
             }
             left += 1;
