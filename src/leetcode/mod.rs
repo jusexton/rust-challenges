@@ -173,3 +173,4 @@ mod zero_or_one;
 mod zigzag_conversion;
 mod reverse_vowels;
 mod min_recolors;
+mod longest_nice_subarray;

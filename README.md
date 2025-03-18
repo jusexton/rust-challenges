@@ -265,6 +265,7 @@ programming challenges completed in other languages.
 - [Min Stack](https://leetcode.com/problems/min-stack)
 - [Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)
 - [Game of Life](https://leetcode.com/problems/game-of-life)
+- [Longest Nice Sub-Array](https://leetcode.com/problems/longest-nice-subarray)
 
 #### Hard
 
