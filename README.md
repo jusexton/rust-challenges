@@ -177,6 +177,7 @@ programming challenges completed in other languages.
 - [Summary Ranges](https://leetcode.com/problems/summary-ranges)
 - [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)
 - [Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks)
+- [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)
 
 #### Medium
 
