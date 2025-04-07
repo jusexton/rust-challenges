@@ -1,6 +1,7 @@
 #![allow(dead_code)]
 
 mod add_spaces;
+mod add_two_numbers;
 mod alike_halves;
 mod alternating_digit_sum;
 mod anagram_min_step;
@@ -65,6 +66,7 @@ mod largest_number;
 mod largest_odd_number;
 mod last_word;
 mod lonely_numbers;
+mod longest_nice_subarray;
 mod longest_str;
 mod longest_subtsring;
 mod make_increasing;
@@ -86,6 +88,7 @@ mod merge_lists;
 mod merge_nodes;
 mod min_array_end;
 mod min_bit_flips;
+mod min_recolors;
 mod min_stack;
 mod min_str_len;
 mod min_time_diff;
@@ -124,6 +127,7 @@ mod repeated_dna;
 mod replace_digits;
 mod return_to_origin;
 mod reverse_polish_notation;
+mod reverse_vowels;
 mod roman_to_int;
 mod rotate_array;
 mod rotate_box;
@@ -171,6 +175,3 @@ mod x_kind;
 mod xor_subarray;
 mod zero_or_one;
 mod zigzag_conversion;
-mod reverse_vowels;
-mod min_recolors;
-mod longest_nice_subarray;
