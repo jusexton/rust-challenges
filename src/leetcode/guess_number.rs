@@ -1,6 +1,6 @@
 use std::cmp::Ordering;
 
-unsafe fn guess(number: i32) -> i32 {
+fn guess(number: i32) -> i32 {
     match number.cmp(&5) {
         Ordering::Less => 1,
         Ordering::Equal => 0,
@@ -8,7 +8,7 @@ unsafe fn guess(number: i32) -> i32 {
     }
 }
 
-unsafe fn guess_number(n: i32) -> i32 {
+fn guess_number(n: i32) -> i32 {
     let (mut left, mut right) = (1, n);
     while left <= right {
         let mid = left + (right - left) / 2;
@@ -28,6 +28,6 @@ mod tests {
 
     #[test]
     fn guesses_correct_number() {
-        assert_eq!(5, unsafe { guess_number(20) })
+        assert_eq!(5, guess_number(20))
     }
 }
