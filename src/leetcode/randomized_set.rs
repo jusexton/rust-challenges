@@ -1,7 +1,6 @@
 use std::collections::HashMap;
 
-use rand::rngs::ThreadRng;
-use rand::seq::SliceRandom;
+use rand::{rngs::ThreadRng, seq::IndexedRandom};
 
 struct RandomizedSet {
     values: Vec<i32>,
@@ -14,7 +13,7 @@ impl RandomizedSet {
         Self {
             values: Vec::default(),
             position: HashMap::default(),
-            rng: rand::thread_rng(),
+            rng: rand::rng(),
         }
     }
 
