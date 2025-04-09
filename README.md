@@ -278,3 +278,4 @@ programming challenges completed in other languages.
 ### Other
 
 - [Harvard CS50 Readability](https://cs50.harvard.edu/x/2021/psets/2/readability/)
+- [Warp Hiring Challenge](https://github.com/warpdotdev/hiring-challenge)
