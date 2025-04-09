@@ -1,3 +1,7 @@
+[workspace]
+resolver = "2"
+members = ["sandbox"]
+
 [package]
 name = "rust-challenges"
 version = "0.1.0"
