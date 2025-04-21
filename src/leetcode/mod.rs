@@ -176,3 +176,4 @@ mod xor_subarray;
 mod zero_or_one;
 mod zigzag_conversion;
 mod min_operations;
+mod maximum_ones;
