@@ -179,6 +179,7 @@ programming challenges completed in other languages.
 - [Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks)
 - [Minimum Operations to Make Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct)
 - [Row with Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/)
+- [Count Largest Group](https://leetcode.com/problems/count-largest-group)
 
 #### Medium
 

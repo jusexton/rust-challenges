@@ -177,3 +177,4 @@ mod zero_or_one;
 mod zigzag_conversion;
 mod min_operations;
 mod maximum_ones;
+mod count_largest_group;
