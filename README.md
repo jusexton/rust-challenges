@@ -79,6 +79,7 @@ programming challenges completed in other languages.
 - [Multiplication Table](https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce)
 - [Alternating Case](https://www.codewars.com/kata/56efc695740d30f963000557)
 - [Summation](https://www.codewars.com/kata/55d24f55d7dd296eb9000030)
+- [Counting Sheep](https://www.codewars.com/kata/54edbc7200b811e956000556)
 
 ### r/dailyprogrammer
 
@@ -96,7 +97,6 @@ programming challenges completed in other languages.
 - [Hamming Distance](https://leetcode.com/problems/hamming-distance)
 - [Build an Array with Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)
 - [Second Largest Digit](https://leetcode.com/problems/second-largest-digit-in-a-string)
-- [Counting Sheep](https://www.codewars.com/kata/54edbc7200b811e956000556)
 - [Robot Returns to Origin](https://leetcode.com/problems/robot-return-to-origin)
 - [Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)
 - [Two Sum](https://leetcode.com/problems/two-sum/)
