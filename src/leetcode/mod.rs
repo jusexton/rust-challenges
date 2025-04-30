@@ -86,6 +86,7 @@ mod max_water;
 mod maximum_ones;
 mod maximum_product;
 mod maximum_xor;
+mod meeting_rooms;
 mod merge_intervals;
 mod merge_lists;
 mod merge_nodes;
