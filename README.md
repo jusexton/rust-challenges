@@ -274,6 +274,7 @@ programming challenges completed in other languages.
 - [Longest Nice Sub-Array](https://leetcode.com/problems/longest-nice-subarray)
 - [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)
 - [Shortest Word Distnace II](https://leetcode.com/problems/shortest-word-distance-ii)
+- [Length of thte Longest Alphebetical Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)
 
 #### Hard
 

@@ -68,6 +68,7 @@ mod largest_number;
 mod largest_odd_number;
 mod last_word;
 mod lonely_numbers;
+mod longest_alphabetical_substr;
 mod longest_nice_subarray;
 mod longest_str;
 mod longest_subtsring;
