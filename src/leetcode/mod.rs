@@ -148,6 +148,7 @@ mod separate_digits;
 mod shift_grid;
 mod shortest_subarray_xor;
 mod shortest_word_distance;
+mod shortest_word_distance_ii;
 mod single_number;
 mod single_number_ii;
 mod smallest_letter;
