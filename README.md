@@ -185,6 +185,7 @@ programming challenges completed in other languages.
 - [Find Numbers With Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits)
 - [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance)
 - [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
+- [Maximum Ascending SubArray](https://leetcode.com/problems/maximum-ascending-subarray-sum)
 
 #### Medium
 
@@ -277,7 +278,6 @@ programming challenges completed in other languages.
 - [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)
 - [Shortest Word Distnace II](https://leetcode.com/problems/shortest-word-distance-ii)
 - [Length of thte Longest Alphebetical Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)
-- [Maximum Ascending SubArray](https://leetcode.com/problems/maximum-ascending-subarray-sum)
 
 #### Hard
 
