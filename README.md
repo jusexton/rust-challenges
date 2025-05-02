@@ -277,6 +277,7 @@ programming challenges completed in other languages.
 - [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)
 - [Shortest Word Distnace II](https://leetcode.com/problems/shortest-word-distance-ii)
 - [Length of thte Longest Alphebetical Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)
+- [Maximum Ascending SubArray](https://leetcode.com/problems/maximum-ascending-subarray-sum)
 
 #### Hard
 
