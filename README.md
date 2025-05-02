@@ -32,6 +32,7 @@ programming challenges completed in other languages.
 - [Alphanumeric](https://www.codewars.com/kata/526dbd6c8c0eb53254000110)
 - [Lazy Repeater](https://www.codewars.com/kata/51fc3beb41ecc97ee20000c3)
 - [Beeramid](https://www.codewars.com/kata/51e04f6b544cf3f6550000c1)
+- [Postfix Expression](https://www.codewars.com/kata/577e9095d648a15b800000d4)
 
 #### Kata 6
 

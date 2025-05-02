@@ -37,6 +37,7 @@ mod pascal_case;
 mod people_on_the_bus;
 mod perimeter;
 mod position_average;
+mod postfix_expr;
 mod pyramid_slide;
 mod recursion;
 mod remove_whitespace;
