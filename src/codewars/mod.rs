@@ -4,6 +4,7 @@ mod add;
 mod all_inclusive;
 mod alternating_case;
 mod automorphic;
+mod beeramid;
 mod binaries;
 mod bitmove;
 mod camel_case;
