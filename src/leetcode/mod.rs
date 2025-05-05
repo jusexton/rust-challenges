@@ -102,6 +102,7 @@ mod min_time_diff;
 mod minimize_pair_sum;
 mod minimized_maximum;
 mod minimum_common_value;
+mod minimum_domino_rotations;
 mod minimum_rounds;
 mod move_pieces;
 mod negative_numbers;
