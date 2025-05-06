@@ -5,6 +5,7 @@ mod add_two_numbers;
 mod alike_halves;
 mod alternating_digit_sum;
 mod anagram_min_step;
+mod array_from_permutations;
 mod auth_manager;
 mod backspace_compare;
 mod balanced_str;

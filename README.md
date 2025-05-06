@@ -187,6 +187,7 @@ programming challenges completed in other languages.
 - [Meeting Rooms](https://leetcode.com/problems/meeting-rooms)
 - [Maximum Ascending SubArray](https://leetcode.com/problems/maximum-ascending-subarray-sum)
 - [Determine Color of Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square)
+- [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation)
 
 #### Medium
 
