@@ -188,6 +188,7 @@ programming challenges completed in other languages.
 - [Maximum Ascending SubArray](https://leetcode.com/problems/maximum-ascending-subarray-sum)
 - [Determine Color of Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square)
 - [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation)
+- [Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs)
 
 #### Medium
 

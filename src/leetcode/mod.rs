@@ -33,6 +33,7 @@ mod distance_value;
 mod divide_array;
 mod double_exists;
 mod duplicate_file;
+mod equivalent_domino_pairs;
 mod escape_maze;
 mod even_digits;
 mod excel_sheet_number;
