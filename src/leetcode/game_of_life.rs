@@ -25,9 +25,12 @@ fn count_alive_neighbors(row: usize, col: usize, board: &[Vec<i32>]) -> i32 {
 }
 
 pub fn game_of_life(board: &mut [Vec<i32>]) {
+    // Updates can not be applied as the board is being traversed for update calculations.
+    // Updates need to be stored and applied only after all updates have been calculated.
     let mut updates = vec![];
+
     let (m, n) = (board.len(), board[0].len());
-    (0..m).for_each(|i| {
+    for i in 0..m {
         for j in 0..n {
             let cell = board[i][j];
             let alive_neighbors = count_alive_neighbors(i, j, board);
@@ -38,7 +41,7 @@ pub fn game_of_life(board: &mut [Vec<i32>]) {
                 _ => {}
             }
         }
-    });
+    }
 
     for (i, j, val) in updates {
         board[i][j] = val;
