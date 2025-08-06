@@ -189,6 +189,7 @@ programming challenges completed in other languages.
 - [Determine Color of Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square)
 - [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation)
 - [Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs)
+- [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation)
 
 #### Medium
 
