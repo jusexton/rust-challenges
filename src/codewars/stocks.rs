@@ -19,7 +19,7 @@ fn balance_statement(statement: &str) -> String {
             let action = captures.get(4).unwrap().as_str();
 
             let total = units * price;
-            println!("Total: {}", total);
+            println!("Total: {total}");
             if action == "B" {
                 buy += total;
             } else {
@@ -29,14 +29,14 @@ fn balance_statement(statement: &str) -> String {
             invalid.push(record);
         }
     }
-    println!("Sell: {}", sell);
+    println!("Sell: {sell}");
 
     let mistakes = if invalid.is_empty() {
         String::from("")
     } else {
         format!("; Badly formed {}: {} ;", invalid.len(), invalid.join(" ;"))
     };
-    format!("Buy: {:.0} Sell: {:.0}{}", buy, sell, mistakes)
+    format!("Buy: {buy:.0} Sell: {sell:.0}{mistakes}")
 }
 
 #[cfg(test)]

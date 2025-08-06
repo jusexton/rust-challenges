@@ -6,19 +6,19 @@ pub fn compressed_string(word: String) -> String {
         match curr_char == prev_char {
             true => {
                 if freq == 9 {
-                    compressed.push_str(&format!("{}{}", freq, prev_char));
+                    compressed.push_str(&format!("{freq}{prev_char}"));
                     freq = 0
                 }
                 freq += 1;
             }
             false => {
-                compressed.push_str(&format!("{}{}", freq, prev_char));
+                compressed.push_str(&format!("{freq}{prev_char}"));
                 prev_char = curr_char;
                 freq = 1;
             }
         }
     }
-    compressed.push_str(&format!("{}{}", freq, prev_char));
+    compressed.push_str(&format!("{freq}{prev_char}"));
     compressed
 }
 

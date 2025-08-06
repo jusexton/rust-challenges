@@ -8,7 +8,7 @@ pub fn summary_ranges(numbers: Vec<i32>) -> Vec<String> {
             i += 1;
         }
         result.push(match left == numbers[i] {
-            true => format!("{}", left),
+            true => format!("{left}"),
             false => format!("{}->{}", left, numbers[i]),
         });
         i += 1;

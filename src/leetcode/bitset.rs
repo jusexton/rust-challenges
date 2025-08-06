@@ -53,7 +53,7 @@ impl Display for Bitset {
                 false => '0',
             })
             .collect();
-        write!(f, "{}", result)
+        write!(f, "{result}")
     }
 }
 

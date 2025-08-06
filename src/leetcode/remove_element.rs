@@ -6,7 +6,7 @@ pub fn remove_element(numbers: &mut Vec<i32>, val: i32) -> i32 {
             index += 1;
         }
     }
-    println!("{:?}", numbers);
+    println!("{numbers:?}");
 
     index as i32
 }

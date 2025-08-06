@@ -1,8 +1,8 @@
 fn largest_number(numbers: Vec<i32>) -> String {
     let mut numbers: Vec<String> = numbers.iter().map(|item| item.to_string()).collect();
     numbers.sort_unstable_by(|a, b| {
-        let ab = format!("{}{}", a, b).as_str().parse::<i128>().unwrap();
-        let ba = format!("{}{}", b, a).as_str().parse::<i128>().unwrap();
+        let ab = format!("{a}{b}").as_str().parse::<i128>().unwrap();
+        let ba = format!("{b}{a}").as_str().parse::<i128>().unwrap();
         ba.cmp(&ab)
     });
     if numbers[0] == "0" {
