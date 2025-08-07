@@ -21,7 +21,7 @@ mod tests {
     #[test]
     fn should_merge_two_sorted_arrays() {
         let mut vec_one = vec![1, 2, 3, 0, 0, 0];
-        merge(&mut vec_one, 3, &mut vec![2, 5, 6], 3);
+        merge(&mut vec_one, 3, &mut [2, 5, 6], 3);
 
         let expected = vec![1, 2, 2, 3, 5, 6];
         assert_eq!(expected, vec_one);
