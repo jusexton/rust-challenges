@@ -189,3 +189,4 @@ mod xor_subarray;
 mod zero_or_one;
 mod zigzag_conversion;
 mod valid_word_abbr;
+mod merge_arr;

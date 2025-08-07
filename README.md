@@ -190,6 +190,7 @@ programming challenges completed in other languages.
 - [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation)
 - [Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs)
 - [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation)
+- [Merge Sorted Arrays](https://leetcode.com/problems/merge-sorted-array)
 
 #### Medium
 
