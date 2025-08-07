@@ -1,4 +1,4 @@
-pub fn merge(vec_one: &mut Vec<i32>, m: i32, vec_two: &mut Vec<i32>, n: i32) {
+pub fn merge(vec_one: &mut [i32], m: i32, vec_two: &mut [i32], n: i32) {
     let (mut idx_one, mut idx_two) = (m - 1, n - 1);
     let mut right = (m + n - 1) as usize;
 
