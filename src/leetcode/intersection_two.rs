@@ -10,11 +10,11 @@ pub fn intersect(numbers_one: Vec<i32>, numbers_two: Vec<i32>) -> Vec<i32> {
 
     let mut result = Vec::new();
     for number in numbers_two {
-        if let Some(count) = counts.get_mut(&number) {
-            if *count > 0 {
-                result.push(number);
-                *count -= 1;
-            }
+        if let Some(count) = counts.get_mut(&number)
+            && *count > 0
+        {
+            result.push(number);
+            *count -= 1;
         }
     }
     result

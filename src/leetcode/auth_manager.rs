@@ -35,10 +35,10 @@ impl AuthenticationManager {
     fn renew(&mut self, token_id: String, current_time: i32) {
         // Only renew the token if it exists and is not expired
 
-        if let Some(token) = self.tokens.get_mut(&token_id) {
-            if !token.is_expired(current_time) {
-                token.expires = current_time + self.time_to_live
-            }
+        if let Some(token) = self.tokens.get_mut(&token_id)
+            && !token.is_expired(current_time)
+        {
+            token.expires = current_time + self.time_to_live
         }
     }
 
