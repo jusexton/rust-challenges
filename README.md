@@ -191,6 +191,7 @@ programming challenges completed in other languages.
 - [Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs)
 - [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation)
 - [Merge Sorted Arrays](https://leetcode.com/problems/merge-sorted-array)
+- [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title)
 
 #### Medium
 
