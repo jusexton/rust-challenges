@@ -192,6 +192,7 @@ programming challenges completed in other languages.
 - [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation)
 - [Merge Sorted Arrays](https://leetcode.com/problems/merge-sorted-array)
 - [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title)
+- [Valid Word Square](https://leetcode.com/problems/valid-word-square/)
 
 #### Medium
 

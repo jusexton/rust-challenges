@@ -191,3 +191,4 @@ mod zigzag_conversion;
 mod valid_word_abbr;
 mod merge_arr;
 mod column_title;
+mod valid_word_square;
