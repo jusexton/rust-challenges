@@ -193,6 +193,7 @@ programming challenges completed in other languages.
 - [Merge Sorted Arrays](https://leetcode.com/problems/merge-sorted-array)
 - [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title)
 - [Valid Word Square](https://leetcode.com/problems/valid-word-square/)
+- [Numbers Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence)
 
 #### Medium
 
