@@ -160,6 +160,7 @@ mod shortest_word_distance;
 mod shortest_word_distance_ii;
 mod single_number;
 mod single_number_ii;
+mod smallest_index_equal_value;
 mod smallest_letter;
 mod sort_by_bites;
 mod sort_colors;
