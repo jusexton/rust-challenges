@@ -195,6 +195,7 @@ programming challenges completed in other languages.
 - [Valid Word Square](https://leetcode.com/problems/valid-word-square/)
 - [Numbers Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence)
 - [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value)
+- [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word)
 
 #### Medium
 
