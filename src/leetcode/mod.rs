@@ -60,6 +60,7 @@ mod happy_number;
 mod hour_glass_sum;
 mod intersection_two;
 mod invert_tree;
+mod is_fascinating;
 mod is_palindrome;
 mod is_subsequence;
 mod isomorphic;
