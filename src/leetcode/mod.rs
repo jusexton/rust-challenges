@@ -144,6 +144,7 @@ mod reverse_polish_notation;
 mod reverse_prefix;
 mod reverse_vowels;
 mod roman_to_int;
+mod root_to_leaves;
 mod rotate_array;
 mod rotate_box;
 mod rotate_digits;
