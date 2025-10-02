@@ -9,7 +9,7 @@ fn minimum_number(numbers: &[u32]) -> u32 {
 
 fn is_prime(number: u32) -> bool {
     let limit = (number as f64).sqrt() as u32;
-    !(2..=limit).any(|i| number % i == 0)
+    !(2..=limit).any(|i| number.is_multiple_of(i))
 }
 
 #[cfg(test)]
