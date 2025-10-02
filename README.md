@@ -197,6 +197,7 @@ programming challenges completed in other languages.
 - [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value)
 - [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word)
 - [Fascinating Number](https://leetcode.com/problems/check-if-the-number-is-fascinating)
+- [Two Sneaky Numbers](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville)
 
 #### Medium
 

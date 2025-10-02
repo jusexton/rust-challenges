@@ -165,6 +165,7 @@ mod single_number;
 mod single_number_ii;
 mod smallest_index_equal_value;
 mod smallest_letter;
+mod sneaky_numbers;
 mod sort_by_bites;
 mod sort_colors;
 mod sort_jumbled_numbers;
