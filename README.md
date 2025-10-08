@@ -198,6 +198,7 @@ programming challenges completed in other languages.
 - [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word)
 - [Fascinating Number](https://leetcode.com/problems/check-if-the-number-is-fascinating)
 - [Two Sneaky Numbers](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville)
+- [Type of Triangle](https://leetcode.com/problems/type-of-triangle)
 
 #### Medium
 

@@ -183,6 +183,7 @@ mod take_gifts;
 mod take_k_characters;
 mod third_max;
 mod trailing_zero;
+mod triangle_type;
 mod two_sum;
 mod two_sum_ii;
 mod uncommon_word;
