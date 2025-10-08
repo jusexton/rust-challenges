@@ -292,6 +292,7 @@ programming challenges completed in other languages.
 - [Length of thte Longest Alphebetical Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring)
 - [Minimum Domino Rotations for Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row)
 - [String is Valid Sequence from Root to Leaves](https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree)
+- [Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions)
 
 #### Hard
 

@@ -171,6 +171,7 @@ mod sort_colors;
 mod sort_jumbled_numbers;
 mod sort_people;
 mod sort_sentence;
+mod spells_and_potions;
 mod square_color;
 mod square_numbers;
 mod str_pairs;
