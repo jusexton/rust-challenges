@@ -137,6 +137,7 @@ mod remove_element;
 mod remove_k_digits;
 mod remove_occurrences;
 mod remove_parentheses;
+mod removing_anagrams;
 mod repeat_limit;
 mod repeated_dna;
 mod replace_digits;

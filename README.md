@@ -199,6 +199,7 @@ programming challenges completed in other languages.
 - [Fascinating Number](https://leetcode.com/problems/check-if-the-number-is-fascinating)
 - [Two Sneaky Numbers](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville)
 - [Type of Triangle](https://leetcode.com/problems/type-of-triangle)
+- [Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams)
 
 #### Medium
 
