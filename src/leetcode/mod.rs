@@ -81,6 +81,7 @@ mod longest_subtsring;
 mod make_increasing;
 mod make_string_great;
 mod matrix_zeroes;
+mod max_achievable_number;
 mod max_ascending_sum;
 mod max_beauty;
 mod max_binary_number;

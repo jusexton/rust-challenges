@@ -200,6 +200,7 @@ programming challenges completed in other languages.
 - [Two Sneaky Numbers](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville)
 - [Type of Triangle](https://leetcode.com/problems/type-of-triangle)
 - [Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams)
+- [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number)
 
 #### Medium
 
