@@ -114,6 +114,7 @@ mod minimum_rounds;
 mod move_pieces;
 mod negative_numbers;
 mod non_overlapping_events;
+mod number_of_bit_changes_to_make_two_integers_equal;
 mod number_of_strings;
 mod operations_for_empty_array;
 mod parking_system;

@@ -201,6 +201,7 @@ programming challenges completed in other languages.
 - [Type of Triangle](https://leetcode.com/problems/type-of-triangle)
 - [Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams)
 - [Score of a String](https://leetcode.com/problems/score-of-a-string)
+- [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal)
 
 #### Medium
 
