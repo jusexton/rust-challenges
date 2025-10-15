@@ -1,9 +1,8 @@
 pub fn build_array(numbers: Vec<i32>) -> Vec<i32> {
-    let mut res = Vec::with_capacity(numbers.len());
-    for &number in numbers.iter() {
-        res.push(numbers[number as usize]);
-    }
-    res
+    numbers
+        .iter()
+        .map(|&number| numbers[number as usize])
+        .collect()
 }
 
 #[cfg(test)]
