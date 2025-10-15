@@ -152,6 +152,7 @@ mod rotate_box;
 mod rotate_digits;
 mod rotate_image;
 mod score_array;
+mod score_of_a_string;
 mod search_insert;
 mod second_largest;
 mod sell_stock_easy;
