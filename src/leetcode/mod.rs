@@ -46,6 +46,7 @@ mod find_champion;
 mod find_difference;
 mod find_integer;
 mod find_pairs;
+mod find_the_maximum_achievable_number;
 mod first_occurrance;
 mod freq_sort;
 mod game_of_life;
