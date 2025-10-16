@@ -1,11 +1,5 @@
 pub fn difference_of_sums(n: i32, m: i32) -> i32 {
-    let num1 = (1..=n)
-        .filter(|&n| !(n as u32).is_multiple_of(m as u32))
-        .sum::<i32>();
-    let num2 = (1..=n)
-        .filter(|&n| (n as u32).is_multiple_of(m as u32))
-        .sum::<i32>();
-    num1 - num2
+    (1..=n).map(|n| if n % m != 0 { n } else { -n }).sum()
 }
 
 #[cfg(test)]
