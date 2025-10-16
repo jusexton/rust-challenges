@@ -33,6 +33,7 @@ mod cyclic_increments;
 mod discounted_prices;
 mod distance_value;
 mod divide_array;
+mod divisible_and_non_divisible_sums_difference;
 mod double_exists;
 mod duplicate_file;
 mod equivalent_domino_pairs;
