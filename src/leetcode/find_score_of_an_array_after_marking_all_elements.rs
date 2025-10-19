@@ -17,7 +17,7 @@ pub fn find_score(numbers: Vec<i32>) -> i64 {
 
 #[cfg(test)]
 mod tests {
-    use crate::leetcode::score_array::find_score;
+    use crate::leetcode::find_score_of_an_array_after_marking_all_elements::find_score;
 
     #[test]
     fn finds_score_after_marking_numbers() {

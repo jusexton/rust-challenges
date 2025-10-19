@@ -29,7 +29,7 @@ pub fn check_valid_string(s: String) -> bool {
 
 #[cfg(test)]
 mod tests {
-    use crate::leetcode::valid_parenthesis::check_valid_string;
+    use crate::leetcode::valid_parenthesis_string::check_valid_string;
 
     #[test]
     fn trivial() {

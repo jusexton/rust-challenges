@@ -23,7 +23,7 @@ fn successful_pairs(spells: Vec<i32>, mut potions: Vec<i32>, success: i64) -> Ve
 
 #[cfg(test)]
 mod tests {
-    use crate::leetcode::spells_and_potions::successful_pairs;
+    use crate::leetcode::successful_pairs_of_spells_and_potions::successful_pairs;
 
     #[test]
     fn finds_correct_pair_count() {

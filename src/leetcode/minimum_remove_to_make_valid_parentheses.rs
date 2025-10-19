@@ -24,7 +24,7 @@ pub fn min_remove_to_make_valid(s: String) -> String {
 mod tests {
     use test_case::test_case;
 
-    use crate::leetcode::remove_parentheses::min_remove_to_make_valid;
+    use crate::leetcode::minimum_remove_to_make_valid_parentheses::min_remove_to_make_valid;
 
     #[test_case("le(etco(de", "leetcode")]
     #[test_case("le(etco()de)", "le(etco()de)")]

@@ -10,7 +10,7 @@ fn remove_occurrences(s: String, part: String) -> String {
 mod tests {
     use test_case::test_case;
 
-    use crate::leetcode::remove_occurrences::remove_occurrences;
+    use crate::leetcode::remove_all_occurrences_of_a_substring::remove_occurrences;
 
     #[test_case("abc", "xy", "abc")]
     #[test_case("axxyyb", "xy", "ab")]
