@@ -24,7 +24,7 @@ pub fn compressed_string(word: String) -> String {
 
 #[cfg(test)]
 mod tests {
-    use crate::leetcode::string_compression::compressed_string;
+    use crate::leetcode::string_compression_iii::compressed_string;
 
     #[test]
     fn one_of_each() {

@@ -23,7 +23,7 @@ fn find_winners(matches: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
 
 #[cfg(test)]
 mod tests {
-    use crate::leetcode::zero_or_one::find_winners;
+    use crate::leetcode::find_players_with_zero_or_one_losses::find_winners;
 
     #[test]
     fn test_find_winners() {

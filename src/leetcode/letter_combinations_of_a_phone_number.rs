@@ -36,7 +36,7 @@ pub fn letter_combinations(digits: String) -> Vec<String> {
 
 #[cfg(test)]
 mod tests {
-    use crate::leetcode::letter_combinations::letter_combinations;
+    use crate::leetcode::letter_combinations_of_a_phone_number::letter_combinations;
 
     #[test]
     fn produces_expected_characters() {

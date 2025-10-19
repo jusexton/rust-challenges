@@ -59,7 +59,7 @@ impl Display for Bitset {
 
 #[cfg(test)]
 mod test {
-    use crate::leetcode::bitset::Bitset;
+    use crate::leetcode::design_bitset::Bitset;
 
     #[test]
     fn test_initialization() {

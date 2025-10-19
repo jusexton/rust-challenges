@@ -25,7 +25,7 @@ mod test {
 
     use test_case::test_case;
 
-    use crate::leetcode::lonely_numbers::find_lonely;
+    use crate::leetcode::find_all_lonely_numbers_in_an_array::find_lonely;
 
     #[test_case(&[10,6,5,8], &[10, 8])]
     #[test_case(&[1,3,5,3], &[1, 5])]

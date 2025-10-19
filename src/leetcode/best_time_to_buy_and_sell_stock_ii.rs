@@ -16,7 +16,7 @@ fn max_profit(prices: Vec<i32>) -> i32 {
 mod tests {
     use test_case::test_case;
 
-    use crate::leetcode::best_time_to_buy_and_sell_stock::max_profit;
+    use crate::leetcode::best_time_to_buy_and_sell_stock_ii::max_profit;
 
     #[test_case(&[], 0)]
     #[test_case(&[4,3,2,1], 0)]

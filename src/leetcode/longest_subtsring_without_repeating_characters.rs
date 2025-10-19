@@ -21,7 +21,7 @@ pub fn longest_substring(s: String) -> i32 {
 mod tests {
     use test_case::test_case;
 
-    use crate::leetcode::longest_subtsring::longest_substring;
+    use crate::leetcode::longest_subtsring_without_repeating_characters::longest_substring;
 
     #[test_case(0, "")]
     #[test_case(3, "abcabcbb")]

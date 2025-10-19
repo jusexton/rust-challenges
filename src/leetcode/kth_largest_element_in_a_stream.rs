@@ -1,28 +1,61 @@
-use std::cmp::Reverse;
+// Array and binary search solution.
+// struct KthLargest {
+//     k: i32,
+//     values: Vec<i32>,
+// }
+
+// impl KthLargest {
+//     fn new(k: i32, mut values: Vec<i32>) -> Self {
+//         values.sort_unstable();
+//         Self { k, values }
+//     }
+
+//     fn add(&mut self, val: i32) -> i32 {
+//         let pos = self.values.binary_search(&val).unwrap_or_else(|e| e);
+//         self.values.insert(pos, val);
+
+//         let k_pos = self.values.len() - self.k as usize;
+//         self.values[k_pos]
+//     }
+// }
+
 use std::collections::BinaryHeap;
 
-pub fn find_kth_largest(numbers: Vec<i32>, k: i32) -> i32 {
-    let k = k as usize;
-    let mut heap: BinaryHeap<_> = numbers[..k].iter().map(Reverse).collect();
-    for number in &numbers[k..] {
-        heap.push(Reverse(number));
-        heap.pop();
+struct KthLargest {
+    heap: BinaryHeap<std::cmp::Reverse<i32>>,
+    k: usize,
+}
+
+impl KthLargest {
+    fn new(k: i32, values: Vec<i32>) -> Self {
+        let k = k as usize;
+        let mut heap: BinaryHeap<_> = values.into_iter().map(std::cmp::Reverse).collect();
+        for _ in k..heap.len() {
+            heap.pop();
+        }
+        Self { heap, k }
     }
-    *heap.peek().unwrap().0
+
+    fn add(&mut self, val: i32) -> i32 {
+        self.heap.push(std::cmp::Reverse(val));
+        if self.heap.len() > self.k {
+            self.heap.pop();
+        }
+        self.heap.peek().unwrap().0
+    }
 }
 
 #[cfg(test)]
 mod tests {
-    use test_case::test_case;
+    use super::KthLargest;
 
-    use crate::leetcode::kth_largest_element_in_a_stream::find_kth_largest;
+    #[test]
+    fn kth_largest() {
+        let values = vec![1, 2, 3];
+        let mut largest = KthLargest::new(1, values);
 
-    #[test_case(&[1, 2, 3, 4], 2, 3)]
-    #[test_case(&[1, 1, 3, 4, 5, 6], 5, 1)]
-    #[test_case(&[1, 2, 3], 1, 3)]
-    #[test_case(&[15, 5, 1, 3, 4, 5, 6, 9, 11], 2, 11)]
-    fn should_return_kth_largest_element(numbers: &[i32], k: i32, expected: i32) {
-        let result = find_kth_largest(numbers.to_vec(), k);
-        assert_eq!(result, expected);
+        assert_eq!(3, largest.add(2));
+        assert_eq!(4, largest.add(4));
+        assert_eq!(4, largest.add(3));
     }
 }

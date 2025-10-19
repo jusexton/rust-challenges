@@ -15,7 +15,7 @@ pub fn divide_array(mut numbers: Vec<i32>, k: i32) -> Vec<Vec<i32>> {
 mod tests {
     use test_case::test_case;
 
-    use crate::leetcode::divide_array::divide_array;
+    use crate::leetcode::divide_array_into_arrays_with_max_difference::divide_array;
 
     #[test_case(&[1,3,4,8,7,9,3,5,1], 2, &[
         &[1,1,3],

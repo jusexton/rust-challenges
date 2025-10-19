@@ -18,7 +18,7 @@ pub fn rearrange(numbers: Vec<i32>) -> Vec<i32> {
 mod test {
     use test_case::test_case;
 
-    use crate::leetcode::rearrange_by_sign::rearrange;
+    use crate::leetcode::rearrange_array_elements_by_sign::rearrange;
 
     #[test_case(&[-1, 1], &[1, -1])]
     #[test_case(&[3,1,-2,-5,2,-4], &[3,-2,1,-5,2,-4])]

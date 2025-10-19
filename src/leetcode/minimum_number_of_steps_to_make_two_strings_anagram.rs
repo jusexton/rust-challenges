@@ -9,7 +9,7 @@ pub fn min_steps(s: String, t: String) -> i32 {
 mod tests {
     use test_case::test_case;
 
-    use crate::leetcode::anagram_min_step::min_steps;
+    use crate::leetcode::minimum_number_of_steps_to_make_two_strings_anagram::min_steps;
 
     #[test_case("abb", "aab", 1)]
     #[test_case("leetcode", "practice", 5)]

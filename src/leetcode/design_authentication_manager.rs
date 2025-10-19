@@ -54,7 +54,7 @@ impl AuthenticationManager {
 mod tests {
     use test_case::test_case;
 
-    use crate::leetcode::auth_manager::{AuthenticationManager, Token};
+    use crate::leetcode::design_authentication_manager::{AuthenticationManager, Token};
 
     #[test_case(0, false)]
     #[test_case(4, false)]

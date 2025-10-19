@@ -49,7 +49,7 @@ fn bit_sum(bit_count: &[u32; 32]) -> i32 {
 
 #[cfg(test)]
 mod tests {
-    use crate::leetcode::shortest_subarray_xor::minimum_subarray_length;
+    use crate::leetcode::shortest_subarray_with_or_at_least_k_ii::minimum_subarray_length;
 
     #[test]
     fn calculates_minimum_or_subarray_length() {

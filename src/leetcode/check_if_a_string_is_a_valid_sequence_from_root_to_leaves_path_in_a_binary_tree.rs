@@ -54,7 +54,7 @@ pub fn is_valid_sequence(root: Option<Rc<RefCell<TreeNode>>>, arr: Vec<i32>) -> 
 mod tests {
     use std::{cell::RefCell, rc::Rc};
 
-    use crate::leetcode::root_to_leaves::{TreeNode, is_valid_sequence};
+    use crate::leetcode::check_if_a_string_is_a_valid_sequence_from_root_to_leaves_path_in_a_binary_tree::{TreeNode, is_valid_sequence};
 
     #[test]
     fn valid_sequence() {

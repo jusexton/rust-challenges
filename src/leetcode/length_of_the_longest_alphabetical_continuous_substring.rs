@@ -12,7 +12,7 @@ pub fn longest_continuous_substring(s: String) -> i32 {
 
 #[cfg(test)]
 mod tests {
-    use crate::leetcode::longest_alphabetical_substr::longest_continuous_substring;
+    use crate::leetcode::length_of_the_longest_alphabetical_continuous_substring::longest_continuous_substring;
 
     #[test]
     fn single_char() {
