@@ -65,6 +65,7 @@ mod find_the_maximum_achievable_number;
 mod find_the_power_of_k_size_sub_arrays;
 mod game_of_life;
 mod gas_station;
+mod gray_code;
 mod grid_illumination;
 mod group_anagrams;
 mod guess_number_higher_or_lower;

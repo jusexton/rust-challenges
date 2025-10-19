@@ -300,6 +300,7 @@ programming challenges completed in other languages.
 - [Check if a String is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree)
 - [Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions)
 - [Letter Combinations of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
+- [Gray Code](https://leetcode.com/problems/gray-code)
 
 #### Hard
 
