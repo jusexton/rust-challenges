@@ -3,7 +3,7 @@ use std::{cmp::Reverse, collections::BinaryHeap};
 pub fn get_final_state(mut numbers: Vec<i32>, k: i32, multiplier: i32) -> Vec<i32> {
     let mut heap: BinaryHeap<_> = numbers.iter_mut().zip(0..).map(Reverse).collect();
     for _ in 0..k {
-        *heap.peek_mut().unwrap().0 .0 *= multiplier;
+        *heap.peek_mut().unwrap().0.0 *= multiplier;
     }
     numbers
 }

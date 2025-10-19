@@ -28,7 +28,7 @@ impl Iterator for Fibonacci {
 mod tests {
     use test_case::test_case;
 
-    use crate::codewars::perimeter::{perimeter, Fibonacci};
+    use crate::codewars::perimeter::{Fibonacci, perimeter};
 
     #[test_case(1, &[1])]
     #[test_case(2, &[1, 1])]

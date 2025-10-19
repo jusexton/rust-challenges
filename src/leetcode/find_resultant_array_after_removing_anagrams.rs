@@ -18,7 +18,9 @@ pub fn remove_anagrams(words: Vec<String>) -> Vec<String> {
 
 #[cfg(test)]
 mod tests {
-    use crate::{leetcode::find_resultant_array_after_removing_anagrams::remove_anagrams, string_vec};
+    use crate::{
+        leetcode::find_resultant_array_after_removing_anagrams::remove_anagrams, string_vec,
+    };
 
     #[test]
     fn correctly_removes_adjacent_anagrams() {

@@ -3,11 +3,7 @@ fn interpreter(tape: &str, data: &str) -> String {
     data.chars()
         .map(|mut c| {
             while commands.next().unwrap() == '1' {
-                if c == '0' {
-                    c = '1'
-                } else {
-                    c = '0'
-                }
+                if c == '0' { c = '1' } else { c = '0' }
             }
             c
         })

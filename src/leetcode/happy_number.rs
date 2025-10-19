@@ -15,7 +15,7 @@ pub fn is_happy(n: i32) -> bool {
     while seen.insert(curr) {
         if curr == 1 {
             return true;
-        } 
+        }
         curr = get_digit_square_sum(curr);
     }
     false

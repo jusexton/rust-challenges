@@ -45,7 +45,7 @@ mod tests {
     use std::cell::RefCell;
     use std::rc::Rc;
 
-    use crate::leetcode::sum_root_to_leaf_numbers::{sum_numbers, TreeNode};
+    use crate::leetcode::sum_root_to_leaf_numbers::{TreeNode, sum_numbers};
 
     #[test]
     fn test_sum_numbers() {
