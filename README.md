@@ -301,6 +301,7 @@ programming challenges completed in other languages.
 - [Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions)
 - [Letter Combinations of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
 - [Gray Code](https://leetcode.com/problems/gray-code)
+- [Minimum Operations to Transform String](https://leetcode.com/problems/minimum-operations-to-transform-string)
 
 #### Hard
 
