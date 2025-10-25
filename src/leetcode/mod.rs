@@ -10,6 +10,7 @@ mod binary_search;
 mod boats_to_save_people;
 mod build_an_array_with_stack_operations;
 mod build_array_from_permutations;
+mod calculate_money_in_leetcode_bank;
 mod check_if_a_string_is_a_valid_sequence_from_root_to_leaves_path_in_a_binary_tree;
 mod check_if_a_word_occurrs_as_a_prefix_of_any_word_in_a_sentence;
 mod check_if_bitwise_or_has_trailing_zeros;

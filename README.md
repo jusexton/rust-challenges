@@ -204,6 +204,7 @@ programming challenges completed in other languages.
 - [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number)
 - [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference)
 - [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal)
+- [Calculate Money in LeetCode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank)
 
 #### Medium
 
