@@ -19,7 +19,7 @@ mod tests {
     use super::merge;
 
     #[test]
-    fn merges_overlapping_time_interavls() {
+    fn merges_overlapping_time_intervals() {
         assert_eq!(
             vec![vec![1, 6], vec![8, 10], vec![15, 18]],
             merge(vec![vec![1, 3], vec![2, 6], vec![8, 10], vec![15, 18]])
