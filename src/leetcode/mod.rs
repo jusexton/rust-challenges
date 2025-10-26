@@ -170,6 +170,7 @@ mod shift_2d_grid;
 mod shortest_subarray_with_or_at_least_k_ii;
 mod shortest_word_distance;
 mod shortest_word_distance_ii;
+mod simple_bank_system;
 mod single_number;
 mod single_number_ii;
 mod smallest_index_with_equal_value;

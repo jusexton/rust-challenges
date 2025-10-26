@@ -302,6 +302,7 @@ programming challenges completed in other languages.
 - [Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions)
 - [Letter Combinations of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
 - [Gray Code](https://leetcode.com/problems/gray-code)
+- [Simple Bank System](https://leetcode.com/problems/simple-bank-system)
 
 #### Hard
 
