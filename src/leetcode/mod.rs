@@ -132,6 +132,7 @@ mod next_greater_numerically_balanced_number;
 mod number_of_bit_changes_to_make_two_integers_equal;
 mod number_of_different_integers_in_a_string;
 mod number_of_equivalent_domino_pairs;
+mod number_of_laser_beams_in_a_bank;
 mod number_of_senior_citizens;
 mod partition_labels;
 mod plus_one;
