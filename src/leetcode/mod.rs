@@ -7,6 +7,7 @@ mod backspace_string_compare;
 mod balanced_str;
 mod best_time_to_buy_and_sell_stock_ii;
 mod binary_search;
+mod binary_search_tree_iterator;
 mod boats_to_save_people;
 mod build_an_array_with_stack_operations;
 mod build_array_from_permutations;

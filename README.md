@@ -304,6 +304,7 @@ programming challenges completed in other languages.
 - [Gray Code](https://leetcode.com/problems/gray-code)
 - [Simple Bank System](https://leetcode.com/problems/simple-bank-system)
 - [Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank)
+- [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator)
 
 #### Hard
 
