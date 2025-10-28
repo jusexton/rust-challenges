@@ -305,6 +305,7 @@ programming challenges completed in other languages.
 - [Simple Bank System](https://leetcode.com/problems/simple-bank-system)
 - [Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank)
 - [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator)
+- [Make Array Elements Equal to Zero](https://leetcode.com/problems/make-array-elements-equal-to-zero)
 
 #### Hard
 

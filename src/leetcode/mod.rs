@@ -93,6 +93,7 @@ mod letter_combinations_of_a_phone_number;
 mod longest_nice_subarray;
 mod longest_subtsring_without_repeating_characters;
 mod make_a_square_with_same_color;
+mod make_array_elements_equal_to_zero;
 mod make_string_a_subsequence_using_cyclic_increments;
 mod make_the_string_great;
 mod max_chunks_to_make_sorted;
