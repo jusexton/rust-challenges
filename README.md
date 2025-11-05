@@ -204,6 +204,8 @@ programming challenges completed in other languages.
 - [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number)
 - [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference)
 - [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal)
+- [Calculate Money in LeetCode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank)
+- [Make Array Elements Equal to Zero](https://leetcode.com/problems/make-array-elements-equal-to-zero)
 
 #### Medium
 
@@ -302,6 +304,9 @@ programming challenges completed in other languages.
 - [Letter Combinations of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
 - [Gray Code](https://leetcode.com/problems/gray-code)
 - [Minimum Operations to Transform String](https://leetcode.com/problems/minimum-operations-to-transform-string)
+- [Simple Bank System](https://leetcode.com/problems/simple-bank-system)
+- [Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank)
+- [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator)
 
 #### Hard
 
