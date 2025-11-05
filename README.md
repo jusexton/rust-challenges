@@ -303,6 +303,7 @@ programming challenges completed in other languages.
 - [Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions)
 - [Letter Combinations of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
 - [Gray Code](https://leetcode.com/problems/gray-code)
+- [Minimum Operations to Transform String](https://leetcode.com/problems/minimum-operations-to-transform-string)
 - [Simple Bank System](https://leetcode.com/problems/simple-bank-system)
 - [Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank)
 - [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator)
