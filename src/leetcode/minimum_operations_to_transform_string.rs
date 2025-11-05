@@ -1,17 +1,6 @@
 pub fn min_operations(s: String) -> i32 {
-    let desired_char = 'a';
-    let min_char = 'a';
-    let max_char = 'z';
-    let char_range_len = (max_char as i32 - min_char as i32) + 1;
-    s.as_bytes()
-        .iter()
-        .map(|&char| {
-            ((desired_char as i32 - min_char as i32) - (char as i32 - min_char as i32)
-                + char_range_len)
-                % char_range_len
-        })
-        .max()
-        .unwrap()
+    let distance_from_a = |c| (26 - (c as i32 - 97)) % 26;
+    s.chars().map(distance_from_a).max().unwrap()
 }
 
 #[cfg(test)]
