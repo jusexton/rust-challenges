@@ -1,4 +1,7 @@
 #![allow(dead_code)]
+// Possible skill issue, but some of the recommendations of that come from this rule are not very
+// friendly to some of the heavy index manipulation code within these challenges.
+#![allow(clippy::needless_range_loop)]
 
 mod add_two_numbers;
 mod adding_spaces_to_a_string;
