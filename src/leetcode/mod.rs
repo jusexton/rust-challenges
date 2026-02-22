@@ -218,3 +218,4 @@ mod word_pattern;
 mod x_of_a_kind_in_a_deck_of_cards;
 mod xor_queries_of_a_subarray;
 mod zigzag_conversion;
+mod binary_gap;

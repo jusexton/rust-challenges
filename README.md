@@ -206,6 +206,7 @@ programming challenges completed in other languages.
 - [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal)
 - [Calculate Money in LeetCode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank)
 - [Make Array Elements Equal to Zero](https://leetcode.com/problems/make-array-elements-equal-to-zero)
+- [Binary Gap](https://leetcode.com/problems/binary-gap)
 
 #### Medium
 
