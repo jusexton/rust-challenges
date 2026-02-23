@@ -309,6 +309,7 @@ programming challenges completed in other languages.
 - [Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank)
 - [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator)
 - [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes)
+- [Check if a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k)
 
 #### Hard
 
