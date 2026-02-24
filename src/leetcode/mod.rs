@@ -53,6 +53,7 @@ mod fibonacci_number;
 mod final_prices_with_a_special_discount_in_a_shop;
 mod final_value_of_variable_after_performing_operations;
 mod find_all_lonely_numbers_in_an_array;
+mod find_center_of_star_graph;
 mod find_champion_ii;
 mod find_common_characters;
 mod find_duplicate_file_in_system;
