@@ -195,6 +195,7 @@ mod subarray_sum;
 mod substract_the_product_and_sum_of_digits_of_an_integer;
 mod substrings_of_size_three_with_distinct_characters;
 mod successful_pairs_of_spells_and_potions;
+mod sum_of_root_to_leaf_binary_numbers;
 mod sum_of_square_numbers;
 mod sum_root_to_leaf_numbers;
 mod summary_ranges;
