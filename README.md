@@ -210,6 +210,7 @@ programming challenges completed in other languages.
 - [Sum of Root to Lead Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers)
 - [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph)
 - [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph)
+- [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character)
 
 #### Medium
 
