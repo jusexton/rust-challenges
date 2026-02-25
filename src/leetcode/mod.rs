@@ -58,6 +58,7 @@ mod find_champion_ii;
 mod find_common_characters;
 mod find_duplicate_file_in_system;
 mod find_if_array_can_be_sorted;
+mod find_if_path_exists_in_graph;
 mod find_kth_smallest_pair_distance;
 mod find_maximum_number_of_string_pairs;
 mod find_numbers_with_even_number_of_digits;
