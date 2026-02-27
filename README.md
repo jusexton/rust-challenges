@@ -321,6 +321,7 @@ programming challenges completed in other languages.
 - [Find Kth Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance)
 - [Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze)
 - [Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator)
+- [Minimum Operations to Equalize Binary String](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string)
 
 ### Other
 
