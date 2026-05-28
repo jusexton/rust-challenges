@@ -296,7 +296,7 @@ programming challenges completed in other languages.
 - [Rotate Image](https://leetcode.com/problems/rotate-image)
 - [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)
 - [Group Anagrams](https://leetcode.com/problems/group-anagrams)
-- [Min Stack](https://leetcode.com/problems/min-stack)
+- [Min Stack](https://leetcode.com/problems/min-stack) 
 - [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)
 - [Game of Life](https://leetcode.com/problems/game-of-life)
 - [Longest Nice Sub-Array](https://leetcode.com/problems/longest-nice-subarray)
@@ -316,6 +316,7 @@ programming challenges completed in other languages.
 - [Check if a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k)
 - [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
 - [Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid)
+- [Count the Number of Special Character II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/)
 
 #### Hard
 

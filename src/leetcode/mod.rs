@@ -34,6 +34,7 @@ mod count_largest_group;
 mod count_negative_numbers_in_a_sorted_matrix;
 mod count_the_number_of_consistent_strings;
 mod count_the_number_of_fair_pairs;
+mod count_the_number_of_special_characters_ii;
 mod count_unguarded_cells_in_the_grid;
 mod custom_sort_string;
 mod delete_characters_to_make_fancy_string;
