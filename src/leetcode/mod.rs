@@ -127,6 +127,7 @@ mod minimum_array_end;
 mod minimum_bit_flips_to_convert_number;
 mod minimum_common_value;
 mod minimum_domino_rotations_for_equal_row;
+mod minimum_element_after_replacement_with_digit_sum;
 mod minimum_limit_of_balls_in_a_bag;
 mod minimum_number_of_operations_to_make_array_empty;
 mod minimum_number_of_operations_to_make_elements_in_array_distinct;
