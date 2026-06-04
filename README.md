@@ -318,6 +318,7 @@ programming challenges completed in other languages.
 - [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
 - [Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid)
 - [Count the Number of Special Character II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/)
+- [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/)
 
 #### Hard
 

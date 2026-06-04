@@ -211,6 +211,7 @@ mod take_gifts_from_the_richest_pile;
 mod take_k_of_each_characters_from_left_and_right;
 mod the_two_sneaky_numbers_of_digitville;
 mod third_maximum_number;
+mod total_waviness_of_numbers_in_range_i;
 mod two_best_non_overlapping_events;
 mod two_sum;
 mod two_sum_ii;
