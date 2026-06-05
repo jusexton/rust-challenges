@@ -29,7 +29,7 @@ fn main() -> anyhow::Result<()> {
             println!("Verifying README has all corresponding challenge entries.");
             let res = readme::verify();
             if res.is_ok() {
-                println!("Everything was okay")
+                println!("No README issues detected!")
             }
             res
         }
