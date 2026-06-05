@@ -22,3 +22,45 @@ macro_rules! cell_vec {
         vec![$(vec![$t.0, $t.1]),+]
     };
 }
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn string_vec_empty_produces_empty_vec() {
+        let result: Vec<String> = string_vec![];
+        assert!(result.is_empty());
+    }
+
+    #[test]
+    fn string_vec_produces_vec_of_owned_strings() {
+        let result = string_vec!["hello", "world"];
+        assert_eq!(result, vec!["hello".to_string(), "world".to_string()]);
+    }
+
+    #[test]
+    fn string_vec_allows_trailing_comma() {
+        let result = string_vec!["a", "b", "c",];
+        assert_eq!(
+            result,
+            vec!["a".to_string(), "b".to_string(), "c".to_string()]
+        );
+    }
+
+    #[test]
+    fn cell_vec_empty_produces_empty_vec() {
+        let result: Vec<Vec<i32>> = cell_vec![];
+        assert!(result.is_empty());
+    }
+
+    #[test]
+    fn cell_vec_produces_vec_of_row_col_pairs() {
+        let result = cell_vec![(0, 1), (2, 3)];
+        assert_eq!(result, vec![vec![0, 1], vec![2, 3]]);
+    }
+
+    #[test]
+    fn cell_vec_allows_trailing_comma() {
+        let result = cell_vec![(1, 2),];
+        assert_eq!(result, vec![vec![1, 2]]);
+    }
+}

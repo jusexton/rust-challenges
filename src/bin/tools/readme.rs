@@ -1,4 +1,14 @@
-use std::collections::HashMap;
+use std::{
+    collections::{HashMap, HashSet},
+    fs,
+};
+
+use anyhow::anyhow;
+
+use crate::util::parse_slug;
+
+const README_PATH: &str = concat!(env!("CARGO_MANIFEST_DIR"), "/README.md");
+const LEETCODE_DIR: &str = concat!(env!("CARGO_MANIFEST_DIR"), "/src/leetcode");
 
 /// A parsed section of the README, containing its direct bullet entries
 /// and any named child sections (from sub-headers).
@@ -52,8 +62,8 @@ fn navigate_to<'a>(root: &'a mut Section, path: &[(usize, String)]) -> &'a mut S
     current
 }
 
-/// Parses the README content into a tree of [`Section`]s that can be
-/// navigated with chained `.header()` calls
+/// Parses the given README content into a tree of [`Section`]s that can be
+/// navigated with chained `.header()` and `.path()` calls
 pub fn parse(content: &str) -> Section {
     let mut root = Section::default();
     let mut path: Vec<(usize, String)> = Vec::new();
@@ -74,6 +84,86 @@ pub fn parse(content: &str) -> Section {
     }
 
     root
+}
+
+pub fn verify() -> anyhow::Result<()> {
+    let content = fs::read_to_string(README_PATH)?;
+    let parsed = parse(&content);
+
+    verify_leetcode(&parsed)?;
+
+    Ok(())
+}
+
+fn verify_leetcode(root: &Section) -> anyhow::Result<()> {
+    let leetcode = root
+        .path(&[
+            "Rust Programming Challenges",
+            "Completed Programming Challenges",
+            "LeetCode",
+        ])
+        .ok_or_else(|| anyhow!("Could not find LeetCode section."))?;
+
+    let mut entries = HashSet::new();
+    for difficulty in ["Easy", "Medium", "Hard"] {
+        let res = get_leetcode_entry_names(leetcode, difficulty)?;
+        entries.extend(res.collect::<anyhow::Result<Vec<_>>>()?);
+    }
+
+    let missing: Vec<_> = challenge_files(LEETCODE_DIR)?
+        .into_iter()
+        .filter(|file| !entries.contains(file.as_str()))
+        .collect();
+
+    if !missing.is_empty() {
+        let list = missing.join("\n  ");
+        return Err(anyhow!(
+            "The README file is missing the corresponding challenge entries:\n  {list}"
+        ));
+    }
+
+    Ok(())
+}
+
+fn get_leetcode_entry_names(
+    section: &Section,
+    header: &str,
+) -> anyhow::Result<impl Iterator<Item = anyhow::Result<String>>> {
+    let section = section
+        .header(header)
+        .ok_or_else(|| anyhow!("Could not find LeetCode '{header}' section."))?;
+    Ok(section
+        .entries
+        .iter()
+        .map(|e| parse_leetcode_entry_name(&e.text)))
+}
+
+fn parse_leetcode_entry_name(entry_text: &str) -> anyhow::Result<String> {
+    let url = entry_text
+        .split("](")
+        .nth(1)
+        .and_then(|s| s.trim_end().strip_suffix(')'))
+        .unwrap_or("");
+    let slug = parse_slug(url, "/problems/")
+        .ok_or_else(|| anyhow!("Unable to parse leetcode challenge slub from {entry_text}"))?;
+    Ok(slug.replace("-", "_"))
+}
+
+fn challenge_files(dir: &str) -> anyhow::Result<Vec<String>> {
+    let mut slugs = fs::read_dir(dir)?
+        .filter_map(|entry| {
+            let path = entry.ok()?.path();
+            let name = path.file_stem()?.to_str()?.to_string();
+            // skip mod.rs and any non-.rs files
+            if path.extension()?.to_str()? == "rs" && name != "mod" {
+                Some(name)
+            } else {
+                None
+            }
+        })
+        .collect::<Vec<_>>();
+    slugs.sort();
+    Ok(slugs)
 }
 
 #[cfg(test)]
