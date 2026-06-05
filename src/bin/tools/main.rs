@@ -26,10 +26,9 @@ fn main() -> anyhow::Result<()> {
     match args.command {
         Command::Scaffold { url } => scaffold::scaffold_new_challenge(&url),
         Command::VerifyReadme => {
-            println!("Verifying README has all corresponding challenge entries.");
             let res = readme::verify();
             if res.is_ok() {
-                println!("No README issues detected!")
+                println!("No README.md issues detected!")
             }
             res
         }
