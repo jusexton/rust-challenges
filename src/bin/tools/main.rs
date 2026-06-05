@@ -11,12 +11,10 @@ use std::{
 use anyhow::{anyhow, bail};
 use clap::{Parser, Subcommand};
 
-/// Words that should not be capitalized in title case unless they are the first word.
+const ROMAN_NUMERALS: &[&str] = &["i", "ii", "iii", "iv"];
 const MINOR_WORDS: &[&str] = &[
-    "a", "an", "the", // articles
-    "and", "but", "or", "nor", "for", "yet", "so", // coordinating conjunctions
-    "at", "by", "in", "of", "on", "to", "up", "as", "it",
-    "its", // short prepositions / pronouns
+    "a", "an", "the", "and", "but", "or", "nor", "for", "yet", "so", "at", "by", "in", "of", "on",
+    "to", "up", "as", "it", "its", "with",
 ];
 const README_PATH: &str = concat!(env!("CARGO_MANIFEST_DIR"), "/README.md");
 
@@ -88,8 +86,9 @@ fn scaffold_leetcode_challenge(url: &str) -> anyhow::Result<()> {
     fs::write(&file_path, template(&snake_name))?;
     println!("Created: {file_path}");
 
-    let title = to_title_case(name, "-");
     let difficulty = get_difficulty(name)?;
+    let title = to_title_case(name, "-");
+    let minimum_url = format!("https://leetcode.com/problems/{}", name);
     insert_readme_line(
         &[
             "Rust Programming Challenges",
@@ -97,7 +96,7 @@ fn scaffold_leetcode_challenge(url: &str) -> anyhow::Result<()> {
             "LeetCode",
             &difficulty.to_string(),
         ],
-        &format!("- [{title}]({url})"),
+        &format!("- [{title}]({minimum_url})"),
     )?;
 
     Ok(())
@@ -163,14 +162,15 @@ fn insert_readme_line(path: &[&str], entry_text: &str) -> anyhow::Result<()> {
     let mut content = fs::read_to_string(README_PATH)?;
 
     let parsed = readme::parse(&content);
-    dbg!(&parsed);
 
     let section = parsed
         .path(path)
         .ok_or_else(|| anyhow!("Could not properly parse path to readme section."))?;
-    let offset = section.entries.iter().map(|e| e.line).max().unwrap_or(0) + 1;
+    let line_number = section.entries.iter().map(|e| e.line).max().unwrap_or(0);
+    let offset = line_offset(&content, line_number)
+        .ok_or_else(|| anyhow!("Entry insertion line could not be found found."))?;
 
-    content.insert_str(offset, entry_text);
+    content.insert_str(offset, &format!("{}\n", entry_text));
 
     fs::write(README_PATH, content)?;
 
@@ -183,7 +183,9 @@ fn to_title_case(input: &str, delimiter: &str) -> String {
         .enumerate()
         .map(|(i, word)| {
             let lower = word.to_lowercase();
-            if i == 0 || !MINOR_WORDS.contains(&lower.as_str()) {
+            if ROMAN_NUMERALS.contains(&lower.as_str()) {
+                lower.to_uppercase()
+            } else if i == 0 || !MINOR_WORDS.contains(&lower.as_str()) {
                 capitalize(&lower)
             } else {
                 lower
@@ -201,6 +203,17 @@ fn capitalize(word: &str) -> String {
     }
 }
 
+fn line_offset(content: &str, line_number: usize) -> Option<usize> {
+    if line_number == 0 {
+        return Some(0);
+    }
+    content
+        .char_indices()
+        .filter(|(_, c)| *c == '\n')
+        .nth(line_number - 1)
+        .map(|(i, _)| i + 1)
+}
+
 #[cfg(test)]
 mod tests {
     use test_case::test_case;
@@ -214,7 +227,9 @@ mod tests {
     #[test_case("the lord of the rings", "The Lord of the Rings")]
     #[test_case("it", "It")]
     #[test_case("hello world", "Hello World")]
+    #[test_case("halo ii anniversary", "Halo II Anniversary")]
+    #[test_case("final fantasy iv", "Final Fantasy IV")]
     fn should_convert_to_title_case(input: &str, expected: &str) {
-        assert_eq!(to_title_case(input), expected);
+        assert_eq!(to_title_case(input, " "), expected);
     }
 }
