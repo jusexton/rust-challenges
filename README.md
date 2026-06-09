@@ -319,6 +319,7 @@ programming challenges completed in other languages.
 - [Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid)
 - [Count the Number of Special Character II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/)
 - [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/)
+- [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i)
 
 #### Hard
 

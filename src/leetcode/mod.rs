@@ -114,6 +114,7 @@ mod maximum_product_after_k_increments;
 mod maximum_repeating_substring;
 mod maximum_sum_of_an_hourglass;
 mod maximum_sum_of_distinct_subarray_with_length_k;
+mod maximum_total_subarray_value_i;
 mod maximum_xor_for_each_query;
 mod meeting_rooms;
 mod merge_intervals;
