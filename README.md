@@ -212,6 +212,7 @@ programming challenges completed in other languages.
 - [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph)
 - [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character)
 - [Minimum Element After Replacement with Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum)
+- [Find the Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit)
 
 #### Medium
 
