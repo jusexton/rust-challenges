@@ -214,6 +214,7 @@ programming challenges completed in other languages.
 - [Minimum Element After Replacement with Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum)
 - [Find the Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit)
 - [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament)
+- [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k)
 
 #### Medium
 
