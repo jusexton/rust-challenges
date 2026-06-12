@@ -213,6 +213,7 @@ programming challenges completed in other languages.
 - [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character)
 - [Minimum Element After Replacement with Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum)
 - [Find the Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit)
+- [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament)
 
 #### Medium
 

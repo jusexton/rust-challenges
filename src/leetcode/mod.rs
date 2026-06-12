@@ -32,6 +32,7 @@ mod contains_duplicates_ii;
 mod contianer_with_most_water;
 mod count_largest_group;
 mod count_negative_numbers_in_a_sorted_matrix;
+mod count_of_matches_in_tournament;
 mod count_the_number_of_consistent_strings;
 mod count_the_number_of_fair_pairs;
 mod count_the_number_of_special_characters_ii;
