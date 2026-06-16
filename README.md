@@ -215,6 +215,7 @@ programming challenges completed in other languages.
 - [Find the Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit)
 - [Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament)
 - [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k)
+- [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping)
 
 #### Medium
 

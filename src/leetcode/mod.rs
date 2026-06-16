@@ -231,6 +231,7 @@ mod valid_perfect_square;
 mod valid_sudoku;
 mod valid_word_abbreviation;
 mod valid_word_square;
+mod weighted_word_mapping;
 mod word_pattern;
 mod x_of_a_kind_in_a_deck_of_cards;
 mod xor_queries_of_a_subarray;
