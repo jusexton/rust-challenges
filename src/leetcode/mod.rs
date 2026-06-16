@@ -160,6 +160,7 @@ mod plus_one;
 mod position_of_large_groups;
 mod prime_number_of_set_bits_in_binary_representation;
 mod prime_subtraction_operation;
+mod process_string_with_special_operations_i;
 mod product_of_array_except_self;
 mod range_frequency_queries;
 mod range_sum_query_mutable;

@@ -323,6 +323,7 @@ programming challenges completed in other languages.
 - [Count the Number of Special Character II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/)
 - [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/)
 - [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i)
+- [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i)
 
 #### Hard
 
