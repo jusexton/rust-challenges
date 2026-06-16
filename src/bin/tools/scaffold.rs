@@ -70,6 +70,8 @@ fn scaffold_leetcode_challenge(url: &str) -> anyhow::Result<()> {
         &format!("- [{title}]({minimum_url})"),
     )?;
 
+    insert_module_item(&snake_name, "src/leetcode/mod.rs")?;
+
     Ok(())
 }
 
@@ -126,7 +128,7 @@ fn insert_readme_line(path: &[&str], entry_text: &str) -> anyhow::Result<()> {
         .ok_or_else(|| anyhow!("Could not properly parse path to readme section."))?;
     let line_number = section.entries.iter().map(|e| e.line).max().unwrap_or(0);
     let offset = line_offset(&content, line_number)
-        .ok_or_else(|| anyhow!("Entry insertion line could not be found found."))?;
+        .ok_or_else(|| anyhow!("Readme entry insertion line could not be found."))?;
 
     content.insert_str(offset, &format!("{}\n", entry_text));
 
@@ -172,11 +174,79 @@ fn line_offset(content: &str, line_number: usize) -> Option<usize> {
         .map(|(i, _)| i + 1)
 }
 
+fn insert_module_item(module_name: &str, mod_file_path: &str) -> anyhow::Result<()> {
+    let mut content = fs::read_to_string(mod_file_path)?;
+    let mod_item = format!("mod {};\n", module_name);
+
+    let line_number = find_module_insertion_line(&content, &mod_item);
+    let offset = line_offset(&content, line_number)
+        .ok_or_else(|| anyhow!("Entry insertion line could not be found."))?;
+
+    content.insert_str(offset, &mod_item);
+
+    fs::write(mod_file_path, content)?;
+
+    Ok(())
+}
+
+fn find_module_insertion_line(content: &str, mod_item: &str) -> usize {
+    let mod_item = mod_item.trim_end_matches('\n');
+    content
+        .lines()
+        .enumerate()
+        .find_map(|(line_number, line)| match mod_item.cmp(line) {
+            std::cmp::Ordering::Less => Some(line_number),
+            _ => None,
+        })
+        .unwrap_or(content.lines().count())
+}
+
 #[cfg(test)]
 mod tests {
     use test_case::test_case;
 
     use super::*;
+
+    #[test]
+    fn find_module_insertion_line_empty_content() {
+        assert_eq!(find_module_insertion_line("", "mod aaa;\n"), 0);
+    }
+
+    #[test]
+    fn find_module_insertion_line_inserts_before_first_when_new_module_comes_first() {
+        let content = "mod bbb;\nmod ccc;\n";
+        assert_eq!(find_module_insertion_line(content, "mod aaa;\n"), 0);
+    }
+
+    #[test]
+    fn find_module_insertion_line_inserts_in_middle() {
+        let content = "mod aaa;\nmod ccc;\n";
+        assert_eq!(find_module_insertion_line(content, "mod bbb;\n"), 1);
+    }
+
+    #[test]
+    fn find_module_insertion_line_inserts_at_end_when_new_module_comes_last() {
+        let content = "mod aaa;\nmod bbb;\n";
+        assert_eq!(find_module_insertion_line(content, "mod zzz;\n"), 2);
+    }
+
+    #[test]
+    fn find_module_insertion_line_inserts_before_sole_entry_that_comes_after() {
+        let content = "mod zzz;\n";
+        assert_eq!(find_module_insertion_line(content, "mod aaa;\n"), 0);
+    }
+
+    #[test]
+    fn find_module_insertion_line_inserts_after_sole_entry_that_comes_before() {
+        let content = "mod aaa;\n";
+        assert_eq!(find_module_insertion_line(content, "mod zzz;\n"), 1);
+    }
+
+    #[test]
+    fn find_module_insertion_line_respects_underscore_ordering() {
+        let content = "mod foo;\nmod goo;\n";
+        assert_eq!(find_module_insertion_line(content, "mod foo_bar;\n"), 1);
+    }
 
     #[test_case("the quick brown fox", "The Quick Brown Fox")]
     #[test_case("a tale of two cities", "A Tale of Two Cities")]
