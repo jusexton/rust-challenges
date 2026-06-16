@@ -24,6 +24,7 @@ mod check_if_n_and_its_double_exists;
 mod check_if_numbers_are_ascending_in_a_sentence;
 mod check_if_the_number_is_fascinating;
 mod cinema_seats;
+mod clear_digits;
 mod climbing_stairs;
 mod column_title;
 mod construct_string_with_repeat_limit;
