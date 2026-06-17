@@ -333,6 +333,7 @@ programming challenges completed in other languages.
 - [Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze)
 - [Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator)
 - [Minimum Operations to Equalize Binary String](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string)
+- [Process String with Special Operations II](https://leetcode.com/problems/process-string-with-special-operations-ii)
 
 ### Other
 
