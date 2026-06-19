@@ -71,6 +71,7 @@ mod find_score_of_an_array_after_marking_all_elements;
 mod find_smallest_letter_greater_than_target;
 mod find_the_difference;
 mod find_the_distance_value_between_two_arrays;
+mod find_the_highest_altitude;
 mod find_the_index_of_the_first_occurrence_in_a_string;
 mod find_the_integer_added_to_array_i;
 mod find_the_least_frequent_digit;
