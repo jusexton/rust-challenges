@@ -218,6 +218,7 @@ programming challenges completed in other languages.
 - [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping)
 - [Clear Digits](https://leetcode.com/problems/clear-digits)
 - [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude)
+- [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons)
 
 #### Medium
 
