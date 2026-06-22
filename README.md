@@ -219,6 +219,7 @@ programming challenges completed in other languages.
 - [Clear Digits](https://leetcode.com/problems/clear-digits)
 - [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude)
 - [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons)
+- [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores)
 
 #### Medium
 

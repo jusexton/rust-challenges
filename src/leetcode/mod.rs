@@ -133,6 +133,7 @@ mod minimized_maximum_of_products_distributed_to_any_store;
 mod minimum_array_end;
 mod minimum_bit_flips_to_convert_number;
 mod minimum_common_value;
+mod minimum_difference_between_highest_and_lowest_of_k_scores;
 mod minimum_domino_rotations_for_equal_row;
 mod minimum_element_after_replacement_with_digit_sum;
 mod minimum_limit_of_balls_in_a_bag;
