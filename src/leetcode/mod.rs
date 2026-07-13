@@ -194,6 +194,7 @@ mod second_largest_digit_in_a_string;
 mod sell_stock_medium;
 mod separate_black_and_white_balls;
 mod separate_the_digits_in_an_array;
+mod sequential_digits;
 mod set_matrix_zeroes;
 mod shift_2d_grid;
 mod shortest_subarray_with_or_at_least_k_ii;

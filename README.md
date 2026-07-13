@@ -330,6 +330,7 @@ programming challenges completed in other languages.
 - [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i)
 - [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i)
 - [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars)
+- [Sequential Digits](https://leetcode.com/problems/sequential-digits)
 
 #### Hard
 
