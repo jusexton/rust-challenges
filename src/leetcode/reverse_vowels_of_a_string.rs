@@ -1,4 +1,4 @@
-const VOWELS: [u8; 10] = [b'a', b'e', b'i', b'o', b'u', b'A', b'E', b'I', b'O', b'U'];
+const VOWELS: [u8; 10] = *b"aeiouAEIOU";
 
 fn reverse_vowels(s: String) -> String {
     let mut bytes = s.into_bytes();
