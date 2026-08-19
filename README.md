@@ -221,6 +221,7 @@ programming challenges completed in other languages.
 - [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons)
 - [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores)
 - [Maximum Length Substring with Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences)
+- [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer)
 
 #### Medium
 

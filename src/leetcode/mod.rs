@@ -74,6 +74,7 @@ mod find_the_distance_value_between_two_arrays;
 mod find_the_highest_altitude;
 mod find_the_index_of_the_first_occurrence_in_a_string;
 mod find_the_integer_added_to_array_i;
+mod find_the_largest_almost_missing_integer;
 mod find_the_least_frequent_digit;
 mod find_the_maximum_achievable_number;
 mod find_the_power_of_k_size_sub_arrays;
