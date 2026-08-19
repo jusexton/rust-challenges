@@ -307,7 +307,7 @@ programming challenges completed in other languages.
 - [Rotate Image](https://leetcode.com/problems/rotate-image)
 - [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)
 - [Group Anagrams](https://leetcode.com/problems/group-anagrams)
-- [Min Stack](https://leetcode.com/problems/min-stack) 
+- [Min Stack](https://leetcode.com/problems/min-stack)
 - [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)
 - [Game of Life](https://leetcode.com/problems/game-of-life)
 - [Longest Nice Sub-Array](https://leetcode.com/problems/longest-nice-subarray)
