@@ -47,6 +47,7 @@ mod design_graph_with_shortest_path_calculator;
 mod design_parking_system;
 mod determine_color_of_a_chessboard_square;
 mod determine_if_string_halves_are_alike;
+mod distribute_elements_into_two_arrays_i;
 mod divide_array_into_arrays_with_max_difference;
 mod divisible_and_non_divisible_sums_difference;
 mod escape_a_large_maze;

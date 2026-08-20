@@ -222,6 +222,7 @@ programming challenges completed in other languages.
 - [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores)
 - [Maximum Length Substring with Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences)
 - [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer)
+- [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i)
 
 #### Medium
 
