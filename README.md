@@ -223,6 +223,7 @@ programming challenges completed in other languages.
 - [Maximum Length Substring with Two Occurrences](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences)
 - [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer)
 - [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i)
+- [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product)
 
 #### Medium
 
