@@ -224,6 +224,7 @@ programming challenges completed in other languages.
 - [Find the Largest Almost Missing Integer](https://leetcode.com/problems/find-the-largest-almost-missing-integer)
 - [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i)
 - [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product)
+- [Concatenate Array with Reverse](https://leetcode.com/problems/concatenate-array-with-reverse)
 
 #### Medium
 

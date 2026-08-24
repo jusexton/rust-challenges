@@ -28,6 +28,7 @@ mod cinema_seats;
 mod clear_digits;
 mod climbing_stairs;
 mod column_title;
+mod concatenate_array_with_reverse;
 mod construct_string_with_repeat_limit;
 mod construct_the_longest_new_string;
 mod contains_duplicates_ii;
