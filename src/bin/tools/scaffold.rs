@@ -57,20 +57,25 @@ fn scaffold_leetcode_challenge(url: &str) -> anyhow::Result<()> {
     fs::write(&file_path, template(&snake_name))?;
     println!("Created: {file_path}");
 
-    let difficulty = get_difficulty(name)?;
-    let title = to_title_case(name, "-");
-    let minimum_url = format!("https://leetcode.com/problems/{}", name);
-    insert_readme_line(
-        &[
-            "Rust Programming Challenges",
-            "Completed Programming Challenges",
-            "LeetCode",
-            &difficulty.to_string(),
-        ],
-        &format!("- [{title}]({minimum_url})"),
-    )?;
+    if let Ok(difficulty) = get_difficulty(name) {
+        let title = to_title_case(name, "-");
+        let minimum_url = format!("https://leetcode.com/problems/{}", name);
+        insert_readme_line(
+            &[
+                "Rust Programming Challenges",
+                "Completed Programming Challenges",
+                "LeetCode",
+                &difficulty.to_string(),
+            ],
+            &format!("- [{title}]({minimum_url})"),
+        )?;
 
-    insert_module_item(&snake_name, "src/leetcode/mod.rs")?;
+        insert_module_item(&snake_name, "src/leetcode/mod.rs")?;
+    } else {
+        println!(
+            "Warning: Was not able to retrieve difficulty using leetcode API. Skipping README update."
+        )
+    }
 
     Ok(())
 }

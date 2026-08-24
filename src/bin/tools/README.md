@@ -25,7 +25,7 @@ This command will:
 3. Fetch the problem difficulty (`Easy` / `Medium` / `Hard`) from the LeetCode GraphQL API
 4. Insert a linked entry into the correct difficulty section of the README
 
-> **Note:** `scaffold` makes a network request to `leetcode.com` to look up the problem difficulty. An internet connection is required.
+> **Note:** `scaffold` makes a network request to `leetcode.com` to look up the problem difficulty. If the difficulty can not be retrieved, the README update is skipped.
 
 ---
 
