@@ -16,6 +16,7 @@ mod boats_to_save_people;
 mod build_an_array_with_stack_operations;
 mod build_array_from_permutation;
 mod calculate_money_in_leetcode_bank;
+mod check_adjacent_digit_differences;
 mod check_divisibility_by_digit_sum_and_product;
 mod check_if_a_string_contains_all_binary_codes_of_size_k;
 mod check_if_a_string_is_a_valid_sequence_from_root_to_leaves_path_in_a_binary_tree;
