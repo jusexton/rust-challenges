@@ -226,6 +226,7 @@ programming challenges completed in other languages.
 - [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product)
 - [Concatenate Array with Reverse](https://leetcode.com/problems/concatenate-array-with-reverse)
 - [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences)
+- [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k)
 
 #### Medium
 

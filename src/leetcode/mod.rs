@@ -210,6 +210,7 @@ mod simple_bank_system;
 mod single_number;
 mod single_number_ii;
 mod smallest_index_with_equal_value;
+mod smallest_missing_multiple_of_k;
 mod sort_array_by_increasing_frequency;
 mod sort_colors;
 mod sort_integers_by_the_number_of_1_bits;
