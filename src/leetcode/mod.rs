@@ -108,6 +108,7 @@ mod largest_substring_between_two_equal_characters;
 mod length_of_last_word;
 mod length_of_the_longest_alphabetical_continuous_substring;
 mod letter_combinations_of_a_phone_number;
+mod lexicographically_smallest_permutation_greater_than_target;
 mod longest_nice_subarray;
 mod longest_subtsring_without_repeating_characters;
 mod make_a_square_with_same_color;

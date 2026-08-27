@@ -338,6 +338,7 @@ programming challenges completed in other languages.
 - [Process String with Special Operations I](https://leetcode.com/problems/process-string-with-special-operations-i)
 - [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars)
 - [Sequential Digits](https://leetcode.com/problems/sequential-digits)
+- [Lexicographically Smallest Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target)
 
 #### Hard
 
