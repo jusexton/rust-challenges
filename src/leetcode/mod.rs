@@ -187,6 +187,7 @@ mod remove_k_digits;
 mod repeated_dna_sequence;
 mod replace_all_digits_with_characters;
 mod reverse_prefix_of_word;
+mod reverse_substrings_between_each_pair_of_parentheses;
 mod reverse_vowels_of_a_string;
 mod robot_return_to_origin;
 mod roman_to_integer;

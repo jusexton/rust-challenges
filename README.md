@@ -339,6 +339,7 @@ programming challenges completed in other languages.
 - [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars)
 - [Sequential Digits](https://leetcode.com/problems/sequential-digits)
 - [Lexicographically Smallest Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target)
+- [Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses)
 
 #### Hard
 
