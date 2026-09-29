@@ -120,6 +120,7 @@ mod maximum_ascending_subarray_sum;
 mod maximum_count_of_positive_integer_and_negative_integer;
 mod maximum_ice_cream_bars;
 mod maximum_length_substring_with_two_occurrences;
+mod maximum_nesting_depth_of_the_parentheses;
 mod maximum_number_of_balloons;
 mod maximum_number_of_integer_to_choose_from_range_i;
 mod maximum_odd_binary_number;
