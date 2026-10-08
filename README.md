@@ -228,6 +228,7 @@ programming challenges completed in other languages.
 - [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences)
 - [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k)
 - [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses)
+- [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses)
 
 #### Medium
 

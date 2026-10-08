@@ -185,6 +185,7 @@ mod remove_all_occurrences_of_a_substring;
 mod remove_duplicates_from_sorted_array;
 mod remove_element;
 mod remove_k_digits;
+mod remove_outermost_parentheses;
 mod repeated_dna_sequence;
 mod replace_all_digits_with_characters;
 mod reverse_prefix_of_word;
